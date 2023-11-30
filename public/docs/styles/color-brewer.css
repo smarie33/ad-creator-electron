@@ -1,0 +1,71 @@
+/*
+
+Colorbrewer theme
+Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock <mike@ocks.org>
+Ported by Fabrício Tavares de Oliveira
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+***REMOVED***
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #000;
+***REMOVED***
+
+.hljs-string,
+.hljs-meta,
+.hljs-symbol,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition ***REMOVED***
+  color: #756bb1;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #636363;
+***REMOVED***
+
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-bullet,
+.hljs-link ***REMOVED***
+  color: #31a354;
+***REMOVED***
+
+.hljs-deletion,
+.hljs-variable ***REMOVED***
+  color: #88f;
+***REMOVED***
+
+
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-doctag,
+.hljs-type,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-strong ***REMOVED***
+  color: #3182bd;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-attribute ***REMOVED***
+  color: #e6550d;
+***REMOVED***

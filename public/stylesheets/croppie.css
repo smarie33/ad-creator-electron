@@ -1,0 +1,250 @@
+.croppie-container ***REMOVED***
+    width: 100%;
+    height: 100%;
+***REMOVED***
+
+.croppie-container .cr-image ***REMOVED***
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0;
+    max-height: none;
+    max-width: none;
+***REMOVED***
+
+.croppie-container .cr-boundary ***REMOVED***
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+***REMOVED***
+
+.croppie-container .cr-viewport,
+.croppie-container .cr-resizer ***REMOVED***
+    position: absolute;
+    border: 2px solid #fff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 2000px 2000px rgba(0, 0, 0, 0.5);
+    z-index: 0;
+***REMOVED***
+
+.croppie-container .cr-resizer ***REMOVED***
+  z-index: 2;
+  box-shadow: none;
+  pointer-events: none;
+***REMOVED***
+
+.croppie-container .cr-resizer-vertical,
+.croppie-container .cr-resizer-horisontal ***REMOVED***
+  position: absolute;
+  pointer-events: all;
+***REMOVED***
+
+.croppie-container .cr-resizer-vertical::after,
+.croppie-container .cr-resizer-horisontal::after ***REMOVED***
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    content: '';
+***REMOVED***
+
+.croppie-container .cr-resizer-vertical ***REMOVED***
+  bottom: -5px;
+  cursor: row-resize;
+  width: 100%;
+  height: 10px;
+***REMOVED***
+
+.croppie-container .cr-resizer-vertical::after ***REMOVED***
+    left: 50%;
+    margin-left: -5px;
+***REMOVED***
+
+.croppie-container .cr-resizer-horisontal ***REMOVED***
+  right: -5px;
+  cursor: col-resize;
+  width: 10px;
+  height: 100%;
+***REMOVED***
+
+.croppie-container .cr-resizer-horisontal::after ***REMOVED***
+    top: 50%;
+    margin-top: -5px;
+***REMOVED***
+
+.croppie-container .cr-original-image ***REMOVED***
+    display: none;
+***REMOVED***
+
+.croppie-container .cr-vp-circle ***REMOVED***
+    border-radius: 50%;
+***REMOVED***
+
+.croppie-container .cr-overlay ***REMOVED***
+    z-index: 1;
+    position: absolute;
+    cursor: move;
+    touch-action: none;
+***REMOVED***
+
+.croppie-container .cr-slider-wrap ***REMOVED***
+    width: 75%;
+    margin: 15px auto;
+    text-align: center;
+***REMOVED***
+
+.croppie-result ***REMOVED***
+    position: relative;
+    overflow: hidden;
+***REMOVED***
+
+.croppie-result img ***REMOVED***
+    position: absolute;
+***REMOVED***
+
+.croppie-container .cr-image,
+.croppie-container .cr-overlay,
+.croppie-container .cr-viewport ***REMOVED***
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+***REMOVED***
+
+/*************************************/
+/***** STYLING RANGE INPUT ***********/
+/*************************************/
+/*http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.html */
+/*************************************/
+
+.cr-slider ***REMOVED***
+    -webkit-appearance: none;
+/*removes default webkit styles*/
+	/*border: 1px solid white; *//*fix for FF unable to apply focus style bug */
+    width: 300px;
+/*required for proper track sizing in FF*/
+    max-width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: transparent;
+***REMOVED***
+
+.cr-slider::-webkit-slider-runnable-track ***REMOVED***
+    width: 100%;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 3px;
+***REMOVED***
+
+.cr-slider::-webkit-slider-thumb ***REMOVED***
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-top: -6px;
+***REMOVED***
+
+.cr-slider:focus ***REMOVED***
+    outline: none;
+***REMOVED***
+/*
+.cr-slider:focus::-webkit-slider-runnable-track ***REMOVED***
+background: #ccc;
+***REMOVED***
+*/
+
+.cr-slider::-moz-range-track ***REMOVED***
+    width: 100%;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 3px;
+***REMOVED***
+
+.cr-slider::-moz-range-thumb ***REMOVED***
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-top: -6px;
+***REMOVED***
+
+/*hide the outline behind the border*/
+.cr-slider:-moz-focusring ***REMOVED***
+    outline: 1px solid white;
+    outline-offset: -1px;
+***REMOVED***
+
+.cr-slider::-ms-track ***REMOVED***
+    width: 100%;
+    height: 5px;
+    background: transparent;
+/*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+	border-color: transparent;/*leave room for the larger thumb to overflow with a transparent border */
+	border-width: 6px 0;
+	color: transparent;/*remove default tick marks*/
+***REMOVED***
+.cr-slider::-ms-fill-lower ***REMOVED***
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+***REMOVED***
+.cr-slider::-ms-fill-upper ***REMOVED***
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+***REMOVED***
+.cr-slider::-ms-thumb ***REMOVED***
+	border: none;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: #ddd;
+	margin-top:1px;
+***REMOVED***
+.cr-slider:focus::-ms-fill-lower ***REMOVED***
+	background: rgba(0, 0, 0, 0.5);
+***REMOVED***
+.cr-slider:focus::-ms-fill-upper ***REMOVED***
+	background: rgba(0, 0, 0, 0.5);
+***REMOVED***
+/*******************************************/
+
+/***********************************/
+/* Rotation Tools */
+/***********************************/
+.cr-rotate-controls ***REMOVED***
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	z-index: 1;
+***REMOVED***
+.cr-rotate-controls button ***REMOVED***
+	border: 0;
+	background: none;
+***REMOVED***
+.cr-rotate-controls i:before ***REMOVED***
+	display: inline-block;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 22px;
+***REMOVED***
+.cr-rotate-l i:before ***REMOVED***
+	content: '↺';
+***REMOVED***
+.cr-rotate-r i:before ***REMOVED***
+	content: '↻';
+***REMOVED***

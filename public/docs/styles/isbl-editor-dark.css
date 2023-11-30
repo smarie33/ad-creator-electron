@@ -1,0 +1,112 @@
+/*
+
+ISBL Editor style dark color scheme (c) Dmitriy Tarasov <dimatar@gmail.com>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #404040;
+  color: #f0f0f0;
+***REMOVED***
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #f0f0f0;
+***REMOVED***
+
+.hljs-comment ***REMOVED***
+  color: #b5b5b5;
+  font-style: italic;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name ***REMOVED***
+  color: #f0f0f0;
+  font-weight: bold;
+***REMOVED***
+
+
+/* User color: hue: 0 */
+
+.hljs-string ***REMOVED***
+  color: #97bf0d;
+***REMOVED***
+
+.hljs-type,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion ***REMOVED***
+  color: #f0f0f0;
+***REMOVED***
+
+.hljs-title,
+.hljs-section ***REMOVED***
+  color: #df471e;
+***REMOVED***
+
+.hljs-title>.hljs-built_in ***REMOVED***
+  color: #81bce9;
+  font-weight: normal;
+***REMOVED***
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo ***REMOVED***
+  color: #e2c696;
+***REMOVED***
+
+/* Language color: hue: 90; */
+
+.hljs-built_in,
+.hljs-literal ***REMOVED***
+  color: #97bf0d;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-bullet,
+.hljs-code,
+.hljs-addition ***REMOVED***
+  color: #397300;
+***REMOVED***
+
+.hljs-class  ***REMOVED***
+  color: #ce9d4d;
+  font-weight: bold;
+***REMOVED***
+
+/* Meta color: hue: 200 */
+
+.hljs-meta ***REMOVED***
+  color: #1f7199;
+***REMOVED***
+
+.hljs-meta-string ***REMOVED***
+  color: #4d99bf;
+***REMOVED***
+
+
+/* Misc effects */
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

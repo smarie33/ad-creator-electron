@@ -1,0 +1,102 @@
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1d1f21;
+***REMOVED***
+
+/*selection color*/
+.hljs::selection,
+.hljs span::selection ***REMOVED***
+  background: #373b41;
+***REMOVED***
+
+.hljs::-moz-selection,
+.hljs span::-moz-selection ***REMOVED***
+  background: #373b41;
+***REMOVED***
+
+/*foreground color*/
+.hljs ***REMOVED***
+  color: #c5c8c6;
+***REMOVED***
+
+/*color: fg_yellow*/
+.hljs-title,
+.hljs-name ***REMOVED***
+  color: #f0c674;
+***REMOVED***
+
+/*color: fg_comment*/
+.hljs-comment,
+.hljs-meta,
+.hljs-meta .hljs-keyword ***REMOVED***
+  color: #707880;
+***REMOVED***
+
+/*color: fg_red*/
+.hljs-number,
+.hljs-symbol,
+.hljs-literal,
+.hljs-deletion,
+.hljs-link ***REMOVED***
+ color: #cc6666
+***REMOVED***
+
+/*color: fg_green*/
+.hljs-string,
+.hljs-doctag,
+.hljs-addition,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo ***REMOVED***
+  color: #b5bd68;
+***REMOVED***
+
+/*color: fg_purple*/
+.hljs-attribute,
+.hljs-code,
+.hljs-selector-id ***REMOVED***
+ color: #b294bb;
+***REMOVED***
+
+/*color: fg_blue*/
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-bullet,
+.hljs-tag ***REMOVED***
+ color: #81a2be;
+***REMOVED***
+
+/*color: fg_aqua*/
+.hljs-subst,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable ***REMOVED***
+  color: #8abeb7;
+***REMOVED***
+
+/*color: fg_orange*/
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-quote,
+.hljs-section,
+.hljs-selector-class ***REMOVED***
+  color: #de935f;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

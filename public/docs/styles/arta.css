@@ -1,0 +1,73 @@
+/*
+Date: 17.V.2011
+Author: pumbur <pumbur@pumbur.net>
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+***REMOVED***
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #aaa;
+***REMOVED***
+
+.hljs-section ***REMOVED***
+  color: #fff;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta ***REMOVED***
+  color: #444;
+***REMOVED***
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-regexp ***REMOVED***
+  color: #ffcc33;
+***REMOVED***
+
+.hljs-number,
+.hljs-addition ***REMOVED***
+  color: #00cc66;
+***REMOVED***
+
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-link ***REMOVED***
+  color: #32aaee;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #6644aa;
+***REMOVED***
+
+.hljs-title,
+.hljs-variable,
+.hljs-deletion,
+.hljs-template-tag ***REMOVED***
+  color: #bb1166;
+***REMOVED***
+
+.hljs-section,
+.hljs-doctag,
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***

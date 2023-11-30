@@ -1,0 +1,122 @@
+/*
+
+Gradient Dark (c) Samia Ali <samiaab1990@gmail.com>
+
+*/
+
+.hljs
+***REMOVED***
+display: block;
+overflow-x: auto;
+padding: 0.5em;
+background: rgb(80,31,122);
+background: linear-gradient(166deg, rgba(80,31,122,1) 0%, rgba(40,32,179,1) 80%);
+color:#e7e4eb;
+***REMOVED***
+
+.hljs-subtr***REMOVED***
+  color:#e7e4eb;
+***REMOVED***
+
+.hljs-doctag,
+.hljs-meta,
+.hljs-comment,
+.hljs-quote
+***REMOVED***
+  color:#af8dd9;
+***REMOVED***
+
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-template-tag,
+.hljs-regexp,
+.hljs-attr,
+.hljs-tag
+***REMOVED***
+  color:#AEFBFF;
+***REMOVED***
+
+.hljs-params,
+.hljs-selector-class,
+.hljs-bullet
+
+***REMOVED***
+  color:#F19FFF;
+  
+***REMOVED***
+
+.hljs-keyword,
+.hljs-section,
+.hljs-meta-keyword,
+.hljs-symbol,
+.hljs-type
+
+***REMOVED***
+
+  color:#17fc95;
+***REMOVED***
+
+.hljs-addition,
+.hljs-number,
+.hljs-link
+***REMOVED***
+  color:#C5FE00;
+***REMOVED***
+
+
+.hljs-string
+***REMOVED***
+  color: #38c0ff;
+***REMOVED***
+
+
+.hljs-attribute,
+.hljs-addition
+***REMOVED***
+  color:#E7FF9F;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable
+
+***REMOVED***
+  color:#E447FF;
+***REMOVED***
+
+.hljs-builtin-name,
+.hljs-built_in,
+.hljs-formula,
+.hljs-name,
+.hljs-title,
+.hljs-class,
+.hljs-function
+***REMOVED***
+  color: #FFC800;
+
+***REMOVED***
+
+.hljs-selector-pseudo,
+.hljs-deletion,
+.hljs-literal
+***REMOVED***
+  color:#FF9E44;
+
+***REMOVED***
+
+.hljs-emphasis,
+.hljs-quote
+***REMOVED***
+  font-style:italic;
+***REMOVED***
+
+.hljs-params,
+.hljs-selector-class,
+.hljs-strong,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-template-tag,
+.hljs-section,
+.hljs-keyword
+***REMOVED***
+  font-weight:bold;
+***REMOVED***

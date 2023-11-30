@@ -1,0 +1,74 @@
+/*
+    Name:     Kimbie (dark)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #d6baad;
+***REMOVED***
+
+/* Kimbie Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta ***REMOVED***
+  color: #dc3958;
+***REMOVED***
+
+/* Kimbie Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion,
+.hljs-link ***REMOVED***
+  color: #f79a32;
+***REMOVED***
+
+/* Kimbie Yellow */
+.hljs-title,
+.hljs-section,
+.hljs-attribute ***REMOVED***
+  color: #f06431;
+***REMOVED***
+
+/* Kimbie Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition ***REMOVED***
+  color: #889b4a;
+***REMOVED***
+
+/* Kimbie Purple */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function ***REMOVED***
+  color: #98676a;
+***REMOVED***
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  background: #221a0f;
+  color: #d3af86;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

@@ -1,0 +1,63 @@
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #444;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link ***REMOVED***
+  color: white;
+***REMOVED***
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #ddd;
+***REMOVED***
+
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable ***REMOVED***
+  color: #d88;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta ***REMOVED***
+  color: #777;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***

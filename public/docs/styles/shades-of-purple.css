@@ -1,0 +1,96 @@
+/**
+ * Shades of Purple Theme — for Highlightjs.
+ *
+ * @author (c) Ahmad Awais <https://twitter.com/mrahmadawais/>
+ * @link GitHub Repo → https://github.com/ahmadawais/Shades-of-Purple-HighlightJS
+ * @version 1.5.0
+ */
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  /* Custom font is optional */
+  /* font-family: 'Operator Mono', 'Fira Code', 'Menlo', 'Monaco', 'Courier New', 'monospace';  */
+  padding: 0.5em;
+  background: #2d2b57;
+  font-weight: normal;
+***REMOVED***
+
+.hljs-title ***REMOVED***
+  color: #fad000;
+  font-weight: normal;
+***REMOVED***
+
+.hljs-name ***REMOVED***
+  color: #a1feff;
+***REMOVED***
+
+.hljs-tag ***REMOVED***
+  color: #ffffff;
+***REMOVED***
+
+.hljs-attr ***REMOVED***
+  color: #f8d000;
+  font-style: italic;
+***REMOVED***
+
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section ***REMOVED***
+  color: #fb9e00;
+***REMOVED***
+
+.hljs-keyword ***REMOVED***
+  color: #fb9e00;
+***REMOVED***
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #e3dfff;
+***REMOVED***
+
+.hljs-string,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-code,
+.hljs-regexp,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-quote,
+.hljs-deletion ***REMOVED***
+  color: #4cd213;
+***REMOVED***
+
+.hljs-meta,
+.hljs-meta-string ***REMOVED***
+  color: #fb9e00;
+***REMOVED***
+
+.hljs-comment ***REMOVED***
+  color: #ac65ff;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name,
+.hljs-strong ***REMOVED***
+  font-weight: normal;
+***REMOVED***
+
+.hljs-literal,
+.hljs-number ***REMOVED***
+  color: #fa658d;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

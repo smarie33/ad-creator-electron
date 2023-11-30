@@ -1,0 +1,97 @@
+/*
+
+Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #fff;
+***REMOVED***
+
+.hljs-subst,
+.hljs-title ***REMOVED***
+  font-weight: normal;
+  color: #000;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #808080;
+  font-style: italic;
+***REMOVED***
+
+.hljs-meta ***REMOVED***
+  color: #808000;
+***REMOVED***
+
+.hljs-tag ***REMOVED***
+  background: #efefef;
+***REMOVED***
+
+.hljs-section,
+.hljs-name,
+.hljs-literal,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type,
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  font-weight: bold;
+  color: #000080;
+***REMOVED***
+
+.hljs-attribute,
+.hljs-number,
+.hljs-regexp,
+.hljs-link ***REMOVED***
+  font-weight: bold;
+  color: #0000ff;
+***REMOVED***
+
+.hljs-number,
+.hljs-regexp,
+.hljs-link ***REMOVED***
+  font-weight: normal;
+***REMOVED***
+
+.hljs-string ***REMOVED***
+  color: #008000;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-formula ***REMOVED***
+  color: #000;
+  background: #d0eded;
+  font-style: italic;
+***REMOVED***
+
+.hljs-doctag ***REMOVED***
+  text-decoration: underline;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable ***REMOVED***
+  color: #660e7a;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background: #baeeba;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background: #ffc8bd;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

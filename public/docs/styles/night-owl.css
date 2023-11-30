@@ -1,0 +1,182 @@
+/*
+
+Night Owl for highlight.js (c) Carl Baxter <carl@cbax.tech>
+
+An adaptation of Sarah Drasner's Night Owl VS Code Theme 
+https://github.com/sdras/night-owl-vscode-theme 
+
+Copyright (c) 2018 Sarah Drasner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #011627;
+  color: #d6deeb;
+***REMOVED***
+
+/* General Purpose */
+.hljs-keyword ***REMOVED***
+  color: #c792ea;
+  font-style: italic;
+***REMOVED***
+.hljs-built_in ***REMOVED***
+  color: #addb67;
+  font-style: italic;
+***REMOVED***
+.hljs-type ***REMOVED***
+  color: #82aaff;
+***REMOVED***
+.hljs-literal ***REMOVED***
+  color: #ff5874;
+***REMOVED***
+.hljs-number ***REMOVED***
+  color: #F78C6C;
+***REMOVED***
+.hljs-regexp ***REMOVED***
+  color: #5ca7e4;
+***REMOVED***
+.hljs-string ***REMOVED***
+  color: #ecc48d;
+***REMOVED***
+.hljs-subst ***REMOVED***
+  color: #d3423e;
+***REMOVED***
+.hljs-symbol ***REMOVED***
+  color: #82aaff;
+***REMOVED***
+.hljs-class ***REMOVED***
+  color: #ffcb8b;
+***REMOVED***
+.hljs-function ***REMOVED***
+  color: #82AAFF;
+***REMOVED***
+.hljs-title ***REMOVED***
+  color: #DCDCAA;
+  font-style: italic;
+***REMOVED***
+.hljs-params ***REMOVED***
+  color: #7fdbca;
+***REMOVED***
+
+/* Meta */
+.hljs-comment ***REMOVED***
+  color: #637777;
+  font-style: italic;
+***REMOVED***
+.hljs-doctag ***REMOVED***
+  color: #7fdbca;
+***REMOVED***
+.hljs-meta ***REMOVED***
+  color: #82aaff;
+***REMOVED***
+.hljs-meta-keyword ***REMOVED***
+  color: #82aaff;
+***REMOVED***
+.hljs-meta-string ***REMOVED***
+  color: #ecc48d;
+***REMOVED***
+
+/* Tags, attributes, config */
+.hljs-section ***REMOVED***
+  color: #82b1ff;
+***REMOVED***
+.hljs-tag,
+.hljs-name,
+.hljs-builtin-name ***REMOVED***
+  color: #7fdbca;
+***REMOVED***
+.hljs-attr ***REMOVED***
+  color: #7fdbca;
+***REMOVED***
+.hljs-attribute ***REMOVED***
+  color: #80cbc4;
+***REMOVED***
+.hljs-variable ***REMOVED***
+  color: #addb67;
+***REMOVED***
+
+/* Markup */
+.hljs-bullet ***REMOVED***
+  color: #d9f5dd;
+***REMOVED***
+.hljs-code ***REMOVED***
+  color: #80CBC4;
+***REMOVED***
+.hljs-emphasis ***REMOVED***
+  color: #c792ea;
+  font-style: italic;
+***REMOVED***
+.hljs-strong ***REMOVED***
+  color: #addb67;
+  font-weight: bold;
+***REMOVED***
+.hljs-formula ***REMOVED***
+  color: #c792ea;
+***REMOVED***
+.hljs-link ***REMOVED***
+  color: #ff869a;
+***REMOVED***
+.hljs-quote ***REMOVED***
+  color: #697098;
+  font-style: italic;
+***REMOVED***
+
+/* CSS */
+.hljs-selector-tag ***REMOVED***
+  color: #ff6363;
+***REMOVED***
+
+.hljs-selector-id ***REMOVED***
+  color: #fad430;
+***REMOVED***
+
+.hljs-selector-class ***REMOVED***
+  color: #addb67;
+  font-style: italic;
+***REMOVED***
+
+.hljs-selector-attr,
+.hljs-selector-pseudo ***REMOVED***
+  color: #c792ea;
+  font-style: italic;
+***REMOVED***
+
+/* Templates */
+.hljs-template-tag ***REMOVED***
+  color: #c792ea;
+***REMOVED***
+.hljs-template-variable ***REMOVED***
+  color: #addb67;
+***REMOVED***
+
+/* diff */
+.hljs-addition ***REMOVED***
+  color: #addb67ff;
+  font-style: italic;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  color: #EF535090;
+  font-style: italic;
+***REMOVED***

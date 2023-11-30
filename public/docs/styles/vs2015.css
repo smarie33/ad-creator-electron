@@ -1,0 +1,115 @@
+/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA <nllobera@gmail.com>
+ */
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1E1E1E;
+  color: #DCDCDC;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-name ***REMOVED***
+  color: #569CD6;
+***REMOVED***
+.hljs-link ***REMOVED***
+  color: #569CD6;
+  text-decoration: underline;
+***REMOVED***
+
+.hljs-built_in,
+.hljs-type ***REMOVED***
+  color: #4EC9B0;
+***REMOVED***
+
+.hljs-number,
+.hljs-class ***REMOVED***
+  color: #B8D7A3;
+***REMOVED***
+
+.hljs-string,
+.hljs-meta-string ***REMOVED***
+  color: #D69D85;
+***REMOVED***
+
+.hljs-regexp,
+.hljs-template-tag ***REMOVED***
+  color: #9A5334;
+***REMOVED***
+
+.hljs-subst,
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula ***REMOVED***
+  color: #DCDCDC;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #57A64A;
+  font-style: italic;
+***REMOVED***
+
+.hljs-doctag ***REMOVED***
+  color: #608B4E;
+***REMOVED***
+
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-tag ***REMOVED***
+  color: #9B9B9B;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable ***REMOVED***
+  color: #BD63C5;
+***REMOVED***
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-builtin-name ***REMOVED***
+  color: #9CDCFE;
+***REMOVED***
+
+.hljs-section ***REMOVED***
+  color: gold;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+/*.hljs-code ***REMOVED***
+  font-family:'Monospace';
+***REMOVED****/
+
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo ***REMOVED***
+  color: #D7BA7D;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
+***REMOVED***

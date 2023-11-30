@@ -1,0 +1,68 @@
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable ***REMOVED***
+  color: #008000;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag ***REMOVED***
+  color: #00f;
+***REMOVED***
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition ***REMOVED***
+  color: #a31515;
+***REMOVED***
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta ***REMOVED***
+  color: #2b91af;
+***REMOVED***
+
+.hljs-doctag ***REMOVED***
+  color: #808080;
+***REMOVED***
+
+.hljs-attr ***REMOVED***
+  color: #f00;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link ***REMOVED***
+  color: #00b0e8;
+***REMOVED***
+
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

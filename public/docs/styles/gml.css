@@ -1,0 +1,78 @@
+/*
+
+GML Theme - Meseta <meseta@gmail.com>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222222;
+  color: #C0C0C0;
+***REMOVED***
+
+.hljs-keyword ***REMOVED***
+  color: #FFB871;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-built_in ***REMOVED***
+  color: #FFB871;
+***REMOVED***
+
+.hljs-literal ***REMOVED***
+  color: #FF8080;
+***REMOVED***
+
+.hljs-symbol ***REMOVED***
+  color: #58E55A;
+***REMOVED***
+
+.hljs-comment ***REMOVED***
+  color: #5B995B;
+***REMOVED***
+
+.hljs-string ***REMOVED***
+  color: #FFFF00;
+***REMOVED***
+
+.hljs-number ***REMOVED***
+  color: #FF8080;
+***REMOVED***
+
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-name,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition,
+.hljs-regexp,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-type,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion,
+.hljs-title,
+.hljs-section,
+.hljs-function,
+.hljs-meta-keyword,
+.hljs-meta,
+.hljs-subst ***REMOVED***
+  color: #C0C0C0;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

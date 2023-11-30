@@ -1,0 +1,83 @@
+/*
+
+Pojoaque Style by Jason Tate
+http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
+Based on Solarized Style from http://ethanschoonover.com/solarized
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #dccf8f;
+  background: url(./pojoaque.jpg) repeat scroll left top #181914;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #586e75;
+  font-style: italic;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-addition ***REMOVED***
+  color: #b64926;
+***REMOVED***
+
+.hljs-number,
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp ***REMOVED***
+  color: #468966;
+***REMOVED***
+
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-name ***REMOVED***
+  color: #ffb03b;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-tag ***REMOVED***
+  color: #b58900;
+***REMOVED***
+
+.hljs-attribute ***REMOVED***
+  color: #b89859;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-subst,
+.hljs-meta ***REMOVED***
+  color: #cb4b16;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  color: #dc322f;
+***REMOVED***
+
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #d3a60c;
+***REMOVED***
+
+.hljs-formula ***REMOVED***
+  background: #073642;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

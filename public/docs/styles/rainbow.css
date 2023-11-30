@@ -1,0 +1,85 @@
+/*
+
+Style with support for rainbow parens
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #474949;
+  color: #d1d9e1;
+***REMOVED***
+
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #969896;
+  font-style: italic;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-type,
+.hljs-addition ***REMOVED***
+  color: #cc99cc;
+***REMOVED***
+
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-pseudo ***REMOVED***
+  color: #f99157;
+***REMOVED***
+
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp ***REMOVED***
+  color: #8abeb7;
+***REMOVED***
+
+.hljs-title,
+.hljs-name,
+.hljs-section,
+.hljs-built_in ***REMOVED***
+  color: #b5bd68;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-class .hljs-title ***REMOVED***
+   color: #ffcc66;
+***REMOVED***
+
+.hljs-section,
+.hljs-name,
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-link ***REMOVED***
+  color: #f99157;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  color: #dc322f;
+***REMOVED***
+
+.hljs-formula ***REMOVED***
+  background: #eee8d5;
+***REMOVED***
+
+.hljs-attr,
+.hljs-attribute ***REMOVED***
+  color: #81a2be;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***

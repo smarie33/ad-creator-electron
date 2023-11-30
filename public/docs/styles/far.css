@@ -1,0 +1,71 @@
+/*
+
+FAR Style (c) MajestiC <majestic2k@gmail.com>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000080;
+***REMOVED***
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #0ff;
+***REMOVED***
+
+.hljs-string,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition ***REMOVED***
+  color: #ff0;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-type,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-variable ***REMOVED***
+  color: #fff;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote,
+.hljs-doctag,
+.hljs-deletion ***REMOVED***
+  color: #888;
+***REMOVED***
+
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link ***REMOVED***
+  color: #0f0;
+***REMOVED***
+
+.hljs-meta ***REMOVED***
+  color: #008080;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***

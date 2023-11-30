@@ -1,0 +1,108 @@
+/*
+
+ highlight.js style for Microtik RouterOS script
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+***REMOVED***
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #444;
+***REMOVED***
+
+.hljs-comment ***REMOVED***
+  color: #888888;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-attribute ***REMOVED***
+  color: #0E9A00;
+***REMOVED***    
+
+.hljs-function ***REMOVED***
+  color: #99069A;
+***REMOVED***
+
+.hljs-builtin-name ***REMOVED***
+  color: #99069A;
+***REMOVED***
+
+/* User color: hue: 0 */
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion ***REMOVED***
+  color: #880000;
+***REMOVED***
+
+.hljs-title,
+.hljs-section ***REMOVED***
+  color: #880000;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo ***REMOVED***
+  color: #BC6060;
+***REMOVED***
+
+
+/* Language color: hue: 90; */
+
+.hljs-literal ***REMOVED***
+  color: #78A960;
+***REMOVED***
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition ***REMOVED***
+  color: #0C9A9A;
+***REMOVED***
+
+
+/* Meta color: hue: 200 */
+
+.hljs-meta ***REMOVED***
+  color: #1f7199;
+***REMOVED***
+
+.hljs-meta-string ***REMOVED***
+  color: #4d99bf;
+***REMOVED***
+
+
+/* Misc effects */
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

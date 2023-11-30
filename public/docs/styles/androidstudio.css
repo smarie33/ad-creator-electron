@@ -1,0 +1,66 @@
+/*
+Date: 24 Fev 2015
+Author: Pedro Oliveira <kanytu@gmail . com>
+*/
+
+.hljs ***REMOVED***
+  color: #a9b7c6;
+  background: #282b2e;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-number,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet ***REMOVED***
+  color: #6897BB;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-deletion ***REMOVED***
+  color: #cc7832;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link ***REMOVED***
+  color: #629755;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #808080;
+***REMOVED***
+
+.hljs-meta ***REMOVED***
+  color: #bbb529;
+***REMOVED***
+
+.hljs-string,
+.hljs-attribute,
+.hljs-addition ***REMOVED***
+  color: #6A8759;
+***REMOVED***
+
+.hljs-section,
+.hljs-title,
+.hljs-type ***REMOVED***
+  color: #ffc66d;
+***REMOVED***
+
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #e8bf6a;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

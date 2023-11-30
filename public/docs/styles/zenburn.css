@@ -1,0 +1,80 @@
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag ***REMOVED***
+  color: #e3ceab;
+***REMOVED***
+
+.hljs-template-tag ***REMOVED***
+  color: #dcdcdc;
+***REMOVED***
+
+.hljs-number ***REMOVED***
+  color: #8cd0d3;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute ***REMOVED***
+  color: #efdcbc;
+***REMOVED***
+
+.hljs-literal ***REMOVED***
+  color: #efefaf;
+***REMOVED***
+
+.hljs-subst ***REMOVED***
+  color: #8f8f8f;
+***REMOVED***
+
+.hljs-title,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type ***REMOVED***
+  color: #efef8f;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link ***REMOVED***
+  color: #dca3a3;
+***REMOVED***
+
+.hljs-deletion,
+.hljs-string,
+.hljs-built_in,
+.hljs-builtin-name ***REMOVED***
+  color: #cc9393;
+***REMOVED***
+
+.hljs-addition,
+.hljs-comment,
+.hljs-quote,
+.hljs-meta ***REMOVED***
+  color: #7f9f7f;
+***REMOVED***
+
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

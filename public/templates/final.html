@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <title>[date] HPTO</title>
+    <link rel="stylesheet" href="style.css">
+
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXSJFM3B1T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag()***REMOVED***dataLayer.push(arguments);***REMOVED***
+      gtag('js', new Date());
+
+      gtag('config', 'G-EXSJFM3B1T');
+
+      const ClickEventPlaylist = function(link)***REMOVED***
+        gtag('event', 'playlist', ***REMOVED***
+          'playlist_name' : link.getAttribute('data-playlist'),
+          event_callback : function()***REMOVED***document.location = link.getAttribute('href')***REMOVED***
+        ***REMOVED***);
+      ***REMOVED***
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="container" style="display:inline-block;">
+      [slides]
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+
+</html>

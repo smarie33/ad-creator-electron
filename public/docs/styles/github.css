@@ -1,0 +1,99 @@
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #998;
+  font-style: italic;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst ***REMOVED***
+  color: #333;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr ***REMOVED***
+  color: #008080;
+***REMOVED***
+
+.hljs-string,
+.hljs-doctag ***REMOVED***
+  color: #d14;
+***REMOVED***
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id ***REMOVED***
+  color: #900;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-subst ***REMOVED***
+  font-weight: normal;
+***REMOVED***
+
+.hljs-type,
+.hljs-class .hljs-title ***REMOVED***
+  color: #458;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute ***REMOVED***
+  color: #000080;
+  font-weight: normal;
+***REMOVED***
+
+.hljs-regexp,
+.hljs-link ***REMOVED***
+  color: #009926;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet ***REMOVED***
+  color: #990073;
+***REMOVED***
+
+.hljs-built_in,
+.hljs-builtin-name ***REMOVED***
+  color: #0086b3;
+***REMOVED***
+
+.hljs-meta ***REMOVED***
+  color: #999;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background: #fdd;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background: #dfd;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

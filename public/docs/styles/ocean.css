@@ -1,0 +1,74 @@
+/* Ocean Dark Theme */
+/* https://github.com/gavsiu */
+/* Original theme - https://github.com/chriskempson/base16 */
+
+/* Ocean Comment */
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #65737e;
+***REMOVED***
+
+/* Ocean Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion ***REMOVED***
+  color: #bf616a;
+***REMOVED***
+
+/* Ocean Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link ***REMOVED***
+  color: #d08770;
+***REMOVED***
+
+/* Ocean Yellow */
+.hljs-attribute ***REMOVED***
+  color: #ebcb8b;
+***REMOVED***
+
+/* Ocean Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition ***REMOVED***
+  color: #a3be8c;
+***REMOVED***
+
+/* Ocean Blue */
+.hljs-title,
+.hljs-section ***REMOVED***
+  color: #8fa1b3;
+***REMOVED***
+
+/* Ocean Purple */
+.hljs-keyword,
+.hljs-selector-tag ***REMOVED***
+  color: #b48ead;
+***REMOVED***
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  background: #2b303b;
+  color: #c0c5ce;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

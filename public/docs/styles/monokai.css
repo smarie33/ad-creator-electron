@@ -1,0 +1,71 @@
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #272822;
+  color: #ddd;
+***REMOVED***
+
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-strong,
+.hljs-name ***REMOVED***
+  color: #f92672;
+***REMOVED***
+
+.hljs-code ***REMOVED***
+  color: #66d9ef;
+***REMOVED***
+
+.hljs-class .hljs-title ***REMOVED***
+  color: white;
+***REMOVED***
+
+.hljs-attribute,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link ***REMOVED***
+  color: #bf79db;
+***REMOVED***
+
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable ***REMOVED***
+  color: #a6e22e;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta ***REMOVED***
+  color: #75715e;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-selector-id ***REMOVED***
+  font-weight: bold;
+***REMOVED***

@@ -1,0 +1,83 @@
+/*
+
+Qt Creator light color scheme
+
+*/
+
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #ffffff;
+***REMOVED***
+
+.hljs,
+.hljs-subst,
+.hljs-tag,
+.hljs-title ***REMOVED***
+  color: #000000;
+***REMOVED***
+
+.hljs-strong,
+.hljs-emphasis ***REMOVED***
+  color: #000000;
+***REMOVED***
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal ***REMOVED***
+  color: #000080;
+***REMOVED***
+
+.hljs-code
+.hljs-selector-class ***REMOVED***
+  color: #800080;
+***REMOVED***
+
+.hljs-emphasis,
+.hljs-stronge,
+.hljs-type ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function,
+.hljs-section,
+.hljs-symbol,
+.hljs-name ***REMOVED***
+  color: #808000;
+***REMOVED***
+
+.hljs-attribute ***REMOVED***
+  color: #800000;
+***REMOVED***
+
+.hljs-variable,
+.hljs-params,
+.hljs-class .hljs-title ***REMOVED***
+  color: #0055AF;
+***REMOVED***
+
+.hljs-string,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition,
+.hljs-link ***REMOVED***
+  color: #008000;
+***REMOVED***
+
+.hljs-comment,
+.hljs-meta,
+.hljs-deletion ***REMOVED***
+  color: #008000;
+***REMOVED***

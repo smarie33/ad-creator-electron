@@ -1,0 +1,99 @@
+/* a11y-light theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #696969;
+***REMOVED***
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion ***REMOVED***
+  color: #d91e18;
+***REMOVED***
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link ***REMOVED***
+  color: #aa5d00;
+***REMOVED***
+
+/* Yellow */
+.hljs-attribute ***REMOVED***
+  color: #aa5d00;
+***REMOVED***
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition ***REMOVED***
+  color: #008000;
+***REMOVED***
+
+/* Blue */
+.hljs-title,
+.hljs-section ***REMOVED***
+  color: #007faa;
+***REMOVED***
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag ***REMOVED***
+  color: #7928a1;
+***REMOVED***
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  background: #fefefe;
+  color: #545454;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+@media screen and (-ms-high-contrast: active) ***REMOVED***
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote ***REMOVED***
+        color: highlight;
+    ***REMOVED***
+
+    .hljs-keyword,
+    .hljs-selector-tag ***REMOVED***
+        font-weight: bold;
+    ***REMOVED***
+***REMOVED***

@@ -1,0 +1,104 @@
+/*
+
+XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+  color: black;
+***REMOVED***
+
+/* Gray DOCTYPE selectors like WebKit */
+.xml .hljs-meta ***REMOVED***
+  color: #c0c0c0;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #007400;
+***REMOVED***
+
+.hljs-tag,
+.hljs-attribute,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name ***REMOVED***
+  color: #aa0d91;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable ***REMOVED***
+  color: #3F6E74;
+***REMOVED***
+
+.hljs-code,
+.hljs-string,
+.hljs-meta-string ***REMOVED***
+  color: #c41a16;
+***REMOVED***
+
+.hljs-regexp,
+.hljs-link ***REMOVED***
+  color: #0E0EFF;
+***REMOVED***
+
+.hljs-title,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number ***REMOVED***
+  color: #1c00cf;
+***REMOVED***
+
+.hljs-section,
+.hljs-meta ***REMOVED***
+  color: #643820;
+***REMOVED***
+
+
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params ***REMOVED***
+  color: #5c2699;
+***REMOVED***
+
+.hljs-attr ***REMOVED***
+  color: #836C28;
+***REMOVED***
+
+.hljs-subst ***REMOVED***
+  color: #000;
+***REMOVED***
+
+.hljs-formula ***REMOVED***
+  background-color: #eee;
+  font-style: italic;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background-color: #baeeba;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background-color: #ffc8bd;
+***REMOVED***
+
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #9b703f;
+***REMOVED***
+
+.hljs-doctag,
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***

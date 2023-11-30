@@ -1,0 +1,84 @@
+/*
+ * Hopscotch
+ * by Jan T. Sott
+ * https://github.com/idleberg/Hopscotch
+ *
+ * This work is licensed under the Creative Commons CC0 1.0 Universal License
+ */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #989498;
+***REMOVED***
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-link,
+.hljs-deletion ***REMOVED***
+  color: #dd464c;
+***REMOVED***
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params ***REMOVED***
+  color: #fd8b19;
+***REMOVED***
+
+/* Yellow */
+.hljs-class .hljs-title ***REMOVED***
+  color: #fdcc59;
+***REMOVED***
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition ***REMOVED***
+  color: #8fc13e;
+***REMOVED***
+
+/* Aqua */
+.hljs-meta ***REMOVED***
+  color: #149b93;
+***REMOVED***
+
+/* Blue */
+.hljs-function,
+.hljs-section,
+.hljs-title ***REMOVED***
+  color: #1290bf;
+***REMOVED***
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag ***REMOVED***
+  color: #c85e7c;
+***REMOVED***
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  background: #322931;
+  color: #b9b5b8;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

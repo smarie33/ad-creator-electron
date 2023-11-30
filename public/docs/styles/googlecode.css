@@ -1,0 +1,89 @@
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #800;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-title,
+.hljs-name ***REMOVED***
+  color: #008;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable ***REMOVED***
+  color: #660;
+***REMOVED***
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp ***REMOVED***
+  color: #080;
+***REMOVED***
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-meta,
+.hljs-number,
+.hljs-link ***REMOVED***
+  color: #066;
+***REMOVED***
+
+.hljs-title,
+.hljs-doctag,
+.hljs-type,
+.hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params ***REMOVED***
+  color: #606;
+***REMOVED***
+
+.hljs-attribute,
+.hljs-subst ***REMOVED***
+  color: #000;
+***REMOVED***
+
+.hljs-formula ***REMOVED***
+  background-color: #eee;
+  font-style: italic;
+***REMOVED***
+
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #9B703F
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background-color: #baeeba;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background-color: #ffc8bd;
+***REMOVED***
+
+.hljs-doctag,
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***

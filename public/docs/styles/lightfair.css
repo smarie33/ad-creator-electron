@@ -1,0 +1,88 @@
+/*
+
+Lightfair style (c) Tristian Kelly <tristian.kelly560@gmail.com>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  /* TODO: background? */
+***REMOVED***
+
+.hljs-name ***REMOVED***
+    color:#01a3a3;
+***REMOVED***
+
+.hljs-tag,.hljs-meta ***REMOVED***
+    color:#778899;
+***REMOVED***
+
+.hljs,
+.hljs-subst ***REMOVED***
+    color: #444
+***REMOVED***
+
+.hljs-comment ***REMOVED***
+    color: #888888
+***REMOVED***
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name ***REMOVED***
+    font-weight: bold
+***REMOVED***
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion ***REMOVED***
+    color: #4286f4
+***REMOVED***
+
+.hljs-title,
+.hljs-section ***REMOVED***
+    color: #4286f4;
+    font-weight: bold
+***REMOVED***
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo ***REMOVED***
+    color: #BC6060
+***REMOVED***
+
+.hljs-literal ***REMOVED***
+    color: #62bcbc
+***REMOVED***
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition ***REMOVED***
+    color: #25c6c6
+***REMOVED***
+
+.hljs-meta-string ***REMOVED***
+    color: #4d99bf
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+    font-style: italic
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+    font-weight: bold
+***REMOVED***

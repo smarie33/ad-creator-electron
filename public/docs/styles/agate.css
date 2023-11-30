@@ -1,0 +1,108 @@
+/*!
+ * Agate by Taufik Nurrohman <https://github.com/taufik-nurrohman>
+ * ---------------------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #fc9b9b
+ * #ffa
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ *
+ */
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #333;
+  color: white;
+***REMOVED***
+
+.hljs-name,
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-code,
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-tag ***REMOVED***
+  color: #62c8f3;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #ade5fc;
+***REMOVED***
+
+.hljs-string,
+.hljs-bullet ***REMOVED***
+  color: #a2fca2;
+***REMOVED***
+
+.hljs-type,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-quote,
+.hljs-built_in,
+.hljs-builtin-name ***REMOVED***
+  color: #ffa;
+***REMOVED***
+
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet ***REMOVED***
+  color: #d36363;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal ***REMOVED***
+  color: #fcc28c;
+***REMOVED***
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-code ***REMOVED***
+  color: #888;
+***REMOVED***
+
+.hljs-regexp,
+.hljs-link ***REMOVED***
+  color: #c6b4f0;
+***REMOVED***
+
+.hljs-meta ***REMOVED***
+  color: #fc9b9b;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background-color: #fc9b9b;
+  color: #333;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background-color: #a2fca2;
+  color: #333;
+***REMOVED***
+
+.hljs a ***REMOVED***
+  color: inherit;
+***REMOVED***
+
+.hljs a:focus,
+.hljs a:hover ***REMOVED***
+  color: inherit;
+  text-decoration: underline;
+***REMOVED***

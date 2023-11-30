@@ -1,0 +1,84 @@
+/* Base16 Atelier Savanna Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #78877d;
+***REMOVED***
+
+/* Atelier-Savanna Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #b16139;
+***REMOVED***
+
+/* Atelier-Savanna Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params ***REMOVED***
+  color: #9f713c;
+***REMOVED***
+
+/* Atelier-Savanna Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet ***REMOVED***
+  color: #489963;
+***REMOVED***
+
+/* Atelier-Savanna Blue */
+.hljs-title,
+.hljs-section ***REMOVED***
+  color: #478c90;
+***REMOVED***
+
+/* Atelier-Savanna Purple */
+.hljs-keyword,
+.hljs-selector-tag ***REMOVED***
+  color: #55859b;
+***REMOVED***
+
+.hljs-deletion,
+.hljs-addition ***REMOVED***
+  color: #171c19;
+  display: inline-block;
+  width: 100%;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background-color: #b16139;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background-color: #489963;
+***REMOVED***
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  background: #171c19;
+  color: #87928a;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

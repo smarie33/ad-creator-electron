@@ -1,0 +1,97 @@
+/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #f8f8ff;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #408080;
+  font-style: italic;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-subst ***REMOVED***
+  color: #954121;
+***REMOVED***
+
+.hljs-number ***REMOVED***
+  color: #40a070;
+***REMOVED***
+
+.hljs-string,
+.hljs-doctag ***REMOVED***
+  color: #219161;
+***REMOVED***
+
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type ***REMOVED***
+  color: #19469d;
+***REMOVED***
+
+.hljs-params ***REMOVED***
+  color: #00f;
+***REMOVED***
+
+.hljs-title ***REMOVED***
+  color: #458;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute ***REMOVED***
+  color: #000080;
+  font-weight: normal;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable ***REMOVED***
+  color: #008080;
+***REMOVED***
+
+.hljs-regexp,
+.hljs-link ***REMOVED***
+  color: #b68;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet ***REMOVED***
+  color: #990073;
+***REMOVED***
+
+.hljs-built_in,
+.hljs-builtin-name ***REMOVED***
+  color: #0086b3;
+***REMOVED***
+
+.hljs-meta ***REMOVED***
+  color: #999;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background: #fdd;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background: #dfd;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

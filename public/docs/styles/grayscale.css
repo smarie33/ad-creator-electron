@@ -1,0 +1,101 @@
+/*
+
+grayscale style (c) MY Sun <simonmysun@gmail.com>
+
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #fff;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #777;
+  font-style: italic;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst ***REMOVED***
+  color: #333;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-number,
+.hljs-literal ***REMOVED***
+  color: #777;
+***REMOVED***
+
+.hljs-string,
+.hljs-doctag,
+.hljs-formula ***REMOVED***
+  color: #333;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQIW2O8e/fufwYGBgZBQUEQxcCIIfDu3Tuwivfv30NUoAsAALHpFMMLqZlPAAAAAElFTkSuQmCC) repeat;
+***REMOVED***
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id ***REMOVED***
+  color: #000;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-subst ***REMOVED***
+  font-weight: normal;
+***REMOVED***
+
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-name ***REMOVED***
+  color: #333;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-tag ***REMOVED***
+  color: #333;
+***REMOVED***
+
+.hljs-regexp ***REMOVED***
+    color: #333;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAN37979r6yszIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDexSef15DBCwAAAABJRU5ErkJggg==) repeat;
+***REMOVED***
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link ***REMOVED***
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAO7d+/+z4gsBhJwdXVlhAvCBECKwIIwAbhKZBUwBQA6hBpm5efZsgAAAABJRU5ErkJggg==) repeat;
+***REMOVED***
+
+.hljs-built_in,
+.hljs-builtin-name ***REMOVED***
+  color: #000;
+  text-decoration: underline;
+***REMOVED***
+
+.hljs-meta ***REMOVED***
+  color: #999;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  color: #fff;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAE0lEQVQIW2MMDQ39zzhz5kwIAQAyxweWgUHd1AAAAABJRU5ErkJggg==) repeat;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALUlEQVQYV2N89+7dfwYk8P79ewZBQUFkIQZGOiu6e/cuiptQHAPl0NtNxAQBAM97Oejj3Dg7AAAAAElFTkSuQmCC) repeat;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

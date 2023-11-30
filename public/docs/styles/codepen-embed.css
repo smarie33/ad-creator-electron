@@ -1,0 +1,60 @@
+/*
+  codepen.io Embed Theme
+  Author: Justin Perry <http://github.com/ourmaninamsterdam>
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+  color: #fff;
+***REMOVED***
+
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #777;
+***REMOVED***
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-regexp,
+.hljs-meta,
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-params,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-deletion ***REMOVED***
+  color: #ab875d;
+***REMOVED***
+
+.hljs-section,
+.hljs-title,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-type,
+.hljs-attribute ***REMOVED***
+  color: #9b869b;
+***REMOVED***
+
+.hljs-string,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition ***REMOVED***
+  color: #8f9c6c;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

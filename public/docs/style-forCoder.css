@@ -1,0 +1,720 @@
+* ***REMOVED***
+ margin: 0px;
+ padding: 0px;
+***REMOVED***
+
+body ***REMOVED***
+  width: 800px;
+  height: 235px;
+  background-color:#000000;
+***REMOVED***
+
+.main***REMOVED***
+  display: flex;
+  justify-content: space-evenly;
+***REMOVED***
+
+/* Container **/
+.container ***REMOVED***
+  position: relative;
+  font-size: 0;
+  padding: 0;
+  background-image: url('images/bkgd.png'); /* here becasue there is no actual hover images but we need one */
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+
+.slide ***REMOVED***
+  position: absolute;
+  width: 800px;
+  display: none;
+***REMOVED***
+
+.slide.empty-link a***REMOVED***
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+.slide.single-imgs .album-thumbnail***REMOVED***
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+.slide.single-imgs .album-thumbnail:last-of-type***REMOVED***
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+.slide.single-imgs .album-container***REMOVED***
+  margin: 0;
+***REMOVED***
+
+.slide.single-imgs .album-set***REMOVED***
+  margin-top: 0;
+***REMOVED***
+
+.slide .album-thumbnail:first-of-type,
+.slide .album-thumbnail:last-of-type***REMOVED***
+  height: 150px;
+  width: 150px;
+***REMOVED***
+
+.slide.three-up .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 150px;
+  width: 150px;
+***REMOVED***
+
+.slide.three-up .album-container:first-of-type .album-artist,
+.slide.three-up .album-container:last-of-type .album-artist***REMOVED***
+  padding: 10px 0;
+***REMOVED***
+
+.slide .album-container:nth-of-type(2) .album-thumbnail,
+.slide .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.slide.one-line-text-under .album-container,
+.slide.one-line-lrg-images .album-container:first-of-type,
+.slide.one-line-lrg-images .album-container:last-of-type***REMOVED***
+  height: 150px;
+***REMOVED***
+
+.slide.slightly-larger-center-imgs .album-container:nth-of-type(2),
+.slide.slightly-larger-center-imgs .album-container:nth-of-type(3)***REMOVED***
+    height: 175px;
+    margin: -30px 10px 10px 10px;
+***REMOVED***
+
+.slide.slightly-larger-center-imgs .album-container:nth-of-type(2) .album-thumbnail,
+.slide.slightly-larger-center-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 175px;
+  width: 175px;
+***REMOVED***
+
+.slide.one-line-text-under .album-container .album-thumbnail,
+.slide.one-line-lrg-images .album-container:first-of-type .album-thumbnail,
+.slide.one-line-lrg-images .album-container:last-of-type .album-thumbnail***REMOVED***
+  height: 150px;
+  width: 150px;
+***REMOVED***
+
+.slide.one-line-lrg-images .album-container***REMOVED***
+  height: 180px;
+  margin: 0 10px;
+***REMOVED***
+
+
+.slide.one-line-lrg-images .album-container .album-thumbnail***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.slide.no-lines-larger-imgs .album-thumbnail:first-of-type,
+.slide.no-lines-larger-imgs .album-thumbnail:last-of-type***REMOVED***
+  height: 170px;
+  width: 170px;
+***REMOVED***
+
+.slide.no-lines-larger-imgs .album-container:nth-of-type(2) .album-thumbnail,
+.slide.no-lines-larger-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 190px;
+  width: 190px;
+***REMOVED***
+
+.size-150***REMOVED***
+  height: 150px !important;
+  width: 150px !important;
+***REMOVED***
+
+.content ***REMOVED***
+
+***REMOVED***
+
+.bg-link ***REMOVED***
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+***REMOVED***
+
+/* Headline */
+.headline ***REMOVED***
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 6px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  font-family: Helvetica;
+  pointer-events: none;
+***REMOVED***
+
+.container.dayparts .hover-text.no-headline .headline***REMOVED***
+  font-size: 9px;
+***REMOVED***
+
+/** Headline Hashtag **/
+.headline-hashtag ***REMOVED***
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: initial;
+***REMOVED***
+
+/** Album Set **/
+.album-set ***REMOVED***
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1px;
+  display: flex;
+***REMOVED***
+
+
+/** Album Container **/
+.album-container ***REMOVED***
+  position: relative;
+  text-align: center;
+  margin: 10px;
+***REMOVED***
+
+
+.album-container:hover .listen-now ***REMOVED***
+  opacity: 1;
+  background: url('images/overlay.png'); /* here becasue there is no actual hover images but we need one */
+  width: 160px;
+  height: 160px;
+***REMOVED***
+
+
+.listen-now ***REMOVED***
+  opacity: 0;
+  position: absolute;
+  background-color: black;
+***REMOVED***
+
+
+/** Featuring Text **/
+.featuring-text ***REMOVED***
+  padding-top: 7px;
+  color: white;
+  font-size: 11px;
+  font-family: Helvetica;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: .5px;
+  text-align: center;
+***REMOVED***
+
+/** Album Artist **/
+.album-artist ***REMOVED***
+  color: white;
+  font-size: 11px;
+  font-family: Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: .6px;
+
+***REMOVED***
+.album-artist2 ***REMOVED***
+  color: white;
+  font-size: 11px;
+  font-family: Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: .6px;
+  width: 160px;
+
+***REMOVED***
+
+.slide.animated-imgs .content***REMOVED***
+  position: relative;
+  height: 100%;
+***REMOVED***
+
+.slide.animated-imgs .album-set***REMOVED***
+  height: 100%;
+***REMOVED***
+
+.slide.animated-imgs .album-container***REMOVED***
+  position: relative;
+  height: 100%;
+***REMOVED***
+
+.slide.animated-imgs .album-container:nth-of-type(1), .slide.animated-imgs .album-container:nth-of-type(4)***REMOVED***
+  width: 150px;
+***REMOVED***
+
+.slide.animated-imgs .album-container:nth-of-type(2), .slide.animated-imgs .album-container:nth-of-type(3)***REMOVED***
+  width: 180px;
+***REMOVED***
+
+.slide.animated-imgs .album-container img***REMOVED***
+  left: 0;
+  position: absolute;
+  transform-origin: center center;
+***REMOVED***
+
+.slide.animated-imgs .album-container:nth-of-type(1) img, .slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+  top: 30px;
+***REMOVED***
+
+.slide.animated-imgs .album-container:nth-of-type(2) img, .slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+  top: 10px;
+***REMOVED***
+
+.slide.animated-imgs .featuring-text***REMOVED***
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+***REMOVED***
+
+.slide.animated-imgs .album-artist***REMOVED***
+  position: absolute;
+    bottom: 5px;
+    width: 100%;
+***REMOVED***
+
+.slide.animated-imgs .album-container a***REMOVED***
+  width: 100%;
+  height: 100%;
+  left:0;
+  position: absolute;
+  z-index: 10;
+***REMOVED***
+
+@keyframes breath-1st ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+@keyframes breath-2nd ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+@keyframes breath-3rd ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+@keyframes breath-4th ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+.slide.animated-imgs .album-container:nth-of-type(1) img***REMOVED***
+  position: absolute;
+  left: 0;
+  transform-origin: center center;
+  animation: breath-1st 8s ease-in-out 0s infinite;
+***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(2) img***REMOVED***
+  animation: breath-2nd 8s ease-in-out 2s infinite;
+***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+  animation: breath-3rd 8s ease-in-out 4s infinite;
+***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+  animation: breath-4th 8s ease-in-out 6s infinite;
+***REMOVED***
+
+
+.play-btn .album-container a***REMOVED***
+  position: relative;
+  z-index: 20;
+***REMOVED***
+.play-btn .album-container:nth-of-type(1), .play-btn .album-container:nth-of-type(4)***REMOVED***
+  width: 150px;
+  height: 150px;
+***REMOVED***
+
+.play-btn .album-container:nth-of-type(2), .play-btn .album-container:nth-of-type(3)***REMOVED***
+  width: 180px;
+  height: 180px;
+***REMOVED***
+
+.play-btn .album-container .album-thumbnail***REMOVED***
+  background: center/100% no-repeat;
+  transition: all 0.5s ease;
+  height: 100%;
+***REMOVED***
+
+.play-btn .album-container:nth-of-type(1):hover .album-thumbnail, .play-btn .album-container:nth-of-type(4):hover .album-thumbnail***REMOVED***
+  background-size: 120% !important;
+***REMOVED***
+
+
+.play-btn .album-container:nth-of-type(2):hover .album-thumbnail, .play-btn .album-container:nth-of-type(3):hover .album-thumbnail***REMOVED***
+  background-size: 120% !important;
+***REMOVED***
+
+.play-btn .symbol***REMOVED***
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  background: url(images/play-btn.svg) center center no-repeat;
+  background-size: 40%;
+  opacity: 0;
+  transition: all 0.5s ease;
+***REMOVED***
+
+.play-btn .album-container:hover .symbol***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+@keyframes glow-1st ***REMOVED***
+  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
+  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+***REMOVED***
+
+@keyframes glow-2nd ***REMOVED***
+  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
+  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+***REMOVED***
+
+@keyframes glow-3rd ***REMOVED***
+  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
+  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+***REMOVED***
+
+@keyframes glow-4th ***REMOVED***
+  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
+  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
+***REMOVED***
+
+.slide.glow .album-container:nth-of-type(1) img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  animation: glow-1st 8s ease-in-out 0s infinite;
+***REMOVED***
+.slide.glow .album-container:nth-of-type(2) img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  animation: glow-2nd 8s ease-in-out 2s infinite;
+***REMOVED***
+.slide.glow .album-container:nth-of-type(3) img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  animation: glow-3rd 8s ease-in-out 4s infinite;
+***REMOVED***
+.slide.glow .album-container:nth-of-type(4) img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  animation: glow-4th 8s ease-in-out 6s infinite;
+***REMOVED***
+
+.slide.same-size .album-thumbnail:first-of-type, .slide.same-size .album-thumbnail:last-of-type ***REMOVED***
+    height: 180px;
+    width: 180px;
+***REMOVED***
+
+.slide.carousel .content***REMOVED***
+  /* width: 800px; */
+  width: 180px;
+  height: 235px;
+  position: relative;
+  perspective: 1000px;
+  margin-left: 250px;
+
+***REMOVED***
+
+.slide.carousel .content .album-set***REMOVED***
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  left: 35%;
+  top: 17px;
+  transform: translateZ(-288px);
+  transition: transform 1s;
+***REMOVED***
+
+.slide.carousel .content .album-set .album-container***REMOVED***
+  position: absolute;
+  width: 180px;
+  height: 160px;
+  left: 10px;
+  top: 10px;
+***REMOVED***
+
+.slide.carousel .content .album-set .album-container.back***REMOVED***
+  opacity: .4;
+***REMOVED***
+
+.slide.carousel .content .album-set .album-container a***REMOVED***
+  display: block;
+  z-index: 30;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+***REMOVED***
+
+.slide.carousel .content .album-set .album-container.front***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+.slide.carousel .backing, .slide.carousel .album-thumbnail, .slide.carousel .album-thumbnail:first-of-type, .slide.carousel .album-thumbnail:last-of-type ***REMOVED***
+    height: 120px;
+    width: 120px;
+    z-index: 20;
+    position: relative;
+***REMOVED***
+.slide.carousel .backing***REMOVED***
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 30px;
+***REMOVED***
+.slide.carousel .word-holder***REMOVED***
+  z-index: 2;
+  position: relative;
+***REMOVED***
+.slide.carousel .back .black-backing***REMOVED***
+  z-index: 5;
+***REMOVED***
+.slide.carousel .black-backing***REMOVED***
+  position: absolute;
+  z-index: 0;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+***REMOVED***
+
+.slide.carousel .featuring-text, .slide.carousel .album-artist, .slide.carousel .album-artist2***REMOVED***
+  background: black;
+***REMOVED***
+
+.slide.carousel .album-container.back .backing***REMOVED***
+  z-index: 25;
+***REMOVED***
+
+.slide.slider***REMOVED***
+  overflow: hidden;
+***REMOVED***
+
+.slide.slider .album-thumbnail:first-of-type, .slide.slider .album-thumbnail:last-of-type ***REMOVED***
+    height: 180px;
+    width: 180px;
+***REMOVED***
+
+.slide.slider .album-container ***REMOVED***
+  margin: 10px 5px;
+***REMOVED***
+
+.slide.slider***REMOVED***
+  position: relative;
+***REMOVED***
+
+.slider .content***REMOVED***
+  position: absolute;
+  left: -170px;
+  transition: left 0.8s ease-in-out;
+***REMOVED***
+
+.slide.hover-text .album-container .overlay***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0, .8);
+  cursor: pointer;
+***REMOVED***
+
+.slide.hover-text .album-container:hover .overlay***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+.slide.hover-text .album-container img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  transition: all 0.8s ease-in-out;
+***REMOVED***
+
+.slide.hover-text .album-container:hover img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 1);
+***REMOVED***
+
+.slide.hover-text .album-thumbnail:first-of-type, .slide.hover-text .album-thumbnail:last-of-type ***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.slide.hover-text .album-container .overlay***REMOVED***
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+***REMOVED***
+
+.slide.hover-text .album-container:hover .overlay***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+.slide.one-image-text .album-container .album-info***REMOVED***
+  display: flex;
+  flex-direction: row;
+***REMOVED***
+
+.slide.one-image-text .album-thumbnail, .slide.one-image-text .img***REMOVED***
+  height: 215px;
+  width: 215px;
+***REMOVED***
+
+.slide.one-image-text .featuring-text, .slide.one-image-text .featuring-text2***REMOVED***
+  font-size: 17px;
+  text-align: left;
+  font-weight: bold;
+***REMOVED***
+
+.slide.one-image-text .album-artist, .slide.one-image-text .album-artist2***REMOVED***
+  text-align: left;
+***REMOVED***
+
+.slide.one-image-text .img***REMOVED***
+  cursor: pointer;
+***REMOVED***
+
+.slide.one-image-text .img .listen-now***REMOVED***
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  position: absolute;
+  z-index: 10;
+  height: 215px;
+  width: 215px;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  top: 40%;
+***REMOVED***
+
+.slide.one-image-text .img .overlay***REMOVED***
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  height: 215px;
+  width: 215px;
+  z-index: 5;
+  background-color: black;
+***REMOVED***
+.slide.one-image-text .img:hover .listen-now***REMOVED***
+  opacity: 1;
+***REMOVED***
+.slide.one-image-text .img:hover .overlay***REMOVED***
+  opacity: .7;
+***REMOVED***
+
+.slide.one-image-text .album-container .info***REMOVED***
+  flex-basis: 60%;
+  padding-left: 20px;
+***REMOVED***
+
+.slide.hover-text .album-container:hover .overlay***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+.slide.hover-text .album-container img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  transition: all 0.8s ease-in-out;
+***REMOVED***
+
+.slide.hover-text .album-container:hover img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 1);
+***REMOVED***
+
+.slide.hover-text .album-thumbnail:first-of-type, .slide.hover-text .album-thumbnail:last-of-type ***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.slide.hover-text .album-container .overlay***REMOVED***
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+***REMOVED***
+
+.slide.hover-text .album-container:hover .overlay***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+.slide.one-image-text .album-container .album-info***REMOVED***
+  display: flex;
+  flex-direction: row;
+***REMOVED***
+
+.slide.one-image-text .album-thumbnail, .slide.one-image-text .img***REMOVED***
+  height: 215px;
+  width: 215px;
+***REMOVED***
+
+.slide.one-image-text .featuring-text, .slide.one-image-text .featuring-text2***REMOVED***
+  font-size: 17px;
+  text-align: left;
+  font-weight: bold;
+***REMOVED***
+
+.slide.one-image-text .album-artist, .slide.one-image-text .album-artist2***REMOVED***
+  text-align: left;
+***REMOVED***
+
+.slide.one-image-text .img***REMOVED***
+  cursor: pointer;
+***REMOVED***
+
+.slide.one-image-text .img .listen-now***REMOVED***
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  position: absolute;
+  z-index: 10;
+  height: 215px;
+  width: 215px;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  top: 40%;
+***REMOVED***
+
+.slide.one-image-text .img .overlay***REMOVED***
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  height: 215px;
+  width: 215px;
+  z-index: 5;
+  background-color: black;
+***REMOVED***
+.slide.one-image-text .img:hover .listen-now***REMOVED***
+  opacity: 1;
+***REMOVED***
+.slide.one-image-text .img:hover .overlay***REMOVED***
+  opacity: .7;
+***REMOVED***
+
+.slide.one-image-text .album-container .info***REMOVED***
+  flex-basis: 60%;
+  padding-left: 20px;
+***REMOVED***

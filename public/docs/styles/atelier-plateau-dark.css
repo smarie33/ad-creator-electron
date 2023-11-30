@@ -1,0 +1,84 @@
+/* Base16 Atelier Plateau Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #7e7777;
+***REMOVED***
+
+/* Atelier-Plateau Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #ca4949;
+***REMOVED***
+
+/* Atelier-Plateau Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params ***REMOVED***
+  color: #b45a3c;
+***REMOVED***
+
+/* Atelier-Plateau Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet ***REMOVED***
+  color: #4b8b8b;
+***REMOVED***
+
+/* Atelier-Plateau Blue */
+.hljs-title,
+.hljs-section ***REMOVED***
+  color: #7272ca;
+***REMOVED***
+
+/* Atelier-Plateau Purple */
+.hljs-keyword,
+.hljs-selector-tag ***REMOVED***
+  color: #8464c4;
+***REMOVED***
+
+.hljs-deletion,
+.hljs-addition ***REMOVED***
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background-color: #ca4949;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background-color: #4b8b8b;
+***REMOVED***
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  background: #1b1818;
+  color: #8a8585;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

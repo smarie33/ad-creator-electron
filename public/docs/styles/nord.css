@@ -1,0 +1,309 @@
+/*
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ */
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2E3440;
+***REMOVED***
+
+.hljs,
+.hljs-subst ***REMOVED***
+  color: #D8DEE9;
+***REMOVED***
+
+.hljs-selector-tag ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.hljs-selector-id ***REMOVED***
+  color: #8FBCBB;
+  font-weight: bold;
+***REMOVED***
+
+.hljs-selector-class ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-selector-attr ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-selector-pseudo ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.hljs-addition ***REMOVED***
+  background-color: rgba(163, 190, 140, 0.5);
+***REMOVED***
+
+.hljs-deletion ***REMOVED***
+  background-color: rgba(191, 97, 106, 0.5);
+***REMOVED***
+
+.hljs-built_in,
+.hljs-type ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-class ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-function ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.hljs-function > .hljs-title ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.hljs-number ***REMOVED***
+  color: #B48EAD;
+***REMOVED***
+
+.hljs-regexp ***REMOVED***
+  color: #EBCB8B;
+***REMOVED***
+
+.hljs-string ***REMOVED***
+  color: #A3BE8C;
+***REMOVED***
+
+.hljs-title ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-params ***REMOVED***
+  color: #D8DEE9;
+***REMOVED***
+
+.hljs-bullet ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.hljs-code ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-formula ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***
+
+.hljs-link:hover ***REMOVED***
+  text-decoration: underline;
+***REMOVED***
+
+.hljs-quote ***REMOVED***
+  color: #4C566A;
+***REMOVED***
+
+.hljs-comment ***REMOVED***
+  color: #4C566A;
+***REMOVED***
+
+.hljs-doctag ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-meta,
+.hljs-meta-keyword ***REMOVED***
+  color: #5E81AC;
+***REMOVED***
+
+.hljs-meta-string ***REMOVED***
+  color: #A3BE8C;
+***REMOVED***
+
+.hljs-attr ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.hljs-attribute ***REMOVED***
+  color: #D8DEE9;
+***REMOVED***
+
+.hljs-builtin-name ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.hljs-name ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.hljs-section ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.hljs-tag ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.hljs-variable ***REMOVED***
+  color: #D8DEE9;
+***REMOVED***
+
+.hljs-template-variable ***REMOVED***
+  color: #D8DEE9;
+***REMOVED***
+
+.hljs-template-tag ***REMOVED***
+  color: #5E81AC;
+***REMOVED***
+
+.abnf .hljs-attribute ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.abnf .hljs-symbol ***REMOVED***
+  color: #EBCB8B;
+***REMOVED***
+
+.apache .hljs-attribute ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.apache .hljs-section ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.arduino .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.aspectj .hljs-meta ***REMOVED***
+  color: #D08770;
+***REMOVED***
+
+.aspectj > .hljs-title ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.bnf .hljs-attribute ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.clojure .hljs-name ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.clojure .hljs-symbol ***REMOVED***
+  color: #EBCB8B;
+***REMOVED***
+
+.coq .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.cpp .hljs-meta-string ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.css .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.css .hljs-keyword ***REMOVED***
+  color: #D08770;
+***REMOVED***
+
+.diff .hljs-meta ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.ebnf .hljs-attribute ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.glsl .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.groovy .hljs-meta:not(:first-child) ***REMOVED***
+  color: #D08770;
+***REMOVED***
+
+.haxe .hljs-meta ***REMOVED***
+  color: #D08770;
+***REMOVED***
+
+.java .hljs-meta ***REMOVED***
+  color: #D08770;
+***REMOVED***
+
+.ldif .hljs-attribute ***REMOVED***
+  color: #8FBCBB;
+***REMOVED***
+
+.lisp .hljs-name ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.lua .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.moonscript .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.nginx .hljs-attribute ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.nginx .hljs-section ***REMOVED***
+  color: #5E81AC;
+***REMOVED***
+
+.pf .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.processing .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+***REMOVED***
+
+.scss .hljs-keyword ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.stylus .hljs-keyword ***REMOVED***
+  color: #81A1C1;
+***REMOVED***
+
+.swift .hljs-meta ***REMOVED***
+  color: #D08770;
+***REMOVED***
+
+.vim .hljs-built_in ***REMOVED***
+  color: #88C0D0;
+  font-style: italic;
+***REMOVED***
+
+.yaml .hljs-meta ***REMOVED***
+  color: #D08770;
+***REMOVED***

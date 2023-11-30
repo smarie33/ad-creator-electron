@@ -1,0 +1,69 @@
+/* Base16 Atelier Heath Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.hljs-comment,
+.hljs-quote ***REMOVED***
+  color: #776977;
+***REMOVED***
+
+/* Atelier-Heath Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class ***REMOVED***
+  color: #ca402b;
+***REMOVED***
+
+/* Atelier-Heath Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params ***REMOVED***
+  color: #a65926;
+***REMOVED***
+
+/* Atelier-Heath Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet ***REMOVED***
+  color: #918b3b;
+***REMOVED***
+
+/* Atelier-Heath Blue */
+.hljs-title,
+.hljs-section ***REMOVED***
+  color: #516aec;
+***REMOVED***
+
+/* Atelier-Heath Purple */
+.hljs-keyword,
+.hljs-selector-tag ***REMOVED***
+  color: #7b59c0;
+***REMOVED***
+
+.hljs ***REMOVED***
+  display: block;
+  overflow-x: auto;
+  background: #f7f3f7;
+  color: #695d69;
+  padding: 0.5em;
+***REMOVED***
+
+.hljs-emphasis ***REMOVED***
+  font-style: italic;
+***REMOVED***
+
+.hljs-strong ***REMOVED***
+  font-weight: bold;
+***REMOVED***

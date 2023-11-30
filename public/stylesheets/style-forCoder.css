@@ -1,0 +1,1816 @@
+* ***REMOVED***
+ margin: 0px;
+ padding: 0px;
+***REMOVED***
+
+body ***REMOVED***
+  background-color:#fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  transition: all .5s ease-out;
+***REMOVED***
+
+.container***REMOVED***
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 20px;
+***REMOVED***
+
+.container.defaults***REMOVED***
+  display: flex;
+***REMOVED***
+
+.container.defaults section img***REMOVED***
+  width: 50px;
+  cursor: pointer;
+  transition: all .5s ease-out;
+  transform: scale(1) rotate(0deg);
+  margin: 0 auto; 
+***REMOVED***
+
+.container.defaults section img:hover***REMOVED***
+  transform: scale(1.5) rotate(180deg);
+***REMOVED***
+
+.container.defaults section.settings***REMOVED***
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+***REMOVED***
+
+.container.defaults section.settings a***REMOVED***
+  display: block;
+  color: green;
+  font-weight: bolder;
+  text-decoration: none;
+  padding-top: 10px;
+  text-align: center;
+***REMOVED***
+.container.defaults section.settings a:hover***REMOVED***
+  color: red;
+***REMOVED***
+
+.container.defaults section.settings span***REMOVED***
+  display: block;
+  color: green;
+  font-weight: bolder;
+***REMOVED***
+
+.container.defaults section.sheet_info***REMOVED***
+flex-grow: 1;
+***REMOVED***
+
+.container.dayparts ***REMOVED***
+    max-width: 885px;
+    margin: auto;
+    padding-bottom: 20px;
+***REMOVED***
+
+.container.dayparts h3***REMOVED***
+  font-size: 18px;
+***REMOVED***
+
+section***REMOVED***
+/*   border: 1px solid black; */
+  margin: 10px 0;
+  padding: 20px;
+  background-color: rgb(0 0 0 / 5%);
+***REMOVED***
+
+h1***REMOVED***
+  text-align: center;
+  padding-top: 30px;
+***REMOVED***
+
+h3***REMOVED***
+  text-transform: uppercase;
+***REMOVED***
+
+.show***REMOVED***
+  display: block
+***REMOVED***
+
+.options_toggle***REMOVED***
+  display: flex;
+  justify-content: flex-end;
+***REMOVED***
+
+button***REMOVED***
+  font-size: 10px;
+  font-family: inherit;
+  display: block;
+  background-color: white;
+  padding: 5px;
+  color:black;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+***REMOVED***
+
+button.blue, a.blue***REMOVED***
+  font-size: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .3s ease-in;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: auto;
+  position: relative;
+***REMOVED***
+
+button.blue.go***REMOVED***
+  background-color: green;
+***REMOVED***
+
+button.blue.large, a.blue.large***REMOVED***
+  font-size: 14px;
+  padding: 10px;
+  margin: 0;
+***REMOVED***
+
+button.blue:hover, a.blue:hover***REMOVED***
+  background-color: white;
+  color: black;
+***REMOVED***
+button.green***REMOVED***
+  background-color: green;
+  font-size: 100%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .3s ease-in;
+  border: 1px solid green;
+  margin-top: 10px;
+  margin-left: auto;
+***REMOVED***
+button.green:hover***REMOVED***
+  background-color: white;
+  color: green;
+***REMOVED***
+button.red***REMOVED***
+  background-color: red;
+  color:white;
+***REMOVED***
+
+button.red:hover***REMOVED***
+  background-color: white;
+  color:red;
+***REMOVED***
+
+button[name="add_default"],button[name="run_sheet"]***REMOVED***
+  width: 100%;
+***REMOVED***
+
+.flex***REMOVED***
+  display: flex;
+***REMOVED***
+
+.choose_tab***REMOVED***
+  padding-left: 10px;
+***REMOVED***
+select***REMOVED***
+
+***REMOVED***
+.choose_spreedsheet .flex div, .edit_sheets div***REMOVED***
+  flex-basis: 50%;
+***REMOVED***
+
+.delete_spreedsheet select***REMOVED***
+  margin-left: 20px;
+  width: 90%;
+***REMOVED***
+
+.edit_sheets input***REMOVED***
+  min-width: 50%;
+***REMOVED***
+
+.email***REMOVED***
+  color: green;
+***REMOVED***
+
+.emailcode***REMOVED***
+  max-width: 1158px;
+***REMOVED***
+
+.emailcode .instructions, .output .top***REMOVED***
+  display: flex;
+  justify-content: space-between;
+***REMOVED***
+
+.output_items***REMOVED***
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+***REMOVED***
+
+.emailcode span, .output .instructions span***REMOVED***
+  font-size: 12px;
+  display: block;
+***REMOVED***
+
+.output .content .copy-paste***REMOVED***
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+***REMOVED***
+
+#main_notifications***REMOVED***
+  max-width: 800px;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+***REMOVED***
+
+.cells .titles, .dcells .titles***REMOVED***
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+***REMOVED***
+.cells .headline,.dcells .headline***REMOVED***
+  padding: 5px;
+  font-weight: bold;
+***REMOVED***
+.cells .daypart,.dcells .daypart***REMOVED***
+  display: flex;
+  justify-content: space-between;
+***REMOVED***
+.cell_1***REMOVED***
+  width: 180px;
+***REMOVED***
+.cell_2***REMOVED***
+  width: 120px;
+***REMOVED***
+.cell_3***REMOVED***
+  width: 180px;
+***REMOVED***
+.cell_4***REMOVED***
+  width: 290px;
+  overflow: scroll;
+***REMOVED***
+.cell_5***REMOVED***
+  width: 290px;
+  overflow: scroll;
+***REMOVED***
+
+.dedicated .titles div, .dedicated .cell_1, .dedicated .cell_2 ***REMOVED***
+    width: 100px;
+***REMOVED***
+
+.dedicated .titles div:nth-of-type(3), .dedicated .cell_3 ***REMOVED***
+    width: 220px;
+***REMOVED***
+
+.dedicated .cell_4, .dedicated .titles div:last-of-type ***REMOVED***
+    width: 450px;
+    overflow: hidden;
+***REMOVED***
+
+.dedicated .titles div, .dedicated .cell_1, .dedicated .cell_2***REMOVED***
+  width: 100px;
+***REMOVED***
+.dedicated .titles div:nth-of-type(3), .dedicated .cell_3***REMOVED***
+  width: 220px;
+***REMOVED***
+.dedicated .cell_4,.dedicated .titles div:last-of-type***REMOVED***
+  width: 450px;
+  overflow: hidden;
+***REMOVED***
+
+.dedicated .top***REMOVED***
+  display: flex;
+  justify-content: space-between;
+***REMOVED***
+
+.dedicated .instructions***REMOVED***
+  font-size: 12px;
+***REMOVED***
+
+.daypart***REMOVED***
+  border-bottom: 1px solid white;
+***REMOVED***
+.daypart div***REMOVED***
+  padding: 5px;
+***REMOVED***
+.dayparts .daypart:last-of-type***REMOVED***
+  border-bottom: none;
+***REMOVED***
+.dayparts***REMOVED***
+  margin: 5px 0;
+  font-size: 12px;
+  background: none;
+***REMOVED***
+.dayparts.gray***REMOVED***
+  background-color:#D9D9D9;
+***REMOVED***
+.dayparts.yellow***REMOVED***
+  background-color:#FFF3BE;
+***REMOVED***
+.dayparts.green***REMOVED***
+  background-color:#B1DEA9;
+***REMOVED***
+.dayparts.blue***REMOVED***
+  background-color:#B0CDF1;
+***REMOVED***
+.dayparts.purple***REMOVED***
+  background-color:#D0B0F1;
+***REMOVED***
+
+.dedicated .dcells .daypart***REMOVED***
+  cursor: pointer;
+  background-color: #B8D6DA;
+***REMOVED***
+
+.dedicated .dcells .daypart:hover***REMOVED***
+  background-color: #B2BABB;
+***REMOVED***
+
+.dedicated .dcells .daypart.clicked***REMOVED***
+  background-color: #B8DABB;
+***REMOVED***
+
+#main_notifications.warning***REMOVED***
+  background-color: #FFC300;
+***REMOVED***
+
+#main_notifications.success***REMOVED***
+  background-color: #00C703;
+***REMOVED***
+
+#main_notifications.error***REMOVED***
+  background-color: #C70039;
+***REMOVED***
+
+#main_notifications .words***REMOVED***
+  flex-grow: 2;
+***REMOVED***
+
+#main_notifications .clear***REMOVED***
+  cursor: pointer;
+***REMOVED***
+
+.hide***REMOVED***
+  display: none !important;
+***REMOVED***
+
+.container.cells span***REMOVED***
+  font-size: 12px;
+  margin-bottom: 10px;
+  display: block;
+***REMOVED***
+
+.container.dayparts .dayparts select***REMOVED***
+  margin: 10px 0 10px 0;
+***REMOVED***
+
+.container.images***REMOVED***
+  display: flex;
+  padding-bottom: 20px;
+***REMOVED***
+
+.container.images h3***REMOVED***
+  flex-basis: 100%;
+***REMOVED***
+
+.container.images div***REMOVED***
+flex-basis: 40%;
+***REMOVED***
+
+.container.images input***REMOVED***
+  margin: 10px 0;
+***REMOVED***
+
+.container.images section***REMOVED***
+  flex-basis: 33%;
+  height: 300px;
+  margin: auto 5px;
+***REMOVED***
+
+.container.images section:first-of-type***REMOVED***
+  margin: auto 5px auto 0;
+***REMOVED***
+.container.images section:last-of-type***REMOVED***
+  margin: auto 0 auto 5px;
+***REMOVED***
+.current_imgs***REMOVED***
+  display: flex;
+  flex-grow: 1;
+  max-width: 1160px;
+  margin: 0 !important;
+  display: block;
+***REMOVED***
+
+.current_imgs div > span***REMOVED***
+  font-size: 12px;
+  margin-bottom: 10px;
+  display: block;
+***REMOVED***
+
+.current_imgs .images, .select_zip .zips***REMOVED***
+  overflow-y: scroll;
+  height: 98%
+***REMOVED***
+
+.current_imgs img***REMOVED***
+  height: 150px;
+***REMOVED***
+
+.current_imgs h3***REMOVED***
+/*   background-color: white; */
+***REMOVED***
+
+.current_imgs ul, .select_zip .zips***REMOVED***
+  list-style: none;
+***REMOVED***
+
+.current_imgs li***REMOVED***
+  padding-bottom: 10px;
+***REMOVED***
+
+.current_imgs .buttons***REMOVED***
+  display: flex;
+  justify-content: space-between;
+***REMOVED***
+
+.current_imgs .do_zip***REMOVED***
+  display: flex;
+  justify-content: center;
+***REMOVED***
+
+.current_imgs .do_zip input***REMOVED***
+  margin-left: 5px;
+***REMOVED***
+
+button.blue.large:disabled, a.blue.disabled***REMOVED***
+  background: #dddddd;
+***REMOVED***
+
+/* DAYPART CODE */
+/* Container **/
+.container.dayparts .daypart-preview ***REMOVED***
+  position: relative;
+***REMOVED***
+
+.container.dayparts .top***REMOVED***
+  display: flex;
+  justify-content: space-between;
+***REMOVED***
+
+.container.dayparts span***REMOVED***
+  margin: 10px 0;
+  display: block;
+  padding-right: 5px;
+  font-weight: bold;
+***REMOVED***
+
+.container.dayparts .daypart-preview***REMOVED***
+  margin-bottom: 40px;
+***REMOVED***
+
+.container.dayparts .daypart-preview:last-of-type***REMOVED***
+  margin-bottom: 0;
+***REMOVED***
+
+.container.dayparts .daypart-preview .slide ***REMOVED***
+  position: relative;
+  font-size: 0;
+  padding: 0;
+  background-color: black;
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+.container.dayparts .slide.empty-link a***REMOVED***
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+.container.dayparts .slide.single-imgs .album-thumbnail***REMOVED***
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+.container.dayparts .slide.single-imgs .album-thumbnail:last-of-type***REMOVED***
+  width: 800px;
+  height: 235px;
+***REMOVED***
+
+.container.dayparts .slide.single-imgs .album-container***REMOVED***
+  margin: 0;
+***REMOVED***
+
+.container.dayparts .slide.single-imgs .album-set***REMOVED***
+  margin-top: 0;
+***REMOVED***
+
+.container.dayparts .slide .album-thumbnail:first-of-type,
+.container.dayparts .slide .album-thumbnail:last-of-type***REMOVED***
+  height: 150px;
+  width: 150px;
+***REMOVED***
+.container.dayparts .slide.no-lines-larger-imgs .album-container:first-of-type .album-thumbnail,
+.container.dayparts .slide.no-lines-larger-imgs .album-container:last-of-type .album-thumbnail***REMOVED***
+  height: 150px !important;
+  width: 150px !important;
+***REMOVED***
+
+.container.dayparts .slide.three-up .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 150px;
+  width: 150px;
+***REMOVED***
+
+.container.dayparts .slide.three-up .album-container:first-of-type .album-artist,
+.container.dayparts .slide.three-up .album-container:last-of-type .album-artist***REMOVED***
+  padding: 10px 0;
+***REMOVED***
+
+.container.dayparts .slide .album-container:nth-of-type(2) .album-thumbnail,
+.container.dayparts .slide .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.container.dayparts .slide.one-line-text-under .album-container,
+.container.dayparts .slide.one-line-lrg-images .album-container:first-of-type,
+.container.dayparts .slide.one-line-lrg-images .album-container:last-of-type,***REMOVED***
+  height: 150px;
+***REMOVED***
+
+.container.dayparts .slide.no-lines-larger-imgs .album-thumbnail:first-of-type,
+.container.dayparts .slide.no-lines-larger-imgs .album-thumbnail:last-of-type***REMOVED***
+  height: 170px;
+  width: 170px;
+***REMOVED***
+
+.container.dayparts .slide.no-lines-larger-imgs .album-container:nth-of-type(2) .album-thumbnail,
+.container.dayparts .slide.no-lines-larger-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 190px;
+  width: 190px;
+***REMOVED***
+
+.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(2),
+.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(3)***REMOVED***
+    height: 175px;
+    margin: -30px 10px 10px 10px;
+***REMOVED***
+
+.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(2) .album-thumbnail,
+.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+  height: 175px;
+  width: 175px;
+***REMOVED***
+
+.container.dayparts .slide.one-line-text-under .album-container .album-thumbnail,
+.container.dayparts .slide.one-line-lrg-images .album-container:first-of-type .album-thumbnail,
+.container.dayparts .slide.one-line-lrg-images .album-container:last-of-type .album-thumbnail***REMOVED***
+  height: 150px;
+  width: 150px;
+***REMOVED***
+
+.container.dayparts .slide.one-line-lrg-images .album-container***REMOVED***
+  height: 180px;
+  margin: 0 10px;
+***REMOVED***
+
+
+.container.dayparts .slide.one-line-lrg-images .album-container .album-thumbnail***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.container.dayparts .slide.one-line-lrg-images .headline***REMOVED***
+  padding-top: 0;
+***REMOVED***
+
+.container.dayparts .slide.one-line-lrg-images .album-container:nth-of-type(1) .album-thumbnail,
+.container.dayparts .slide.one-line-lrg-images .album-container:nth-of-type(4) .album-thumbnail ***REMOVED***
+  margin-top: 10px;
+***REMOVED***
+
+.container.dayparts .bg-link ***REMOVED***
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+***REMOVED***
+
+/* Headline */
+.container.dayparts .headline ***REMOVED***
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 6px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  font-family: Helvetica;
+  pointer-events: none;
+***REMOVED***
+
+.container.dayparts .hover-text.no-headline .headline***REMOVED***
+  font-size: 9px;
+***REMOVED***
+
+/** Headline Hashtag **/
+.container.dayparts .headline-hashtag ***REMOVED***
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: initial;
+***REMOVED***
+
+/** Album Set **/
+.container.dayparts .album-set ***REMOVED***
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1px;
+  display: flex;
+***REMOVED***
+
+
+/** Album Container **/
+.container.dayparts .album-container ***REMOVED***
+  position: relative;
+  text-align: center;
+  margin: 10px;
+***REMOVED***
+
+
+.container.dayparts .album-container:hover .listen-now ***REMOVED***
+  opacity: 1;
+  background: url('images/overlay.png');
+  width: 160px;
+  height: 160px;
+***REMOVED***
+
+
+.container.dayparts .listen-now ***REMOVED***
+  opacity: 0;
+  position: absolute;
+  background-color: black;
+***REMOVED***
+
+
+/** Featuring Text **/
+.container.dayparts .featuring-text ***REMOVED***
+  padding-top: 7px;
+  color: white;
+  font-size: 11px;
+  font-family: Helvetica;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: .5px;
+  text-align: center;
+***REMOVED***
+
+/** Album Artist **/
+.container.dayparts .album-artist ***REMOVED***
+  color: white;
+  font-size: 11px;
+  font-family: Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: .6px;
+
+***REMOVED***
+.container.dayparts .album-artist2 ***REMOVED***
+  color: white;
+  font-size: 11px;
+  font-family: Helvetica;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: .6px;
+  width: 160px;
+
+***REMOVED***
+
+/* .container.dayparts .slide.animated-imgs***REMOVED***
+  height: 100%;
+***REMOVED*** */
+
+.container.dayparts .slide.animated-imgs .content***REMOVED***
+  position: relative;
+  height: 100%;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-set***REMOVED***
+  height: 100%;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-container***REMOVED***
+  position: relative;
+  height: 100%;
+***REMOVED***
+
+.container.dayparts .album-container:nth-of-type(1), .container.dayparts .album-container:nth-of-type(4)***REMOVED***
+  padding-top: 8px;
+  width: 150px;
+***REMOVED***
+
+.container.dayparts .single-imgs .album-container:nth-of-type(1)***REMOVED***
+  width: 100%;
+  padding-top: 0;
+***REMOVED***
+
+
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(1), .container.dayparts .slide.animated-imgs .album-container:nth-of-type(4)***REMOVED***
+  width: 150px;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(2), .container.dayparts .slide.animated-imgs .album-container:nth-of-type(3)***REMOVED***
+  width: 180px;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-container img***REMOVED***
+  left: 0;
+  position: absolute;
+  transform-origin: center center;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-container img***REMOVED***
+  left: 0;
+  position: absolute;
+  transform-origin: center center;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(1) img, .container.dayparts .slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+  top: 30px;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(2) img, .container.dayparts .slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+  top: 10px;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .featuring-text***REMOVED***
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-artist***REMOVED***
+  position: absolute;
+    bottom: 5px;
+    width: 100%;
+***REMOVED***
+
+.container.dayparts .slide.animated-imgs .album-container a***REMOVED***
+  width: 100%;
+  height: 100%;
+  left:0;
+  position: absolute;
+  z-index: 10;
+***REMOVED***
+
+@keyframes breath-1st ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+@keyframes breath-2nd ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+@keyframes breath-3rd ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+@keyframes breath-4th ***REMOVED***
+  0 ***REMOVED***transform: scale(1)***REMOVED***
+  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
+  25% ***REMOVED***transform: scale(1)***REMOVED***
+***REMOVED***
+
+.slide.animated-imgs .album-container:nth-of-type(1) img***REMOVED***
+  position: absolute;
+  left: 0;
+  transform-origin: center center;
+  animation: breath-1st 8s ease-in-out 0s infinite;
+***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(2) img***REMOVED***
+  animation: breath-2nd 8s ease-in-out 2s infinite;
+***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+  animation: breath-3rd 8s ease-in-out 4s infinite;
+***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+  animation: breath-4th 8s ease-in-out 6s infinite;
+***REMOVED***
+
+.slide.slider***REMOVED***
+  overflow: hidden;
+***REMOVED***
+
+.container.dayparts .slide.slider .album-thumbnail:first-of-type, .container.dayparts .slide.slider .album-thumbnail:last-of-type ***REMOVED***
+    height: 180px;
+    width: 180px;
+***REMOVED***
+
+.container.dayparts .slide.slider .album-container:nth-of-type(1), .container.dayparts .slide.slider .album-container:nth-of-type(4)***REMOVED***
+  padding-top: 0;
+  width: 180px;
+***REMOVED***
+
+.slide.slider .album-container ***REMOVED***
+  margin: 10px 5px;
+***REMOVED***
+
+.slide.slider***REMOVED***
+  position: relative;
+***REMOVED***
+
+.slider .content***REMOVED***
+  position: absolute;
+  left: 15px;
+  transition: left 0.8s ease-in-out;
+***REMOVED***
+
+.final-date***REMOVED***
+  float:right;
+***REMOVED***
+
+.zipBtns***REMOVED***
+  padding: 5px 0;
+***REMOVED***
+
+.zipBtns button***REMOVED***
+  margin-left: 0;
+  font-size: 12px;
+***REMOVED***
+
+.zipBtns button[name="open_zip"]:hover***REMOVED***
+  background-color: green;
+  color:white;
+***REMOVED***
+
+.zipBtns button[name="delete-zip"]***REMOVED***
+  padding: 5px 10px;
+***REMOVED***
+
+.popup***REMOVED***
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+***REMOVED***
+
+.popup .info***REMOVED***
+  width: 1000px;
+  height: 700px;
+  position: absolute;
+  z-index: 300;
+  top: 60px;
+  overflow: hidden;
+  background-color: white;
+  border: 5px solid black;
+***REMOVED***
+
+.popup .close***REMOVED***
+  width: calc(100% - 10px);
+  background-color: white;
+  text-align: right;
+  padding: 5px;
+  cursor: pointer;
+***REMOVED***
+
+.popup .close img, #msg .close img***REMOVED***
+  width: 30px;
+  height: auto;
+  margin: 20px;
+***REMOVED***
+
+#msg .close img***REMOVED***
+  margin: 0;
+***REMOVED***
+
+.popup .words***REMOVED***
+  width: calc(100% - 100px);
+  height: 550px;
+  overflow-y: scroll;
+  padding: 20px 20px 0 20px;
+  overflow-wrap: anywhere;
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid black;
+***REMOVED***
+
+.popup input***REMOVED***
+  border-radius: 0;
+  padding: 10px;
+  border: 1px solid black;
+  width: 98%;
+***REMOVED***
+
+
+.popup input[type="submit"]***REMOVED***
+  width: 100.5%;
+***REMOVED***
+
+#popup-settings .radioBtns***REMOVED***
+  display: flex;
+***REMOVED***
+#popup-settings .radioBtns input***REMOVED***
+  width: 15%;
+***REMOVED***
+
+#popup-settings .close***REMOVED***
+  display: flex;
+  justify-content: space-between;
+***REMOVED***
+
+#popup-settings .close span***REMOVED***
+  font-weight: bold;
+  padding: 20px;
+  font-size: 24px;
+***REMOVED***
+
+
+.settings-form***REMOVED***
+  padding-bottom: 20px;
+***REMOVED***
+
+.options .title***REMOVED***
+  font-weight: bold;
+  font-size: 18px;
+  padding: 30px 0 20px 0;
+***REMOVED***
+
+pre***REMOVED***
+  padding: 10px 0;
+***REMOVED***
+code***REMOVED***
+  white-space: break-spaces;
+***REMOVED***
+
+.main.loader***REMOVED***
+  display: flex;
+  margin: auto;
+  padding: 20px 0;
+***REMOVED***
+
+#how-to***REMOVED***
+  max-width: 900px;
+  padding: 50px;
+  margin: auto;
+***REMOVED***
+
+#how-to ol***REMOVED***
+  margin: 30px 0 0 15px;
+***REMOVED***
+
+#how-to ul***REMOVED***
+  margin: 5px 0 0 15px;
+***REMOVED***
+
+#how-to ol ul***REMOVED***
+  margin-left: 30px;
+***REMOVED***
+
+#how-to ul ol***REMOVED***
+  margin-top: 5px;
+***REMOVED***
+
+#how-to li***REMOVED***
+  padding:5px 0;
+***REMOVED***
+
+#how-to code***REMOVED***
+  font-size: 12px;
+***REMOVED***
+#msg***REMOVED***
+  width: 70%;
+  padding: 10px 10px 20px 10px;
+  position: fixed;
+  z-index: 1000;
+  margin: auto;
+  text-align: center;
+  border-radius: 0;
+  top: 150px;
+  margin-left: calc(70%/5);
+  box-shadow: 0px 0px 80px rgb(0, 0, 0, .5);
+***REMOVED***
+#msg .close***REMOVED***
+  text-align: right;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+***REMOVED***
+#msg.error***REMOVED***
+  background-color: #C70039;
+  border: 5px solid #900C3F;
+  color: #ffffff;
+***REMOVED***
+#msg.error .close***REMOVED***
+  color: #ffffff;
+***REMOVED***
+
+#msg.success***REMOVED***
+  background-color: #03C700;
+  border: 5px solid #0C9010;
+  color: #000000;
+***REMOVED***
+#msg.success .close***REMOVED***
+  color: #000000;
+***REMOVED***
+
+#msg.message***REMOVED***
+  background-color: #FFC300;
+  border: 5px solid #FFAA00;
+  color: #000000;
+***REMOVED***
+#msg.message .close***REMOVED***
+  color: #000000;
+***REMOVED***
+input[type="submit"]***REMOVED***
+  cursor: pointer;
+***REMOVED***
+
+.container.images .crop***REMOVED***
+  flex-basis: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-top: 20px;
+***REMOVED***
+
+.crop .holder***REMOVED***
+  display: flex;
+***REMOVED***
+
+.crop .holder img***REMOVED***
+  /* margin: 5px; */
+  height: 150px;
+  width: auto;
+  cursor: pointer;
+***REMOVED***
+
+#popup-crop.popup .info ***REMOVED***
+  top: 15px;
+  width: 800px;
+  height: 750px;
+***REMOVED***
+
+#popup-crop .image-holder***REMOVED***
+  display: block;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  overflow: hidden;
+***REMOVED***
+
+/* #popup-crop img***REMOVED***
+  text-align: center;
+  margin: auto;
+  z-index: 10;
+  position: absolute;
+  height: 250px;
+  width: auto;
+***REMOVED*** */
+
+#popup-crop .window***REMOVED***
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 0 99999px rgb(0 255 0 / 50%);
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  top: calc((830px - 250px) / 2);
+  left: calc((800px - 250px) / 2);
+***REMOVED***
+
+#popup-crop img.portrait***REMOVED***
+  height: auto;
+  width: 250px;
+***REMOVED***
+
+#popup-crop img.landscape***REMOVED***
+  height: 250px;
+  width: auto;
+***REMOVED***
+
+#popup-crop .crop_image***REMOVED***
+  position: absolute;
+  bottom: 150px;
+  left: calc((800px / 2) - 50px);
+  z-index: 200;
+***REMOVED***
+
+.zips-holder, .csvs-holder***REMOVED***
+  overflow-y: scroll;
+  height: 470px;
+***REMOVED***
+
+.zip-holder, .csv-holder***REMOVED***
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+***REMOVED***
+
+.zip-holder .zip, .csvs-holder .csv***REMOVED***
+  border: 1px solid black;
+  padding: 5px;
+  background-color: green;
+  cursor: pointer;
+  color: white;
+***REMOVED***
+
+.zip-holder .zip-delete, .csvs-holder .csv-delete***REMOVED***
+  border: 1px solid black;
+  padding: 5px;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+***REMOVED***
+
+.csv-upload***REMOVED***
+  padding-top: 20px;
+***REMOVED***
+
+.csv-func-holder***REMOVED***
+  display: flex;
+  justify-content: space-evenly;
+***REMOVED***
+
+.container.dedicated h3***REMOVED***
+  float:left
+***REMOVED***
+
+.container.dedicated a***REMOVED***
+  margin-left:20px;
+***REMOVED***
+
+.container.dedicated a + div***REMOVED***
+  clear: both;
+  padding-top: 20px;
+***REMOVED***
+
+.tooltip .tooltiptext***REMOVED***
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 20;
+  bottom: 100%;
+  left: 50%;
+  margin-left: calc(-150px/2);
+  margin-bottom: 10px;
+  border: 1px solid white;
+***REMOVED***
+
+.tooltip:hover .tooltiptext ***REMOVED***
+  visibility: visible;
+***REMOVED***
+
+.tooltip .tooltiptext::after ***REMOVED***
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+***REMOVED***
+
+.imgs-loading***REMOVED***
+  padding: 20px 50px;
+***REMOVED***
+
+.img-holder***REMOVED***
+  position: relative;
+  margin: 5px;
+  height: 150px;
+***REMOVED***
+
+.number***REMOVED***
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  background-color: black;
+  padding: 5px 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  opacity: .6;
+***REMOVED***
+
+.img-holder img***REMOVED***
+  position: relative;
+  width: 100%;
+  text-align: center;
+  z-index: 0;
+***REMOVED***
+
+.slide.hover-text .album-container .overlay***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0, .8);
+  cursor: pointer;
+***REMOVED***
+
+.slide.hover-text .album-container:hover .overlay***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+.slide.hover-text .album-container img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
+  transition: all 0.8s ease-in-out;
+***REMOVED***
+
+.slide.hover-text .album-container:hover img***REMOVED***
+  box-shadow: 0px 0px 15px rgb(255, 255, 255, 1);
+***REMOVED***
+
+.container.dayparts .slide.hover-text .album-thumbnail:first-of-type, .container.dayparts .slide.hover-text .album-thumbnail:last-of-type ***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.container.dayparts .slide.hover-text .album-container:nth-of-type(1), .container.dayparts .slide.hover-text .album-container:nth-of-type(4) ***REMOVED***
+  padding-top: 0;
+  width: 180px;
+***REMOVED***
+
+
+.slide.hover-text .album-container .overlay***REMOVED***
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+***REMOVED***
+
+.slide.hover-text .album-container:hover .overlay***REMOVED***
+  opacity: 1;
+***REMOVED***
+
+.slide.one-image-text .album-container .album-info***REMOVED***
+  display: flex;
+  flex-direction: row;
+***REMOVED***
+
+.slide.one-image-text .album-thumbnail, .slide.one-image-text .img***REMOVED***
+  height: 215px;
+  width: 215px;
+***REMOVED***
+
+.slide.one-image-text .featuring-text, .slide.one-image-text .featuring-text2***REMOVED***
+  font-size: 17px;
+  text-align: left;
+  font-weight: bold;
+***REMOVED***
+
+.slide.one-image-text .album-artist, .slide.one-image-text .album-artist2***REMOVED***
+  text-align: left;
+***REMOVED***
+
+.slide.one-image-text .img***REMOVED***
+  cursor: pointer;
+***REMOVED***
+
+.slide.one-image-text .img .listen-now***REMOVED***
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  position: absolute;
+  z-index: 10;
+  height: 215px;
+  width: 215px;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  top: 40%;
+***REMOVED***
+
+.slide.one-image-text .img .overlay***REMOVED***
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  height: 215px;
+  width: 215px;
+  z-index: 5;
+  background-color: black;
+***REMOVED***
+.slide.one-image-text .img:hover .listen-now***REMOVED***
+  opacity: 1;
+***REMOVED***
+.slide.one-image-text .img:hover .overlay***REMOVED***
+  opacity: .7;
+***REMOVED***
+
+.slide.one-image-text .album-container .info***REMOVED***
+  flex-basis: 60%;
+  padding-left: 20px;
+***REMOVED***
+
+.container.dayparts .tv .album-container:nth-of-type(1), .container.dayparts .tv .album-container:nth-of-type(4)***REMOVED***
+  padding-top: 0;
+  width: 180px;
+***REMOVED***
+
+.slide.tv .album-container***REMOVED***
+  position: relative;
+***REMOVED***
+
+.slide.tv .album-container a***REMOVED***
+  background: #000000 url('site-images/filter-logo.png') no-repeat center;
+  background-size: 50%;
+  opacity: 0;
+  transition: opacity .3s;
+  width: 180px;
+  height: 180px;
+  display: block;
+  position: absolute;
+  z-index: 100;
+***REMOVED***
+
+.slide.tv .album-container:hover a***REMOVED***
+  opacity: .7;
+***REMOVED***
+
+.slide.tv .album-thumbnail:first-of-type, .slide.tv .album-thumbnail:last-of-type***REMOVED***
+  height: 180px;
+  width: 180px;
+***REMOVED***
+
+.slide.tv .album-container***REMOVED***
+  position: relative;
+***REMOVED***
+
+.slide.tv .coverWclipping***REMOVED***
+  position: relative;
+  z-index: 0;
+***REMOVED***
+
+.slide.tv .all-snow-1***REMOVED***
+  position: absolute;
+  z-index: 5;
+  animation: noSnow 0s linear 1s 1 normal forwards;
+***REMOVED***
+
+.slide.tv .all-snow-2***REMOVED***
+  position: absolute;
+  z-index: 5;
+  animation: noSnow 0s linear 1.3s 1 normal forwards;
+***REMOVED***
+
+.slide.tv .all-snow-3***REMOVED***
+  position: absolute;
+  z-index: 5;
+  animation: noSnow 0s linear 1.6s 1 normal forwards;
+***REMOVED***
+
+.slide.tv .all-snow-4***REMOVED***
+  position: absolute;
+  z-index: 5;
+  animation: noSnow 0s linear 1.9s 1 normal forwards;
+***REMOVED***
+
+@keyframes noSnow***REMOVED***
+  0% ***REMOVED***
+    opacity: 1;
+  ***REMOVED***
+  100% ***REMOVED***
+    opacity: 0;
+  ***REMOVED***
+***REMOVED***
+
+.slide.tv .image-holder***REMOVED***
+  width: 180px;
+  height: 180px;
+  clip-path: url(#maskBackground);
+  position: absolute;
+***REMOVED***
+
+.slide.tv .image-holder .play-word-holder***REMOVED***
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+***REMOVED***
+
+.slide.tv .image-holder #play-word-holder-1***REMOVED***
+  animation-name: imageJump;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-delay: 7s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+***REMOVED***
+
+.slide.tv .image-holder #play-word-holder-2***REMOVED***
+  animation-name: jumpAroundTop, panUpImage;
+  animation-duration: .2s, .3s;
+  animation-timing-function: linear, linear;
+  animation-delay: 14s, 14.5s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+***REMOVED***
+
+.slide.tv .image-holder #play-word-holder-3***REMOVED***
+  animation-name: flicker;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 8s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+***REMOVED***
+
+.slide.tv .image-holder #play-word-holder-4***REMOVED***
+  animation-name: jumpAroundTop, panUpImage;
+  animation-duration: .2s, .3s;
+  animation-timing-function: linear, linear;
+  animation-delay: 3s, 3.5s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+***REMOVED***
+
+.slide.tv .image-holder .play-word***REMOVED***
+  position: absolute;
+  left: 0;
+  z-index: 20;
+  width: 30%;
+***REMOVED***
+
+.slide.tv .image-holder .play-word-blue***REMOVED***
+  position: absolute;
+  left: -2px;
+  z-index: 10;
+  opacity: .2;
+  width: 30%;
+***REMOVED***
+
+.slide.tv .image-holder .play-word-red***REMOVED***
+  position: absolute;
+  left: 2px;
+  z-index: 0;
+  opacity: .2;
+  width: 30%;
+***REMOVED***
+
+
+.slide.tv .image-holder .maskedImageOverlay***REMOVED***
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 180px;
+  height: 180px;
+  background-size: 100%;
+  opacity: .3;
+  mix-blend-mode: hard-light;
+  z-index: 10;
+  display: block;
+  filter: hue-rotate(144deg);
+***REMOVED***
+
+.slide.tv .image-holder .maskedImageTop-1***REMOVED***
+  animation-name: imageJump;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-delay: 7s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  position: relative;
+  z-index: 0;
+***REMOVED***
+
+.slide.tv .image-holder .maskedImageTop-2***REMOVED***
+  animation-name: jumpAroundTop, panUpImage;
+  animation-duration: .2s, .3s;
+  animation-timing-function: linear, linear;
+  animation-delay: 14s, 14.5s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+  position: relative;
+  z-index: 0;
+***REMOVED***
+
+.slide.tv .image-holder .maskedImageOverlay.two***REMOVED***
+  animation-name: jumpAroundTop, panUpImage;
+  animation-duration: .2s, .3s;
+  animation-timing-function: linear, linear;
+  animation-delay: 14s, 14.5s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+  position: absolute;
+  z-index: 5;
+***REMOVED***
+
+.slide.tv .image-holder .maskedImageTop-3***REMOVED***
+  animation-name: flicker;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 8s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+  position: relative;
+  z-index: 0;
+***REMOVED***
+
+.slide.tv .image-holder .maskedImageTop-4***REMOVED***
+  animation-name: jumpAroundTop, panUpImage;
+  animation-duration: .2s, .3s;
+  animation-timing-function: linear, linear;
+  animation-delay: 3s, 3.5s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+  position: relative;
+  z-index: 0;
+***REMOVED***
+
+@keyframes jumpAroundTop***REMOVED***
+  0% ***REMOVED***
+    margin-top: 0px;
+  ***REMOVED***
+  50% ***REMOVED***
+    margin-top: -30px;
+  ***REMOVED***
+  100% ***REMOVED***
+    margin-top: 0px;
+  ***REMOVED***
+***REMOVED***
+
+@keyframes panUpImage***REMOVED***
+  0% ***REMOVED***
+    margin-top: 0;
+  ***REMOVED***
+  100% ***REMOVED***
+    margin-top: -180px;
+  ***REMOVED***
+***REMOVED***
+
+
+@keyframes flicker***REMOVED***
+  0% ***REMOVED***
+  opacity: 0.4;
+  ***REMOVED***
+  5% ***REMOVED***
+  opacity: 0.5;
+  ***REMOVED***
+  10% ***REMOVED***
+  opacity: 0.6;
+  ***REMOVED***
+  15% ***REMOVED***
+  opacity: 0.85;
+  ***REMOVED***
+  25% ***REMOVED***
+  opacity: 0.5;
+  ***REMOVED***
+  30% ***REMOVED***
+  opacity: 1;
+  ***REMOVED***
+  35% ***REMOVED***
+  opacity: 0.1;
+  ***REMOVED***
+  40% ***REMOVED***
+  opacity: 0.25;
+  ***REMOVED***
+  45% ***REMOVED***
+  opacity: 0.5;
+  ***REMOVED***
+  60% ***REMOVED***
+  opacity: 1;
+  ***REMOVED***
+  70% ***REMOVED***
+  opacity: 0.85;
+  ***REMOVED***
+  80% ***REMOVED***
+  opacity: 0.4;
+  ***REMOVED***
+  90% ***REMOVED***
+  opacity: 0.5;
+  ***REMOVED***
+  100% ***REMOVED***
+  opacity: 1;
+  ***REMOVED***
+***REMOVED***
+
+@keyframes imageJump***REMOVED***
+  10%***REMOVED***
+    transform: translateX(10px);
+    filter: blur(3px);
+  ***REMOVED***
+  20%***REMOVED***
+    transform: translateX(4px);
+    filter: blur(0);
+  ***REMOVED***
+  30%***REMOVED***
+    transform: translateX(-5px) skew(0deg);
+    filter: blur(3px);
+  ***REMOVED***
+  40%***REMOVED***
+    transform: translateX(7px);
+    filter: blur(0);
+  ***REMOVED***
+  50%***REMOVED***
+    transform: translateX(3px);
+  ***REMOVED***
+  60%***REMOVED***
+    transform: translateX(2px);
+    filter: blur(5px);
+  ***REMOVED***
+  70%***REMOVED***
+    transform: translateX(-2px);
+    filter: blur(0);
+  ***REMOVED***
+  80%***REMOVED***
+    transform: translateX(3px);
+    filter: blur(2px);
+  ***REMOVED***
+  90%***REMOVED***
+    transform: translateX(-3px);
+  ***REMOVED***
+  100%***REMOVED***
+    transform: translateX(3px);
+  ***REMOVED***
+***REMOVED***
+
+.slide.tv .highlight***REMOVED***
+  opacity: .5;
+  position: absolute;
+  z-index: 10;
+***REMOVED***
+
+.snow***REMOVED***
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+***REMOVED***
+
+.slide.tv .snow-holder-window***REMOVED***
+  width: 180px;
+  height: 180px;
+  clip-path: url(#maskBackgroundForSnow);
+  z-index: 5;
+  position: absolute;
+***REMOVED***
+
+.slide.tv .snow-holder-window-slice***REMOVED***
+  width: 180px;
+  height: 180px;
+  clip-path: url(#maskBackgroundForSnow);
+  z-index: 5;
+  position: absolute;
+***REMOVED***
+
+.slide.tv .snow-holder-window-slice .snow-holder-area-1***REMOVED***
+  height: 15px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 180px;
+  opacity: 0;
+  /* animation-name: jumpSnow, panUpSnow, dessolveBottomSnow;
+  animation-duration: .1s, .3s, 1s;
+  animation-timing-function: linear, linear, linear;
+  animation-delay: 1s, 1.5s, 1.8s;
+  animation-iteration-count: 1, 1, 1;
+  animation-direction: normal, normal, normal; */
+***REMOVED***
+
+.slide.tv .snow-holder-window-slice .snow-holder-area-2***REMOVED***
+  height: 15px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 180px;
+  animation-name: jumpSnow, panUpSnow, dessolveBottomSnow;
+  animation-duration: .1s, .3s, 1s;
+  animation-timing-function: linear, linear, linear;
+  animation-delay: 14s, 14.5s, 14.8s;
+  animation-iteration-count: 1, 1, 1;
+  animation-direction: normal, normal, normal;
+***REMOVED***
+
+.slide.tv .snow-holder-window-slice .snow-holder-area-3***REMOVED***
+  height: 15px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 180px;
+  opacity: 0;
+  /* animation-name: jumpSnow, panUpSnow, dessolveBottomSnow;
+  animation-duration: .1s, .3s, 1s;
+  animation-timing-function: linear, linear, linear;
+  animation-delay: 8s, 8.5s, 8.8s;
+  animation-iteration-count: normal, normal, normal;
+  animation-direction: forwards, forwards, forwards; */
+***REMOVED***
+
+.slide.tv .snow-holder-window-slice .snow-holder-area-4***REMOVED***
+  height: 15px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 180px;
+  animation-name: jumpSnow, panUpSnow, dessolveBottomSnow;
+  animation-duration: .1s, .3s, 1s;
+  animation-timing-function: linear, linear, linear;
+  animation-delay: 3s, 3.5s, 3.8s;
+  animation-iteration-count: 1, 1, 1;
+  animation-direction: normal, normal, normal;
+***REMOVED***
+
+
+.slide.tv .snow-holder-window-slice .snow-holder***REMOVED***
+  width: 200px;
+  height: 180px;
+  margin-top: -40px;
+  margin-left: -20px;
+  background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
+  background-size: 5px 5px;
+  filter: url(#noise);
+***REMOVED***
+
+@keyframes jumpSnow***REMOVED***
+  0% ***REMOVED***
+    margin-top: 180px;
+  ***REMOVED***
+  50% ***REMOVED***
+    margin-top: 150px;
+  ***REMOVED***
+  100% ***REMOVED***
+    margin-top: 180px;
+  ***REMOVED***
+***REMOVED***
+
+@keyframes panUpSnow***REMOVED***
+  0% ***REMOVED***
+    margin-top: 180px;
+  ***REMOVED***
+  100% ***REMOVED***
+    margin-top: -15px;
+  ***REMOVED***
+***REMOVED***
+
+@keyframes dessolveBottomSnow***REMOVED***
+  0% ***REMOVED***
+    margin-top: 175px;
+  ***REMOVED***
+  100% ***REMOVED***
+    margin-top: 180px;
+  ***REMOVED***
+***REMOVED***
+
+@keyframes panUp***REMOVED***
+  0% ***REMOVED***
+    y: 0;
+  ***REMOVED***
+  100% ***REMOVED***
+    y: -100px;
+  ***REMOVED***
+***REMOVED***
+
+
+ 
+ 
+.slide.tv .snow-holder***REMOVED***
+  width: 180px;
+  height: 180px;
+  margin-top: -20px;
+  margin-left: -20px;
+  background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
+  background-size: 5px 5px;
+  filter: url(#noise);
+  position: relative;
+***REMOVED***
