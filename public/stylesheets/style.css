@@ -1,8 +1,8 @@
-body, html ***REMOVED***
+body, html {
   background-color: #f8f9fa;
-***REMOVED***
+}
 
-body > .container, body > .container-fluid ***REMOVED***
+body > .container, body > .container-fluid {
   padding: 80px 15px 0;
   background-color: #f8f9fa;
-***REMOVED***
+}

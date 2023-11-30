@@ -2,18 +2,18 @@
 
 const fs = require('fs');
 const path = require('path');
-const ***REMOVED***app***REMOVED*** = require('electron');
+const {app} = require('electron');
 const userDataPathHereInterface = app.getPath('userData');
 const data = require(path.join(userDataPathHereInterface, '/hptodata/db.json'));
 const appSavePath = path.join(userDataPathHereInterface, '/hptodata');
 const CsvReadableStream = require('csv-reader');
 const BoxSDK = require('box-node-sdk');
 
-async function checkTokenLife(env)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    if(env.token == undefined || env.expires == undefined || env.token_time == undefined)***REMOVED***
+async function checkTokenLife(env){
+  return new Promise((resolve, reject) => {
+    if(env.token == undefined || env.expires == undefined || env.token_time == undefined){
       reject(false);
-    ***REMOVED***
+    }
     const tokenTime = env.token_time;
     const currentTime = new Date();
     const expireInMinutes = env.expires / 60;
@@ -22,298 +22,298 @@ async function checkTokenLife(env)***REMOVED***
     // Convert milliseconds to minutes and return the result
     let amtOfMins = diffInMilliseconds / (1000 * 60);
 
-    if(amtOfMins > expireInMinutes)***REMOVED***
+    if(amtOfMins > expireInMinutes){
       reject(false);
-    ***REMOVED***
+    }
 
-    if(amtOfMins < expireInMinutes)***REMOVED***
+    if(amtOfMins < expireInMinutes){
       resolve(true);
-    ***REMOVED***
-  ***REMOVED***)
-***REMOVED***
+    }
+  })
+}
 
-async function checkIfLoggedIn(enviornment)***REMOVED***
+async function checkIfLoggedIn(enviornment){
 
-  window.location.href = `https://account.box.com/api/oauth2/authorize?response_type=code&client_id=$***REMOVED***enviornment.boxClientId***REMOVED***`;
+  window.location.href = `https://account.box.com/api/oauth2/authorize?response_type=code&client_id=${enviornment.boxClientId}`;
   // client = BoxSDK.getBasicClient(token);
-  // return new Promise((resolve, reject) => ***REMOVED***
+  // return new Promise((resolve, reject) => {
   //   client.users.get(client.CURRENT_USER_ID)
-  //   .then(currentUser => ***REMOVED*** console.log(currentUser); resolve(true); ***REMOVED***)
-  //   .catch(error => ***REMOVED*** console.log(error); reject('Token has expired. Cannot retrieve user'); ***REMOVED***);
-  // ***REMOVED***)
-***REMOVED***
+  //   .then(currentUser => { console.log(currentUser); resolve(true); })
+  //   .catch(error => { console.log(error); reject('Token has expired. Cannot retrieve user'); });
+  // })
+}
 
 
-function getDates(rows)***REMOVED***
+function getDates(rows){
   let newDate = '';
   let dates = new Array();
-  rows.map((row) => ***REMOVED***
-    if(row[1] !== newDate)***REMOVED***
+  rows.map((row) => {
+    if(row[1] !== newDate){
       dates.push(row[1]);
       newDate = row[1]
-    ***REMOVED***
-  ***REMOVED***);
+    }
+  });
   return dates;
-***REMOVED***
+}
 
-function getDedicateds(rows)***REMOVED***
+function getDedicateds(rows){
   let onlyded = new Array();
-  rows.map((row) => ***REMOVED***
-    if(row[7] != undefined)***REMOVED***
-      if(!Number.isInteger(row[7]))***REMOVED***
-        if(row[7].toLowerCase() == 'all')***REMOVED***
+  rows.map((row) => {
+    if(row[7] != undefined){
+      if(!Number.isInteger(row[7])){
+        if(row[7].toLowerCase() == 'all'){
           onlyded.push(row);
-        ***REMOVED***
-      ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***);
+        }
+      }
+    }
+  });
   return onlyded;
-***REMOVED***
+}
 
-function firstDate(rows)***REMOVED***
+function firstDate(rows){
   let theseDates = new Array();
   let fd = '';
-  rows.map((row) => ***REMOVED***
-    if(row[1] != undefined)***REMOVED***
-      if(fd != '' && row[1] != fd)***REMOVED***
+  rows.map((row) => {
+    if(row[1] != undefined){
+      if(fd != '' && row[1] != fd){
         return theseDates;
-      ***REMOVED***
-      if(Number.isInteger(row[7]))***REMOVED***
-        if(fd == '' || fd == row[1])***REMOVED***
+      }
+      if(Number.isInteger(row[7])){
+        if(fd == '' || fd == row[1]){
           theseDates.push(row);
-          if(fd == '')***REMOVED***
+          if(fd == ''){
             fd = row[1];
-          ***REMOVED***
-        ***REMOVED***
-      ***REMOVED***else if(row[7].toLowerCase() != 'all')***REMOVED***
-        if(fd == '' || fd == row[1])***REMOVED***
+          }
+        }
+      }else if(row[7].toLowerCase() != 'all'){
+        if(fd == '' || fd == row[1]){
           theseDates.push(row);
-          if(fd == '')***REMOVED***
+          if(fd == ''){
             fd = row[1];
-          ***REMOVED***
-        ***REMOVED***
-      ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***)
+          }
+        }
+      }
+    }
+  })
   return theseDates;
-***REMOVED***
+}
 
-function getContentAtDate(rows, month, day, year)***REMOVED***
+function getContentAtDate(rows, month, day, year){
   let theseDates = new Array();
-  rows.map((row) => ***REMOVED***
-    if(row[1] != undefined && row[7] != undefined)***REMOVED***
+  rows.map((row) => {
+    if(row[1] != undefined && row[7] != undefined){
       let dates = row[1].split('/');
-      if(month != '' && day != '' && year != '')***REMOVED***
-        if(dates[0] == month && dates[1] == day && dates[2] == year)***REMOVED***
+      if(month != '' && day != '' && year != ''){
+        if(dates[0] == month && dates[1] == day && dates[2] == year){
         //  console.log(row);
-          if(Number.isInteger(row[7]))***REMOVED***
+          if(Number.isInteger(row[7])){
             theseDates.push(row);
-          ***REMOVED***else if(row[7].toLowerCase() != 'all')***REMOVED***
+          }else if(row[7].toLowerCase() != 'all'){
             theseDates.push(row);
-          ***REMOVED***
-        ***REMOVED***
-      ***REMOVED***else if(month != '' && day != '')***REMOVED***
-        if(dates[0] == month && dates[1] == day)***REMOVED***
-          if(Number.isInteger(row[7]))***REMOVED***
+          }
+        }
+      }else if(month != '' && day != ''){
+        if(dates[0] == month && dates[1] == day){
+          if(Number.isInteger(row[7])){
             theseDates.push(row);
-          ***REMOVED***else if(row[7].toLowerCase() != 'all')***REMOVED***
+          }else if(row[7].toLowerCase() != 'all'){
             theseDates.push(row);
-          ***REMOVED***
-        ***REMOVED***
-      ***REMOVED***else***REMOVED***
-        if(dates[0] == month)***REMOVED***
-          if(Number.isInteger(row[7]))***REMOVED***
+          }
+        }
+      }else{
+        if(dates[0] == month){
+          if(Number.isInteger(row[7])){
             theseDates.push(row);
-          ***REMOVED***else if(row[7].toLowerCase() != 'all')***REMOVED***
+          }else if(row[7].toLowerCase() != 'all'){
             theseDates.push(row);
-          ***REMOVED***
-        ***REMOVED***
-      ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***);
+          }
+        }
+      }
+    }
+  });
   return theseDates;
-***REMOVED***
+}
 
-function getTitles(title,rows)***REMOVED***
+function getTitles(title,rows){
   let tabs = new Array();
-  rows.map((row) => ***REMOVED***
-    if('title' in row.properties)***REMOVED***
+  rows.map((row) => {
+    if('title' in row.properties){
       tabs.push(row.properties.title);
-    ***REMOVED***
-  ***REMOVED***);
-  return ***REMOVED***'sheetTitle': title,'tabTitles': tabs***REMOVED***;
-***REMOVED***
+    }
+  });
+  return {'sheetTitle': title,'tabTitles': tabs};
+}
 
-function checkForZeros(number)***REMOVED***
+function checkForZeros(number){
   return (number[0] == 0) ? number.slice(1) : number;
-***REMOVED***
+}
 
-function getAllZips()***REMOVED***
+function getAllZips(){
   let arr = [];
-  let files = fs.readdirSync(path.join(appSavePath, `/public/$***REMOVED***data.defaults.savedzips***REMOVED***/`));
+  let files = fs.readdirSync(path.join(appSavePath, `/public/${data.defaults.savedzips}/`));
 
-  files.forEach(file => ***REMOVED***
-    if(file.charAt(0) != '.')***REMOVED***
+  files.forEach(file => {
+    if(file.charAt(0) != '.'){
       arr.push(file);
-    ***REMOVED***
-  ***REMOVED***);
+    }
+  });
   return arr;
-***REMOVED***
+}
 
-function getAllZipsNames()***REMOVED***
+function getAllZipsNames(){
   let arr = [];
-  let files = fs.readdirSync(path.join(appSavePath, `/public/$***REMOVED***data.defaults.savedzips***REMOVED***/`));
+  let files = fs.readdirSync(path.join(appSavePath, `/public/${data.defaults.savedzips}/`));
 
-  files.forEach(file => ***REMOVED***
-    if(file.charAt(0) != '.')***REMOVED***
+  files.forEach(file => {
+    if(file.charAt(0) != '.'){
       let nameOnly = file.split('.')
       arr.push(nameOnly[0]);
-    ***REMOVED***
-  ***REMOVED***);
+    }
+  });
   return arr;
-***REMOVED***
+}
 
-function getThisZip(n)***REMOVED***
-  let files = fs.readdirSync(path.join(appSavePath, `/public/$***REMOVED***data.defaults.savedzips***REMOVED***/`));
+function getThisZip(n){
+  let files = fs.readdirSync(path.join(appSavePath, `/public/${data.defaults.savedzips}/`));
   let aname = '';
-  files.forEach(file => ***REMOVED***
-    if(file.charAt(0) != '.')***REMOVED***
+  files.forEach(file => {
+    if(file.charAt(0) != '.'){
       let nameOnly = file.split('.')
-      if(n.toLowerCase() == nameOnly[0].toLowerCase())***REMOVED***
+      if(n.toLowerCase() == nameOnly[0].toLowerCase()){
         aname = [nameOnly[0]];
-      ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***);
+      }
+    }
+  });
 
   return aname;
-***REMOVED***
+}
 
-function getAllCsvNames()***REMOVED***
+function getAllCsvNames(){
   let arr = [];
-  let files = fs.readdirSync(path.join(appSavePath, `/public/$***REMOVED***data.defaults.storecsvs***REMOVED***/`));
+  let files = fs.readdirSync(path.join(appSavePath, `/public/${data.defaults.storecsvs}/`));
 
-  files.forEach(file => ***REMOVED***
-    if(file.charAt(0) != '.')***REMOVED***
+  files.forEach(file => {
+    if(file.charAt(0) != '.'){
       let nameOnly = file.split('.')
       arr.push(nameOnly[0]);
-    ***REMOVED***
-  ***REMOVED***);
+    }
+  });
   return arr;
-***REMOVED***
+}
 
-function getAllCsvs()***REMOVED***
+function getAllCsvs(){
   let arr = [];
-  let files = fs.readdirSync(path.join(appSavePath, `/public/$***REMOVED***data.defaults.storecsvs***REMOVED***/`));
+  let files = fs.readdirSync(path.join(appSavePath, `/public/${data.defaults.storecsvs}/`));
 
-  files.forEach(file => ***REMOVED***
-    if(file.charAt(0) != '.')***REMOVED***
+  files.forEach(file => {
+    if(file.charAt(0) != '.'){
       arr.push(file);
-    ***REMOVED***
-  ***REMOVED***);
+    }
+  });
   return arr;
-***REMOVED***
+}
 
 
-function getThisCsv(n)***REMOVED***
-  let files = fs.readdirSync(path.join(appSavePath, `/public/$***REMOVED***data.defaults.storecsvs***REMOVED***/`));
+function getThisCsv(n){
+  let files = fs.readdirSync(path.join(appSavePath, `/public/${data.defaults.storecsvs}/`));
   let aname = '';
-  files.forEach(file => ***REMOVED***
-    if(file.charAt(0) != '.')***REMOVED***
+  files.forEach(file => {
+    if(file.charAt(0) != '.'){
       let nameOnly = file.split('.')
-      if(n.toLowerCase() == nameOnly[0].toLowerCase())***REMOVED***
+      if(n.toLowerCase() == nameOnly[0].toLowerCase()){
         aname = [nameOnly[0]];
-      ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***);
+      }
+    }
+  });
 
   return aname;
-***REMOVED***
+}
 
-async function runCSVFunctions(name)***REMOVED***
-  return await new Promise(function(resolve, reject) ***REMOVED***
+async function runCSVFunctions(name){
+  return await new Promise(function(resolve, reject) {
     const AutoDetectDecoderStream = require('autodetect-decoder-stream');
     let allRows = [];
-    let inputStream = fs.createReadStream(path.join(appSavePath, `/public/$***REMOVED***data.defaults.storecsvs***REMOVED***/$***REMOVED***name***REMOVED***.csv`))
-    .pipe(new AutoDetectDecoderStream(***REMOVED*** defaultEncoding: 'utf8' ***REMOVED***)); // If failed to guess encoding, default to 1255
+    let inputStream = fs.createReadStream(path.join(appSavePath, `/public/${data.defaults.storecsvs}/${name}.csv`))
+    .pipe(new AutoDetectDecoderStream({ defaultEncoding: 'utf8' })); // If failed to guess encoding, default to 1255
 
       inputStream
-        .pipe(new CsvReadableStream(***REMOVED*** parseNumbers: true, parseBooleans: true, trim: true ***REMOVED***))
-        .on('data', function (row) ***REMOVED***
+        .pipe(new CsvReadableStream({ parseNumbers: true, parseBooleans: true, trim: true }))
+        .on('data', function (row) {
             allRows.push(row);
-        ***REMOVED***).on('end', function () ***REMOVED***
+        }).on('end', function () {
           resolve(allRows);
-        ***REMOVED***);
-    ***REMOVED***);
-***REMOVED***
+        });
+    });
+}
 
-function returnEnvnJson()***REMOVED***
-  const data = fs.readFileSync(path.join(appSavePath, `/enviornment.json`), ***REMOVED***encoding:'utf8'***REMOVED***);
+function returnEnvnJson(){
+  const data = fs.readFileSync(path.join(appSavePath, `/enviornment.json`), {encoding:'utf8'});
   return JSON.parse(data);
-***REMOVED***
+}
 
-// function getTrelloInfo(name)***REMOVED***
+// function getTrelloInfo(name){
 //   //return 'NodeJS File Upload Success!';
-//   // return new Promise((resolve, reject) => ***REMOVED***
-//   //   fs.readFileSync(`$***REMOVED***process.cwd()***REMOVED***/trello/$***REMOVED***name***REMOVED***.json`, 'utf8', (err, jsonString) => ***REMOVED***
-//   //     if (err) ***REMOVED***
+//   // return new Promise((resolve, reject) => {
+//   //   fs.readFileSync(`${process.cwd()}/trello/${name}.json`, 'utf8', (err, jsonString) => {
+//   //     if (err) {
 //   //       reject("Error reading file from disk:"+err);
-//   //     ***REMOVED***
+//   //     }
 //   //     //res.send(req.params.id);
 //   //     const obj = JSON.parse(jsonString);
 //   //     //res.send(obj);
 //   //     resolve('NodeJS File Upload Success!');
-//   //   ***REMOVED***)
-//   // ***REMOVED***)
+//   //   })
+//   // })
 
-//   const data = fs.readFileSync(path.join(appSavePath, `/public/trello/$***REMOVED***name***REMOVED***.json`), ***REMOVED***encoding:'utf8'***REMOVED***);
+//   const data = fs.readFileSync(path.join(appSavePath, `/public/trello/${name}.json`), {encoding:'utf8'});
 //   const parsed = JSON.parse(data);
 //   let lists = [];
 
-//   Object.entries(parsed.lists).forEach(([key, value]) => ***REMOVED***
-//     let newObj = ***REMOVED***
+//   Object.entries(parsed.lists).forEach(([key, value]) => {
+//     let newObj = {
 //       id: value.id,
 //       name: value.name,
 //       cards: []
-//     ***REMOVED***
+//     }
 //     lists.push(newObj);
-//   ***REMOVED***)
+//   })
 
-//   Object.entries(parsed.cards).forEach(([key, value]) => ***REMOVED***
-//     Object.entries(lists).forEach(([xkey, xvalue]) => ***REMOVED***
-//       if(value.idList == xvalue.id)***REMOVED***
+//   Object.entries(parsed.cards).forEach(([key, value]) => {
+//     Object.entries(lists).forEach(([xkey, xvalue]) => {
+//       if(value.idList == xvalue.id){
 //         xvalue.cards.push(value.name);
-//         if(value.desc != '')***REMOVED***
+//         if(value.desc != ''){
 //           xvalue.cards.push(value.desc);
-//         ***REMOVED***
-//       ***REMOVED***
-//     ***REMOVED***)
-//   ***REMOVED***)
+//         }
+//       }
+//     })
+//   })
 
 //   let allcards = '';
 
-//   lists.forEach(list => ***REMOVED***
+//   lists.forEach(list => {
 //     allcards += '<h3>'+list.name+'</h3>';
 //     allcards += '<ul>';
-//     list.cards.forEach(card => ***REMOVED***
-//       if(card.charAt(0) == '-')***REMOVED***
+//     list.cards.forEach(card => {
+//       if(card.charAt(0) == '-'){
 //         allcards += '<ul style="list-style-type: none;">';
 //         let diffRows = card.split('\n');
-//         diffRows.forEach(row => ***REMOVED***
+//         diffRows.forEach(row => {
 //           allcards += '<li>'+row+'</li>';
-//         ***REMOVED***)
+//         })
 //         allcards += '</ul>';
-//       ***REMOVED***else***REMOVED***
+//       }else{
 //         allcards += '<li>'+card+'</li>';
-//       ***REMOVED***
-//     ***REMOVED***)
+//       }
+//     })
 //     allcards += '</ul>';
-//   ***REMOVED***)
+//   })
 
 //   return allcards;
-// ***REMOVED***
+// }
 
 
-module.exports = ***REMOVED***
+module.exports = {
   getDates,
   getDedicateds,
   getContentAtDate,
@@ -330,4 +330,4 @@ module.exports = ***REMOVED***
   returnEnvnJson,
   checkTokenLife,
   checkIfLoggedIn
-***REMOVED***;
+};

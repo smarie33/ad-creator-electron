@@ -4,9 +4,9 @@
 
 /* Atelier-Plateau Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #7e7777;
-***REMOVED***
+}
 
 /* Atelier-Plateau Red */
 .hljs-variable,
@@ -18,9 +18,9 @@
 .hljs-link,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #ca4949;
-***REMOVED***
+}
 
 /* Atelier-Plateau Orange */
 .hljs-number,
@@ -29,56 +29,56 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #b45a3c;
-***REMOVED***
+}
 
 /* Atelier-Plateau Green */
 .hljs-string,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #4b8b8b;
-***REMOVED***
+}
 
 /* Atelier-Plateau Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #7272ca;
-***REMOVED***
+}
 
 /* Atelier-Plateau Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #8464c4;
-***REMOVED***
+}
 
 .hljs-deletion,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #1b1818;
   display: inline-block;
   width: 100%;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: #ca4949;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: #4b8b8b;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #1b1818;
   color: #8a8585;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

@@ -2,96 +2,96 @@
 Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   color: #000;
   background: #f8f8ff;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #408080;
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-literal,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #954121;
-***REMOVED***
+}
 
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #40a070;
-***REMOVED***
+}
 
 .hljs-string,
-.hljs-doctag ***REMOVED***
+.hljs-doctag {
   color: #219161;
-***REMOVED***
+}
 
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-section,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #19469d;
-***REMOVED***
+}
 
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #00f;
-***REMOVED***
+}
 
-.hljs-title ***REMOVED***
+.hljs-title {
   color: #458;
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-tag,
 .hljs-name,
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #000080;
   font-weight: normal;
-***REMOVED***
+}
 
 .hljs-variable,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #008080;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #b68;
-***REMOVED***
+}
 
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #990073;
-***REMOVED***
+}
 
 .hljs-built_in,
-.hljs-builtin-name ***REMOVED***
+.hljs-builtin-name {
   color: #0086b3;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #999;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background: #fdd;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background: #dfd;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

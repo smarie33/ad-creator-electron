@@ -1,42 +1,42 @@
 var time = new Date().getHours();
-if (time <= 7) ***REMOVED***
+if (time <= 7) {
  $('.one').show();
-***REMOVED*** else if (time > 7 && time <= 11) ***REMOVED***
+} else if (time > 7 && time <= 11) {
  $('.one').show();
-***REMOVED*** else if (time > 11 && time <= 15) ***REMOVED***
+} else if (time > 11 && time <= 15) {
  $('.one').show();
-***REMOVED*** else if (time > 15 && time <= 19) ***REMOVED***
+} else if (time > 15 && time <= 19) {
  $('.one').show();
-***REMOVED*** else if (time > 19) ***REMOVED***
+} else if (time > 19) {
  $('.one').show();
-***REMOVED***
+}
 
 let runThis = "one";
 
-if(document.querySelector('.slide.slider.'+runThis) != null)***REMOVED***
+if(document.querySelector('.slide.slider.'+runThis) != null){
   var slideOnThisOne, slideOnThisTwo, slideOnThisThree, slideOnThisFour, slideOnThisFive;
-  const intervals = ***REMOVED***one:slideOnThisOne,two:slideOnThisTwo, three:slideOnThisThree, four:slideOnThisFour, five:slideOnThisFive***REMOVED***;
+  const intervals = {one:slideOnThisOne,two:slideOnThisTwo, three:slideOnThisThree, four:slideOnThisFour, five:slideOnThisFive};
 
   startAfterPause(runThis);
-  document.querySelector('.container .slider.'+runThis).addEventListener('mouseover', function()***REMOVED***
+  document.querySelector('.container .slider.'+runThis).addEventListener('mouseover', function(){
     clearInterval(intervals[runThis]);
-  ***REMOVED***)
+  })
 
-  document.querySelector('.container .slider.'+runThis).addEventListener('mouseleave', function()***REMOVED***
+  document.querySelector('.container .slider.'+runThis).addEventListener('mouseleave', function(){
     startAfterPause(runThis);
-  ***REMOVED***)
+  })
 
-  function startAfterPause(num) ***REMOVED***
-    setTimeout(num => ***REMOVED***
+  function startAfterPause(num) {
+    setTimeout(num => {
       moveSlider(num);
       intervals[num] = setInterval(
         () => moveSlider(num),
         5000
       );
-    ***REMOVED***,500,num)
-  ***REMOVED***
+    },500,num)
+  }
 
-  function moveSlider(slideNUm)***REMOVED***
+  function moveSlider(slideNUm){
     var unit = document.querySelector('.slider.'+slideNUm+' .album-container').offsetWidth;
 
     var elem = document.querySelector('.slider.'+slideNUm+' .content');
@@ -46,17 +46,17 @@ if(document.querySelector('.slide.slider.'+runThis) != null)***REMOVED***
     var newWidth = (parseInt(width) - unit) - 10;
     elem.style.left = newLeft+'.px';
     elem.style.transitionDuration = '';
-    setTimeout(() => ***REMOVED***
+    setTimeout(() => {
       elem.style.transitionDuration = '0s';
       var moveLast = document.querySelector('.slider.'+slideNUm+' .album-container:first-of-type').innerHTML;
       document.querySelector('.slider.'+slideNUm+' .album-container:first-of-type').remove();
       document.querySelector('.slider.'+slideNUm+' .album-set').insertAdjacentHTML('beforeend', '<div class="album-container">'+moveLast+'</div>');
       elem.style.left = left;
-    ***REMOVED***,800);
-  ***REMOVED***
+    },800);
+  }
 
-  function getPropertyVal(elem,property)***REMOVED***
+  function getPropertyVal(elem,property){
     return window.getComputedStyle(elem,null).getPropertyValue(property);
-  ***REMOVED***
+  }
 
-***REMOVED*** //does not equal null
+} //does not equal null

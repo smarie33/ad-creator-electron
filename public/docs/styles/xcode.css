@@ -4,101 +4,101 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #fff;
   color: black;
-***REMOVED***
+}
 
 /* Gray DOCTYPE selectors like WebKit */
-.xml .hljs-meta ***REMOVED***
+.xml .hljs-meta {
   color: #c0c0c0;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #007400;
-***REMOVED***
+}
 
 .hljs-tag,
 .hljs-attribute,
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-literal,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #aa0d91;
-***REMOVED***
+}
 
 .hljs-variable,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #3F6E74;
-***REMOVED***
+}
 
 .hljs-code,
 .hljs-string,
-.hljs-meta-string ***REMOVED***
+.hljs-meta-string {
   color: #c41a16;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #0E0EFF;
-***REMOVED***
+}
 
 .hljs-title,
 .hljs-symbol,
 .hljs-bullet,
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #1c00cf;
-***REMOVED***
+}
 
 .hljs-section,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #643820;
-***REMOVED***
+}
 
 
 .hljs-class .hljs-title,
 .hljs-type,
 .hljs-built_in,
 .hljs-builtin-name,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #5c2699;
-***REMOVED***
+}
 
-.hljs-attr ***REMOVED***
+.hljs-attr {
   color: #836C28;
-***REMOVED***
+}
 
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #000;
-***REMOVED***
+}
 
-.hljs-formula ***REMOVED***
+.hljs-formula {
   background-color: #eee;
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: #baeeba;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: #ffc8bd;
-***REMOVED***
+}
 
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #9b703f;
-***REMOVED***
+}
 
 .hljs-doctag,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}

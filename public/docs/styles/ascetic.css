@@ -4,13 +4,13 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: white;
   color: black;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-variable,
@@ -20,26 +20,26 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 .hljs-section,
 .hljs-addition,
 .hljs-attribute,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #888;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
 .hljs-meta,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #ccc;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-section,
 .hljs-name,
 .hljs-type,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}

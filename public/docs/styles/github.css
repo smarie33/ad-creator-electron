@@ -4,96 +4,96 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   color: #333;
   background: #f8f8f8;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #998;
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #333;
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-number,
 .hljs-literal,
 .hljs-variable,
 .hljs-template-variable,
-.hljs-tag .hljs-attr ***REMOVED***
+.hljs-tag .hljs-attr {
   color: #008080;
-***REMOVED***
+}
 
 .hljs-string,
-.hljs-doctag ***REMOVED***
+.hljs-doctag {
   color: #d14;
-***REMOVED***
+}
 
 .hljs-title,
 .hljs-section,
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
   color: #900;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-subst ***REMOVED***
+.hljs-subst {
   font-weight: normal;
-***REMOVED***
+}
 
 .hljs-type,
-.hljs-class .hljs-title ***REMOVED***
+.hljs-class .hljs-title {
   color: #458;
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-tag,
 .hljs-name,
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #000080;
   font-weight: normal;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #009926;
-***REMOVED***
+}
 
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #990073;
-***REMOVED***
+}
 
 .hljs-built_in,
-.hljs-builtin-name ***REMOVED***
+.hljs-builtin-name {
   color: #0086b3;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #999;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background: #fdd;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background: #dfd;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

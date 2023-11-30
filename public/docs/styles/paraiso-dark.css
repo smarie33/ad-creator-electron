@@ -6,9 +6,9 @@
 
 /* Paraíso Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #8d8687;
-***REMOVED***
+}
 
 /* Paraíso Red */
 .hljs-variable,
@@ -19,9 +19,9 @@
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-link,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #ef6155;
-***REMOVED***
+}
 
 /* Paraíso Orange */
 .hljs-number,
@@ -30,43 +30,43 @@
 .hljs-literal,
 .hljs-type,
 .hljs-params,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #f99b15;
-***REMOVED***
+}
 
 /* Paraíso Yellow */
 .hljs-title,
 .hljs-section,
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #fec418;
-***REMOVED***
+}
 
 /* Paraíso Green */
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #48b685;
-***REMOVED***
+}
 
 /* Paraíso Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #815ba4;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #2f1e2e;
   color: #a39e9b;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

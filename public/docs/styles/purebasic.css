@@ -21,7 +21,7 @@ NOTE_2:	Color names provided in comments were derived using "Name that Color" on
 			http://chir.ag/projects/name-that-color
 */
 
-.hljs ***REMOVED***
+.hljs {
 	display: block;
 	overflow-x: auto;
 	padding: 0.5em;
@@ -29,7 +29,7 @@ NOTE_2:	Color names provided in comments were derived using "Name that Color" on
 /* --- Uncomment to add PureBASIC native IDE styled font!
 	font-family: Consolas;
 */
-***REMOVED***
+}
 
 .hljs, /* --- used for PureBASIC base color --- */
 .hljs-type,  /* --- used for PureBASIC Procedures return type --- */
@@ -38,59 +38,59 @@ NOTE_2:	Color names provided in comments were derived using "Name that Color" on
 .hljs-number,
 .hljs-attr,
 .hljs-params,
-.hljs-subst ***REMOVED***
+.hljs-subst {
 	color: #000000; /* Black */
-***REMOVED***
+}
 
 .hljs-comment, /* --- used for PureBASIC Comments --- */
 .hljs-regexp,
 .hljs-section,
 .hljs-selector-pseudo,
-.hljs-addition ***REMOVED***
+.hljs-addition {
 	color: #00AAAA; /* Persian Green (approx.) */
-***REMOVED***
+}
 
 .hljs-title, /* --- used for PureBASIC Procedures Names --- */
 .hljs-tag,
 .hljs-variable,
-.hljs-code  ***REMOVED***
+.hljs-code  {
 	color: #006666; /* Blue Stone (approx.) */
-***REMOVED***
+}
 
 .hljs-keyword, /* --- used for PureBASIC Keywords --- */
 .hljs-class,
 .hljs-meta-keyword,
 .hljs-selector-class,
 .hljs-built_in,
-.hljs-builtin-name ***REMOVED***
+.hljs-builtin-name {
 	color: #006666; /* Blue Stone (approx.) */
 	font-weight: bold;
-***REMOVED***
+}
 
 .hljs-string, /* --- used for PureBASIC Strings --- */
-.hljs-selector-attr ***REMOVED***
+.hljs-selector-attr {
 	color: #0080FF; /* Azure Radiance (approx.) */
-***REMOVED***
+}
 
 .hljs-symbol, /* --- used for PureBASIC Constants --- */
 .hljs-link,
 .hljs-deletion,
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
 	color: #924B72; /* Cannon Pink (approx.) */
-***REMOVED***
+}
 
 .hljs-meta,
 .hljs-literal,
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
 	color: #924B72; /* Cannon Pink (approx.) */
 	font-weight: bold;
-***REMOVED***
+}
 
 .hljs-strong,
-.hljs-name ***REMOVED***
+.hljs-name {
 	font-weight: bold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
 	font-style: italic;
-***REMOVED***
+}

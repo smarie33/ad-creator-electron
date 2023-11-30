@@ -1,13 +1,13 @@
 /*
   Five-color theme from a single blue hue.
 */
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #eaeef3;
   color: #00193a;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
@@ -15,13 +15,13 @@
 .hljs-section,
 .hljs-doctag,
 .hljs-name,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-comment ***REMOVED***
+.hljs-comment {
   color: #738191;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-title,
@@ -34,9 +34,9 @@
 .hljs-quote,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #0048ab;
-***REMOVED***
+}
 
 .hljs-meta,
 .hljs-subst,
@@ -47,10 +47,10 @@
 .hljs-variable,
 .hljs-template-variable,
 .hljs-link,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #4c81c9;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}

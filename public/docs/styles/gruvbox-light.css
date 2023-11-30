@@ -4,26 +4,26 @@ Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/mo
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #fbf1c7;
-***REMOVED***
+}
 
 .hljs,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #3c3836;
-***REMOVED***
+}
 
 /* Gruvbox Red */
 .hljs-deletion,
 .hljs-formula,
 .hljs-keyword,
 .hljs-link,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #9d0006;
-***REMOVED***
+}
 
 /* Gruvbox Blue */
 .hljs-built_in,
@@ -32,34 +32,34 @@ Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/mo
 .hljs-quote,
 .hljs-strong,
 .hljs-title,
-.hljs-variable ***REMOVED***
+.hljs-variable {
   color: #076678;
-***REMOVED***
+}
 
 /* Gruvbox Yellow */
 .hljs-attr,
 .hljs-params,
 .hljs-template-tag,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #b57614;
-***REMOVED***
+}
 
 /* Gruvbox Purple */
 .hljs-builtin-name,
 .hljs-doctag,
 .hljs-literal,
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #8f3f71;
-***REMOVED***
+}
 
 /* Gruvbox Orange */
 .hljs-code,
 .hljs-meta,
 .hljs-regexp,
 .hljs-selector-id,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #af3a03;
-***REMOVED***
+}
 
 /* Gruvbox Green */
 .hljs-addition,
@@ -68,9 +68,9 @@ Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/mo
 .hljs-selector-attr,
 .hljs-selector-class,
 .hljs-string,
-.hljs-symbol ***REMOVED***
+.hljs-symbol {
   color: #79740e;
-***REMOVED***
+}
 
 /* Gruvbox Aqua */
 .hljs-attribute,
@@ -80,29 +80,29 @@ Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/mo
 .hljs-function .hljs-keyword,
 .hljs-meta-keyword,
 .hljs-selector-pseudo,
-.hljs-tag ***REMOVED***
+.hljs-tag {
   color: #427b58;
-***REMOVED***
+}
 
 /* Gruvbox Gray */
-.hljs-comment ***REMOVED***
+.hljs-comment {
   color: #928374;
-***REMOVED***
+}
 
 /* Gruvbox Purple */
 .hljs-link_label,
 .hljs-literal,
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #8f3f71;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-section,
 .hljs-strong,
-.hljs-tag ***REMOVED***
+.hljs-tag {
   font-weight: bold;
-***REMOVED***
+}

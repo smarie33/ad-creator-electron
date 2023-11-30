@@ -18,50 +18,50 @@ hue-6-2: #e6c07b
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   color: #abb2bf;
   background: #282c34;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #5c6370;
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-doctag,
 .hljs-keyword,
-.hljs-formula ***REMOVED***
+.hljs-formula {
   color: #c678dd;
-***REMOVED***
+}
 
 .hljs-section,
 .hljs-name,
 .hljs-selector-tag,
 .hljs-deletion,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #e06c75;
-***REMOVED***
+}
 
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #56b6c2;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-regexp,
 .hljs-addition,
 .hljs-attribute,
-.hljs-meta-string ***REMOVED***
+.hljs-meta-string {
   color: #98c379;
-***REMOVED***
+}
 
 .hljs-built_in,
-.hljs-class .hljs-title ***REMOVED***
+.hljs-class .hljs-title {
   color: #e6c07b;
-***REMOVED***
+}
 
 .hljs-attr,
 .hljs-variable,
@@ -70,27 +70,27 @@ hue-6-2: #e6c07b
 .hljs-selector-class,
 .hljs-selector-attr,
 .hljs-selector-pseudo,
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #d19a66;
-***REMOVED***
+}
 
 .hljs-symbol,
 .hljs-bullet,
 .hljs-link,
 .hljs-meta,
 .hljs-selector-id,
-.hljs-title ***REMOVED***
+.hljs-title {
   color: #61aeee;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-link ***REMOVED***
+.hljs-link {
   text-decoration: underline;
-***REMOVED***
+}

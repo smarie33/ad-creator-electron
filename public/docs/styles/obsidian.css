@@ -3,46 +3,46 @@
  * ported by Alexander Marenin (http://github.com/ioncreature)
  */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #282b2e;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-literal,
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
   color: #93c763;
-***REMOVED***
+}
 
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #ffcd22;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   color: #e0e2e4;
-***REMOVED***
+}
 
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #668bb0;
-***REMOVED***
+}
 
 .hljs-code,
 .hljs-class .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: white;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #d39745;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #557182;
-***REMOVED***
+}
 
 .hljs-tag,
 .hljs-name,
@@ -56,24 +56,24 @@
 .hljs-addition,
 .hljs-variable,
 .hljs-template-tag,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #8cbbad;
-***REMOVED***
+}
 
 .hljs-string,
-.hljs-symbol ***REMOVED***
+.hljs-symbol {
   color: #ec7600;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #818e96;
-***REMOVED***
+}
 
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #A082BD
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
@@ -83,6 +83,6 @@
 .hljs-section,
 .hljs-type,
 .hljs-name,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

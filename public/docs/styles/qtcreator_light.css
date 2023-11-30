@@ -5,62 +5,62 @@ Qt Creator light color scheme
 */
 
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #ffffff;
-***REMOVED***
+}
 
 .hljs,
 .hljs-subst,
 .hljs-tag,
-.hljs-title ***REMOVED***
+.hljs-title {
   color: #000000;
-***REMOVED***
+}
 
 .hljs-strong,
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   color: #000000;
-***REMOVED***
+}
 
 .hljs-bullet,
 .hljs-quote,
 .hljs-number,
 .hljs-regexp,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #000080;
-***REMOVED***
+}
 
 .hljs-code
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #800080;
-***REMOVED***
+}
 
 .hljs-emphasis,
 .hljs-stronge,
-.hljs-type ***REMOVED***
+.hljs-type {
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-function,
 .hljs-section,
 .hljs-symbol,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #808000;
-***REMOVED***
+}
 
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #800000;
-***REMOVED***
+}
 
 .hljs-variable,
 .hljs-params,
-.hljs-class .hljs-title ***REMOVED***
+.hljs-class .hljs-title {
   color: #0055AF;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-selector-id,
@@ -72,12 +72,12 @@ Qt Creator light color scheme
 .hljs-template-tag,
 .hljs-template-variable,
 .hljs-addition,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #008000;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-meta,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #008000;
-***REMOVED***
+}

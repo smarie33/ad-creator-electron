@@ -7,9 +7,9 @@
 
 /* Kimbie Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #a57a4c;
-***REMOVED***
+}
 
 /* Kimbie Red */
 .hljs-variable,
@@ -19,9 +19,9 @@
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-regexp,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #dc3958;
-***REMOVED***
+}
 
 /* Kimbie Orange */
 .hljs-number,
@@ -31,44 +31,44 @@
 .hljs-type,
 .hljs-params,
 .hljs-deletion,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #f79a32;
-***REMOVED***
+}
 
 /* Kimbie Yellow */
 .hljs-title,
 .hljs-section,
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #f06431;
-***REMOVED***
+}
 
 /* Kimbie Green */
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #889b4a;
-***REMOVED***
+}
 
 /* Kimbie Purple */
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-function ***REMOVED***
+.hljs-function {
   color: #98676a;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #fbebd4;
   color: #84613d;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

@@ -3,113 +3,113 @@
  * Author: Nicolas LLOBERA <nllobera@gmail.com>
  */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #1E1E1E;
   color: #DCDCDC;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-literal,
 .hljs-symbol,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #569CD6;
-***REMOVED***
-.hljs-link ***REMOVED***
+}
+.hljs-link {
   color: #569CD6;
   text-decoration: underline;
-***REMOVED***
+}
 
 .hljs-built_in,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #4EC9B0;
-***REMOVED***
+}
 
 .hljs-number,
-.hljs-class ***REMOVED***
+.hljs-class {
   color: #B8D7A3;
-***REMOVED***
+}
 
 .hljs-string,
-.hljs-meta-string ***REMOVED***
+.hljs-meta-string {
   color: #D69D85;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-template-tag ***REMOVED***
+.hljs-template-tag {
   color: #9A5334;
-***REMOVED***
+}
 
 .hljs-subst,
 .hljs-function,
 .hljs-title,
 .hljs-params,
-.hljs-formula ***REMOVED***
+.hljs-formula {
   color: #DCDCDC;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #57A64A;
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-doctag ***REMOVED***
+.hljs-doctag {
   color: #608B4E;
-***REMOVED***
+}
 
 .hljs-meta,
 .hljs-meta-keyword,
-.hljs-tag ***REMOVED***
+.hljs-tag {
   color: #9B9B9B;
-***REMOVED***
+}
 
 .hljs-variable,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #BD63C5;
-***REMOVED***
+}
 
 .hljs-attr,
 .hljs-attribute,
-.hljs-builtin-name ***REMOVED***
+.hljs-builtin-name {
   color: #9CDCFE;
-***REMOVED***
+}
 
-.hljs-section ***REMOVED***
+.hljs-section {
   color: gold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-/*.hljs-code ***REMOVED***
+/*.hljs-code {
   font-family:'Monospace';
-***REMOVED****/
+}*/
 
 .hljs-bullet,
 .hljs-selector-tag,
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-selector-attr,
-.hljs-selector-pseudo ***REMOVED***
+.hljs-selector-pseudo {
   color: #D7BA7D;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: #144212;
   display: inline-block;
   width: 100%;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: #600;
   display: inline-block;
   width: 100%;
-***REMOVED***
+}

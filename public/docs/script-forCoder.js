@@ -11,25 +11,25 @@ $('.ten').show();
 $('.eleven').show();
 $('.twelve').show();
 
-window.addEventListener('load', function () ***REMOVED***
+window.addEventListener('load', function () {
   const colorThief = new ColorThief();
 
   let imgs = document.querySelectorAll('.carousel img');
     // Make sure image is finished loading
-  imgs.forEach(function(img) ***REMOVED***
+  imgs.forEach(function(img) {
     //console.log(img)
     let c;
-    if (img.complete) ***REMOVED***
+    if (img.complete) {
       c = colorThief.getColor(img);
-    ***REMOVED*** else ***REMOVED***
-      img.addEventListener('load', function() ***REMOVED***
+    } else {
+      img.addEventListener('load', function() {
         c = colorThief.getColor(img);
-      ***REMOVED***);
-    ***REMOVED***
+      });
+    }
     //console.log(img.nextElementSibling);
     img.nextElementSibling.style.backgroundColor = 'rgb(' + c.join(',') + ')';
     //console.log(c);
-  ***REMOVED***);
+  });
 
   var selectedIndex = 0;
   var carousel = document.querySelector('.carousel .album-set');
@@ -41,10 +41,10 @@ window.addEventListener('load', function () ***REMOVED***
   var getTiming = document.querySelector('.slide.carousel .content .album-set');
   var deg = 0;
   //do transforms
-  cells.forEach(function(cell)***REMOVED***
+  cells.forEach(function(cell){
     cell.style.cssText += 'transform: rotateY('+deg+'deg) translateZ('+radius+'px)';
     deg += theta;
-  ***REMOVED***)
+  })
 
   var nthOfType = 1;
   var prev = cellCount;
@@ -58,7 +58,7 @@ window.addEventListener('load', function () ***REMOVED***
   pprev = prev;
 
 
-  function rotateCarousel() ***REMOVED***
+  function rotateCarousel() {
     document.querySelector('.slide.carousel .album-container:nth-of-type('+nextnext+')').classList.remove('back');
     document.querySelector('.slide.carousel .album-container:nth-of-type('+next+')').classList.remove('back');
     document.querySelector('.slide.carousel .album-container:nth-of-type('+nthOfType+')').classList.remove('back');
@@ -76,45 +76,45 @@ window.addEventListener('load', function () ***REMOVED***
     carousel.style.transform = 'translateZ(' + -radius + 'px) ' + 'rotateY' + '(' + angle + 'deg)';
     selectedIndex++;
 
-  if(selectedIndex > 1)***REMOVED***
-    if(nthOfType == cellCount)***REMOVED***
+  if(selectedIndex > 1){
+    if(nthOfType == cellCount){
       nthOfType = 1;
-    ***REMOVED***else***REMOVED***
+    }else{
       nthOfType++;
-    ***REMOVED***
-    if(prev == cellCount)***REMOVED***
+    }
+    if(prev == cellCount){
       prevprev = cellCount;
       prev = 1;
-    ***REMOVED***else***REMOVED***
+    }else{
       prevprev = prev;
       prev++;
-    ***REMOVED***
-    if(nextnext == cellCount)***REMOVED***
+    }
+    if(nextnext == cellCount){
       next++;
       nextnext = 1;
-    ***REMOVED***else if(next == cellCount)***REMOVED***
+    }else if(next == cellCount){
       next = 1;
       nextnext++;
-    ***REMOVED***else***REMOVED***
+    }else{
       next++;
       nextnext++;
-    ***REMOVED***
-  ***REMOVED***
+    }
+  }
 
     delayNext();
-  ***REMOVED***
+  }
 
-  if(document.querySelectorAll('.container .carousel').length > 0)***REMOVED***
+  if(document.querySelectorAll('.container .carousel').length > 0){
     rotateCarousel();
 
     var rotateOnThis = setInterval(
       () => rotateCarousel(),
       3000
     );
-  ***REMOVED***
+  }
 
-  function delayNext()***REMOVED***
-    setTimeout(() => ***REMOVED***
+  function delayNext(){
+    setTimeout(() => {
       document.querySelector('.slide.carousel .album-container:nth-of-type('+ppnextnext+')').classList.add('back');
       document.querySelector('.slide.carousel .album-container:nth-of-type('+pnext+')').classList.add('back');
       document.querySelector('.slide.carousel .album-container:nth-of-type('+pnth+')').classList.add('back');
@@ -126,37 +126,37 @@ window.addEventListener('load', function () ***REMOVED***
       document.querySelector('.slide.carousel .album-container:nth-of-type('+nthOfType+')').classList.remove('back');
       document.querySelector('.slide.carousel .album-container:nth-of-type('+prev+')').classList.remove('back');
       document.querySelector('.slide.carousel .album-container:nth-of-type('+prevprev+')').classList.remove('back');
-    ***REMOVED***, 600)
+    }, 600)
        //^ this is a little less than the transition time from the css on .slide.carousel .content .album-set
-  ***REMOVED***
+  }
 
-  document.querySelector('.container .carousel').addEventListener('mouseover', function()***REMOVED***
+  document.querySelector('.container .carousel').addEventListener('mouseover', function(){
     clearInterval(rotateOnThis);
-  ***REMOVED***)
+  })
 
-  document.querySelector('.container .carousel').addEventListener('mouseleave', function()***REMOVED***
-    setTimeout(() => ***REMOVED***
+  document.querySelector('.container .carousel').addEventListener('mouseleave', function(){
+    setTimeout(() => {
       rotateCarousel();
       rotateOnThis = setInterval(
         () => rotateCarousel(),
         3000
       );
-    ***REMOVED***,500)
-  ***REMOVED***)
+    },500)
+  })
 
 
   var unit = document.querySelector('.slider .album-container').offsetWidth;
   var num = 1;
-  if(document.querySelectorAll('.container .slider').length > 0)***REMOVED***
+  if(document.querySelectorAll('.container .slider').length > 0){
     moveSlider();
 
     var slideOnThis = setInterval(
       () => moveSlider(),
       3000
     );
-  ***REMOVED***
+  }
 
-  function moveSlider()***REMOVED***
+  function moveSlider(){
     var elem = document.querySelector('.slider .content');
     var left = getPropertyVal(elem,'left');
     var width = getPropertyVal(elem,'width');
@@ -165,34 +165,34 @@ window.addEventListener('load', function () ***REMOVED***
     elem.style.left = newLeft+'.px';
     elem.style.transitionDuration = '';
     //transition duration 0.8s set in css
-    setTimeout(() => ***REMOVED***
+    setTimeout(() => {
       elem.style.transitionDuration = '0s';
       var moveLast = document.querySelector('.slider .album-container:first-of-type').innerHTML;
       document.querySelector('.slider .album-container:first-of-type').remove();
       document.querySelector('.slider .album-set').insertAdjacentHTML('beforeend', '<div class="album-container">'+moveLast+'</div>');
       elem.style.left = left;
-    ***REMOVED***,800);
+    },800);
 
-  ***REMOVED***
+  }
 
-  document.querySelector('.container .slider').addEventListener('mouseover', function()***REMOVED***
+  document.querySelector('.container .slider').addEventListener('mouseover', function(){
     clearInterval(slideOnThis);
-  ***REMOVED***)
+  })
 
-  document.querySelector('.container .slider').addEventListener('mouseleave', function()***REMOVED***
-    setTimeout(() => ***REMOVED***
+  document.querySelector('.container .slider').addEventListener('mouseleave', function(){
+    setTimeout(() => {
       moveSlider();
       slideOnThis = setInterval(
         () => moveSlider(),
         3000
       );
-    ***REMOVED***,500)
-  ***REMOVED***)
+    },500)
+  })
 
 
-  function getPropertyVal(elem,property)***REMOVED***
+  function getPropertyVal(elem,property){
     return window.getComputedStyle(elem,null).getPropertyValue(property)
-  ***REMOVED***
+  }
 
 
-***REMOVED***)
+})

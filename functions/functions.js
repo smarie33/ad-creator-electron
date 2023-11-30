@@ -12,7 +12,7 @@ const AdmZip = require("adm-zip");
 const formidable = require('formidable');
 const BoxSDK = require('box-node-sdk');
 
-const ***REMOVED***app***REMOVED*** = require('electron');
+const {app} = require('electron');
 const userDataPathHereFirst = app.getPath('userData');
 const userDataPathHere = path.join(userDataPathHereFirst, '/hptodata');
 
@@ -26,354 +26,354 @@ const keys = require(path.join(userDataPathHereFirst, '/hptodata/keys.json'));
 let client;
 //changing to push
 
-function add_default(params)***REMOVED***
+function add_default(params){
   return axios
-    .get(`$***REMOVED***envrmt.url***REMOVED***/refresh/$***REMOVED***params.sheet***REMOVED***`)
-    .then(res => ***REMOVED***
+    .get(`${envrmt.url}/refresh/${params.sheet}`)
+    .then(res => {
       params.title = res.data.sheetTitle;
       file.defaults = params;
-      fs.writeFile(file, JSON.stringify(file), function writeJSON(err) ***REMOVED***
-        if (err) return ***REMOVED***'error': err***REMOVED***;
-      ***REMOVED***);
-      return ***REMOVED***'success': 'Defaults updated successfully'***REMOVED***;
-    ***REMOVED***)
-    .catch(error => ***REMOVED***
-      return ***REMOVED***'error':error***REMOVED***;
-    ***REMOVED***)
-***REMOVED***
+      fs.writeFile(file, JSON.stringify(file), function writeJSON(err) {
+        if (err) return {'error': err};
+      });
+      return {'success': 'Defaults updated successfully'};
+    })
+    .catch(error => {
+      return {'error':error};
+    })
+}
 
-async function run_sheet(params)***REMOVED***
+async function run_sheet(params){
   const fs = require('fs');
   const fileName = '/hptodata/db.json';
   const file = require(path.join(userDataPathHere,fileName));
 
   return axios
-    .get(`$***REMOVED***envrmt.url***REMOVED***/refresh/$***REMOVED***params.sheet***REMOVED***`)
-    .then(res => ***REMOVED***
-      if(res.data.error == undefined)***REMOVED***
+    .get(`${envrmt.url}/refresh/${params.sheet}`)
+    .then(res => {
+      if(res.data.error == undefined){
         params.title = res.data.sheetTitle;
         file.defaults = params;
-        fs.writeFile(file, JSON.stringify(file), function writeJSON(err) ***REMOVED***
-          if (err) return ***REMOVED***'error': err***REMOVED***;
-        ***REMOVED***);
+        fs.writeFile(file, JSON.stringify(file), function writeJSON(err) {
+          if (err) return {'error': err};
+        });
         return file.defaults;
-      ***REMOVED***else***REMOVED***
+      }else{
         return res.data;
-      ***REMOVED***
-    ***REMOVED***)
-    .catch(error => ***REMOVED***
-      return ***REMOVED***'error':error***REMOVED***;
-    ***REMOVED***)
+      }
+    })
+    .catch(error => {
+      return {'error':error};
+    })
 
-***REMOVED***
+}
 
-async function add_sheet(params)***REMOVED***
+async function add_sheet(params){
   file['googlesheets'].push(params);
-  fs.writeFile(file, JSON.stringify(file), function writeJSON(err) ***REMOVED***
-    if (err) return ***REMOVED***'error': err***REMOVED***;
-  ***REMOVED***);
-  return ***REMOVED***'success': 'New Sheet added successfully'***REMOVED***;
-***REMOVED***
+  fs.writeFile(file, JSON.stringify(file), function writeJSON(err) {
+    if (err) return {'error': err};
+  });
+  return {'success': 'New Sheet added successfully'};
+}
 
-async function delete_sheet(params)***REMOVED***
+async function delete_sheet(params){
   let shts = file['googlesheets'];
-  for(let i = 0; i < shts.length; i++) ***REMOVED***
-    if(shts[i].id == params.id)***REMOVED***
+  for(let i = 0; i < shts.length; i++) {
+    if(shts[i].id == params.id){
       shts.splice(i,1);
       break;
-    ***REMOVED***
-  ***REMOVED***
+    }
+  }
   file['googlesheets'] = shts;
 
-  fs.writeFile(file, JSON.stringify(file), function writeJSON(err) ***REMOVED***
-    if (err) return ***REMOVED***'error': err***REMOVED***;
-  ***REMOVED***);
-  return ***REMOVED***'success': 'Sheet deleted successfully'***REMOVED***;
-***REMOVED***
+  fs.writeFile(file, JSON.stringify(file), function writeJSON(err) {
+    if (err) return {'error': err};
+  });
+  return {'success': 'Sheet deleted successfully'};
+}
 
-async function output_dedicated_file(data)***REMOVED***
+async function output_dedicated_file(data){
   let sendThis;
-  let newURL = path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.outputfiles***REMOVED***/$***REMOVED***data.name***REMOVED***`);
-  return new Promise(function(resolve, reject) ***REMOVED***
-    fs.mkdir(newURL, ***REMOVED*** recursive: true ***REMOVED***, (err) => ***REMOVED***
-      if (err) reject(***REMOVED***'error': err***REMOVED***);
+  let newURL = path.join(userDataPathHere, `/public/${file.defaults.outputfiles}/${data.name}`);
+  return new Promise(function(resolve, reject) {
+    fs.mkdir(newURL, { recursive: true }, (err) => {
+      if (err) reject({'error': err});
 
-      fs.writeFile(newURL+'/index.html', data.code, (err) => ***REMOVED***
-          if (err) reject(***REMOVED***'error': err***REMOVED***);
+      fs.writeFile(newURL+'/index.html', data.code, (err) => {
+          if (err) reject({'error': err});
 
-          sendThis = ***REMOVED***'success': 'Dedicated Created'***REMOVED***;
+          sendThis = {'success': 'Dedicated Created'};
           resolve(sendThis);
-      ***REMOVED***);
-    ***REMOVED***);
-  ***REMOVED***);
-***REMOVED***
+      });
+    });
+  });
+}
 
-var fn = function collectDirItems(item)***REMOVED***
-  if(item.charAt(0) != '.')***REMOVED***
+var fn = function collectDirItems(item){
+  if(item.charAt(0) != '.'){
     return new Promise(resolve => item);
-  ***REMOVED***
-***REMOVED***;
+  }
+};
 
-async function sendToCropArea(data)***REMOVED***
+async function sendToCropArea(data){
   var arr = [], toSend;
-  let url = `/editable/$***REMOVED***file.defaults.newimagesfolder***REMOVED***`;
-  var files = fs.readdirSync(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/`));
+  let url = `/editable/${file.defaults.newimagesfolder}`;
+  var files = fs.readdirSync(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/`));
 
-  files.forEach(file => ***REMOVED***
-    if(file.charAt(0) != '.')***REMOVED***
-      arr.push(`$***REMOVED***url***REMOVED***/$***REMOVED***file***REMOVED***`);
-    ***REMOVED***
-  ***REMOVED***);
+  files.forEach(file => {
+    if(file.charAt(0) != '.'){
+      arr.push(`${url}/${file}`);
+    }
+  });
 
-  if(arr.length > 0)***REMOVED***
+  if(arr.length > 0){
     toSend = arr;
-  ***REMOVED***else***REMOVED***
-    toSend = ***REMOVED***'error':'Please upload some images for the dayparts'***REMOVED***
-  ***REMOVED***
+  }else{
+    toSend = {'error':'Please upload some images for the dayparts'}
+  }
 
   return toSend;
-***REMOVED***
+}
 
 
-function moveImage(oldImg,newImg)***REMOVED***
-  fs.unlink(oldImg, (err) => ***REMOVED***
-    if (err) ***REMOVED***
+function moveImage(oldImg,newImg){
+  fs.unlink(oldImg, (err) => {
+    if (err) {
       console.error(err)
-      return ***REMOVED***'error': err***REMOVED***;
-    ***REMOVED***
-  ***REMOVED***)
-  fs.rename(oldImg, `newImg`, function (err) ***REMOVED***
+      return {'error': err};
+    }
+  })
+  fs.rename(oldImg, `newImg`, function (err) {
     if (err) throw err
-  ***REMOVED***)
-***REMOVED***
+  })
+}
 
-sharpEdit = (newCreate, data, extractInfo) => ***REMOVED***
+sharpEdit = (newCreate, data, extractInfo) => {
 //  console.log(data);
 //  console.log(extractInfo);
-  return new Promise(function(resolve, reject) ***REMOVED***
-    sharp(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/$***REMOVED***data.img***REMOVED***`))
-      .resize(data.width, data.height,***REMOVED***fit: 'contain'***REMOVED***)
+  return new Promise(function(resolve, reject) {
+    sharp(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/${data.img}`))
+      .resize(data.width, data.height,{fit: 'contain'})
       .extract(extractInfo)
-      .jpeg(***REMOVED***
+      .jpeg({
         quality: 100,
         mozjpeg: true
-      ***REMOVED***)
-      .toFile(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.tempfolder***REMOVED***/$***REMOVED***newCreate***REMOVED***.jpg`), function(err) ***REMOVED***
-        if(err)***REMOVED***
-          reject(***REMOVED***'error': err***REMOVED***);
-        ***REMOVED***else***REMOVED***
+      })
+      .toFile(path.join(userDataPathHere, `/public/${file.defaults.tempfolder}/${newCreate}.jpg`), function(err) {
+        if(err){
+          reject({'error': err});
+        }else{
           resolve(true);
-        ***REMOVED***
-      ***REMOVED***)
-  ***REMOVED***);
-***REMOVED***
+        }
+      })
+  });
+}
 
-async function crop_image(data)***REMOVED***
+async function crop_image(data){
 
   let coverName = data.img.split('.')[0];
   let ext = data.img.split('.')[1];
 
-  if(ext != 'jpeg' || ext != 'jpg')***REMOVED***
-    fs.unlink(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/$***REMOVED***data.img***REMOVED***`), err => ***REMOVED***
+  if(ext != 'jpeg' || ext != 'jpg'){
+    fs.unlink(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/${data.img}`), err => {
       if (err) console.log(err);
-    ***REMOVED***);
-  ***REMOVED***
+    });
+  }
 
   let base64Data = data.imgNew.split('base64,')[1];
 
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.writeFile(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/$***REMOVED***coverName***REMOVED***.jpg`), base64Data, 'base64', function(err) ***REMOVED***
-      if(err == null)***REMOVED***
-        resolve(***REMOVED***'id': data.replace, 'img': `$***REMOVED***coverName***REMOVED***.jpg`***REMOVED***);
-      ***REMOVED***else***REMOVED***
-        reject(***REMOVED***'error': err***REMOVED***);
-      ***REMOVED***
-    ***REMOVED***)
-  ***REMOVED***)
-***REMOVED***
+  return new Promise((resolve, reject) => {
+    fs.writeFile(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/${coverName}.jpg`), base64Data, 'base64', function(err) {
+      if(err == null){
+        resolve({'id': data.replace, 'img': `${coverName}.jpg`});
+      }else{
+        reject({'error': err});
+      }
+    })
+  })
+}
 
-async function moveCroppedFile(blob, newImg, oldImg)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.rename(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.tempfolder***REMOVED***/$***REMOVED***oldImg***REMOVED***`), path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/$***REMOVED***newImgfile***REMOVED***`), function (err) ***REMOVED***
-      if (err)***REMOVED***
-        reject(***REMOVED***'error': err***REMOVED***);
-      ***REMOVED***else***REMOVED***
+async function moveCroppedFile(blob, newImg, oldImg){
+  return new Promise((resolve, reject) => {
+    fs.rename(path.join(userDataPathHere, `/public/${file.defaults.tempfolder}/${oldImg}`), path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/${newImgfile}`), function (err) {
+      if (err){
+        reject({'error': err});
+      }else{
         resolve('image moved');
-      ***REMOVED***
-    ***REMOVED***)
-  ***REMOVED***)
-***REMOVED***
+      }
+    })
+  })
+}
 
-async function scrape_images(data)***REMOVED***
-for (let i = 0; i < data.length; i++) ***REMOVED***
+async function scrape_images(data){
+for (let i = 0; i < data.length; i++) {
 
     //console.log(data[i]);
     client.sharedItems.get(
       data[i],
       null,
-      ***REMOVED***fields: 'type,id,extension,created_by,shared_link,permissions'***REMOVED***,
-    ).then(file => ***REMOVED***
-      client.files.update(file.id, ***REMOVED***
-        shared_link: ***REMOVED***
+      {fields: 'type,id,extension,created_by,shared_link,permissions'},
+    ).then(file => {
+      client.files.update(file.id, {
+        shared_link: {
           access: client.accessLevels.OPEN,
-          permissions: ***REMOVED***
+          permissions: {
             can_download: true
-          ***REMOVED***
-        ***REMOVED***
-      ***REMOVED***).then(file => ***REMOVED***
+          }
+        }
+      }).then(file => {
         //console.log(file.shared_link);
-      ***REMOVED***)
+      })
       .catch(error => console.log('An error happened! files.update', error));
       // console.log(file);
       // let fs = require('fs');
-      // client.files.getReadStream(file.id, null, function(error, stream) ***REMOVED***
-      //  if (error) ***REMOVED***
+      // client.files.getReadStream(file.id, null, function(error, stream) {
+      //  if (error) {
       //     console.log('----------------------------error----------------------------');
       //     console.log(file.id);
       //     console.log(error.response.body);
       //     console.log('-------------------------------------------------------------');
-      //    return ***REMOVED***'error': error***REMOVED***;
-      //  ***REMOVED***
+      //    return {'error': error};
+      //  }
       //  // write the file to disk
-      //  let output = fs.createWriteStream(`$***REMOVED***process.cwd()***REMOVED***/images/cover$***REMOVED***i+1***REMOVED***.$***REMOVED***file.extension***REMOVED***`);
+      //  let output = fs.createWriteStream(`${process.cwd()}/images/cover${i+1}.${file.extension}`);
       //  stream.pipe(output);
-      // ***REMOVED***);
-    ***REMOVED***)
+      // });
+    })
     .catch(error => console.log('An error happened! sharedItems.get', error));
 
-  ***REMOVED***
+  }
 
-  return ***REMOVED***'success': 'Images Scraped'***REMOVED***;
-***REMOVED***
+  return {'success': 'Images Scraped'};
+}
 
-async function delete_items_from_directory(directory)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.readdir(directory, (err, files) => ***REMOVED***
-      if (err)***REMOVED***
+async function delete_items_from_directory(directory){
+  return new Promise((resolve, reject) => {
+    fs.readdir(directory, (err, files) => {
+      if (err){
         console.log(err);
-        reject(`There was an issue retrieving images from the directory $***REMOVED***directory***REMOVED***`);
-      ***REMOVED***
-      if(Array.isArray(files))***REMOVED***
-        for (const file of files) ***REMOVED***
-          if(fs.lstatSync(directory+'/'+file).isDirectory())***REMOVED***
-            fs.rm(directory+'/'+file, ***REMOVED***recursive: true***REMOVED***, err => ***REMOVED***console.log(err)***REMOVED***);
-          ***REMOVED***else***REMOVED***
-            fs.unlink(path.join(directory, file), err => ***REMOVED***
-              if (err)***REMOVED***
+        reject(`There was an issue retrieving images from the directory ${directory}`);
+      }
+      if(Array.isArray(files)){
+        for (const file of files) {
+          if(fs.lstatSync(directory+'/'+file).isDirectory()){
+            fs.rm(directory+'/'+file, {recursive: true}, err => {console.log(err)});
+          }else{
+            fs.unlink(path.join(directory, file), err => {
+              if (err){
                 console.log(err);
-                reject(`There was an issue deleting the file $***REMOVED***file***REMOVED***`);
-              ***REMOVED***
-            ***REMOVED***)
-          ***REMOVED***
-        ***REMOVED***
-      ***REMOVED***
+                reject(`There was an issue deleting the file ${file}`);
+              }
+            })
+          }
+        }
+      }
       resolve(true);
-    ***REMOVED***)
-  ***REMOVED***)
-***REMOVED***
+    })
+  })
+}
 
-async function delete_a_file_rm(file)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.rm(file, ***REMOVED***recursive: true***REMOVED***, (err) => ***REMOVED***
-      if(err)***REMOVED***
+async function delete_a_file_rm(file){
+  return new Promise((resolve, reject) => {
+    fs.rm(file, {recursive: true}, (err) => {
+      if(err){
         console.log('delete issue file');
         console.log(err);
-        reject(`There was an issue deleting the file $***REMOVED***file***REMOVED***`);
-      ***REMOVED***else***REMOVED***
+        reject(`There was an issue deleting the file ${file}`);
+      }else{
         resolve(true);
-      ***REMOVED***
-    ***REMOVED***);
-  ***REMOVED***)
-***REMOVED***
+      }
+    });
+  })
+}
 
-async function getListofFiles(directory)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.readdir(directory, (err, files) => ***REMOVED***
-      if (err)***REMOVED***
+async function getListofFiles(directory){
+  return new Promise((resolve, reject) => {
+    fs.readdir(directory, (err, files) => {
+      if (err){
         console.log('get file list issue');
         console.log(err);
-        reject(`There was an issue retrieving files from the directory $***REMOVED***directory***REMOVED***`);
-      ***REMOVED***else***REMOVED***
+        reject(`There was an issue retrieving files from the directory ${directory}`);
+      }else{
         resolve(files);
-      ***REMOVED***
-    ***REMOVED***)
-  ***REMOVED***)
-***REMOVED***
+      }
+    })
+  })
+}
 
-async function deleteEverythihng(directory, files)***REMOVED***
+async function deleteEverythihng(directory, files){
   const promises = [];
 
-  for(const file of files) ***REMOVED***
+  for(const file of files) {
     promises.push(delete_a_file_rm(path.join(directory, file)))
-  ***REMOVED***
+  }
 
   const filesDeleted = await Promise.all(promises);
-***REMOVED***
+}
 
-async function delete_items_from_directory_rm(directory)***REMOVED***
+async function delete_items_from_directory_rm(directory){
   const files = await getListofFiles(directory);
   await deleteEverythihng(directory, files);
-***REMOVED***
+}
 
-async function reduce_images(data)***REMOVED***
+async function reduce_images(data){
   //console.log('starting reduce_images');
-  return await Promise.all([delete_items_from_directory(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.imagesfolder***REMOVED***`))])
-  .then(b => ***REMOVED***
+  return await Promise.all([delete_items_from_directory(path.join(userDataPathHere, `/public/${file.defaults.imagesfolder}`))])
+  .then(b => {
    // console.log('delete everything from image dir and get folder contents');
     return getFolderContents(file.defaults.newimagesfolder);
-  ***REMOVED***)
-  .then(res => ***REMOVED***
-    const reduceAndMove = res.map(async img => ***REMOVED***
-    if(img.charAt(0) != '.')***REMOVED***
+  })
+  .then(res => {
+    const reduceAndMove = res.map(async img => {
+    if(img.charAt(0) != '.'){
       //console.log(img);
       await useSharp(img);
       //  return reducedImg;
-      ***REMOVED***
-    ***REMOVED***)
+      }
+    })
    // console.log('reduce all the images in this folder');
     return Promise.all(reduceAndMove);
-  ***REMOVED***)
-  .then(d => ***REMOVED***
-    return ***REMOVED***'success': 'Images Reduced'***REMOVED***;
-  ***REMOVED***).catch((e) => ***REMOVED***
+  })
+  .then(d => {
+    return {'success': 'Images Reduced'};
+  }).catch((e) => {
        console.log("reduce_images "+e);
-       return ***REMOVED***'error': e***REMOVED***;
-   ***REMOVED***);
-***REMOVED***
+       return {'error': e};
+   });
+}
 
-async function useSharp(img)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
+async function useSharp(img){
+  return new Promise((resolve, reject) => {
     let fileName = img.split('.');
-    return sharp(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/$***REMOVED***img***REMOVED***`))
+    return sharp(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/${img}`))
       .resize(250, 250)
-      .jpeg(***REMOVED***
+      .jpeg({
         quality: 80,
         mozjpeg: true
-      ***REMOVED***)
-      .toFile(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.imagesfolder***REMOVED***/$***REMOVED***fileName[0]***REMOVED***.jpg`), function(err) ***REMOVED***
-        if(err)***REMOVED***
-          reject(***REMOVED***'useSharp error': err***REMOVED***);
-        ***REMOVED***else***REMOVED***
-          resolve(***REMOVED***'success': 'Images reduced'***REMOVED***);
-        ***REMOVED***
-    ***REMOVED***)
-  ***REMOVED***);
-***REMOVED***
+      })
+      .toFile(path.join(userDataPathHere, `/public/${file.defaults.imagesfolder}/${fileName[0]}.jpg`), function(err) {
+        if(err){
+          reject({'useSharp error': err});
+        }else{
+          resolve({'success': 'Images reduced'});
+        }
+    })
+  });
+}
 
-function getFolderContents(folder)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.readdir(path.join(userDataPathHere, `/public/$***REMOVED***folder***REMOVED***/`), (error, files) => ***REMOVED***
-      if(error)***REMOVED***
+function getFolderContents(folder){
+  return new Promise((resolve, reject) => {
+    fs.readdir(path.join(userDataPathHere, `/public/${folder}/`), (error, files) => {
+      if(error){
         return reject(error);
-      ***REMOVED***
+      }
       return resolve(files);
-    ***REMOVED***);
-  ***REMOVED***)
-***REMOVED***
+    });
+  })
+}
 
 
-async function output_txt(data)***REMOVED***
-  let newURL = path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.textfolder***REMOVED***/$***REMOVED***data.name***REMOVED***.txt`);
+async function output_txt(data){
+  let newURL = path.join(userDataPathHere, `/public/${file.defaults.textfolder}/${data.name}.txt`);
   let changeHere = data.textInfo;
   let nextChange = changeHere.replace(/&lt;/g, '<');
   let useThis = nextChange.replace(/&gt;/g, '>');
@@ -383,123 +383,123 @@ async function output_txt(data)***REMOVED***
   html += '\n\n';
   html += useThis;
 
-  return new Promise((resolve, reject) => ***REMOVED***
-    try ***REMOVED***
+  return new Promise((resolve, reject) => {
+    try {
       fs.writeFileSync(newURL, html);
-      resolve(`$***REMOVED***envrmt.url***REMOVED***/editable/$***REMOVED***file.defaults.textfolder***REMOVED***/$***REMOVED***data.textName***REMOVED***.txt`);
-    ***REMOVED***catch (err) ***REMOVED***
-      reject(***REMOVED***'error': err***REMOVED***);
-    ***REMOVED***
-  ***REMOVED***)
-***REMOVED***
+      resolve(`${envrmt.url}/editable/${file.defaults.textfolder}/${data.textName}.txt`);
+    }catch (err) {
+      reject({'error': err});
+    }
+  })
+}
 
-async function gather_images(data)***REMOVED***
-  const env = envrmt; //JSON.parse(envrmt, ***REMOVED***encoding:'utf8', flag:'r'***REMOVED***);
+async function gather_images(data){
+  const env = envrmt; //JSON.parse(envrmt, {encoding:'utf8', flag:'r'});
   let linksOnly = data.links.split(',');
   let links = [];
   let num = 1;
-  linksOnly.forEach(link => ***REMOVED***
-    let addOrder = ***REMOVED***'num':num, 'url':link***REMOVED***;
+  linksOnly.forEach(link => {
+    let addOrder = {'num':num, 'url':link};
     links.push(addOrder);
     num++;
-  ***REMOVED***)
+  })
 
-  try***REMOVED***
+  try{
     const checkToken = await checkifTokenIsLiveStill(env);
-    const afterDeleteItmes = await delete_items_from_directory(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***`));
+    const afterDeleteItmes = await delete_items_from_directory(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}`));
     const downloadedImages = await downloadAllSelectedImages(env.token, links);
-    return ***REMOVED***'success': downloadedImages***REMOVED***;
-  ***REMOVED***catch(error)***REMOVED***
-    return ***REMOVED***'error': error***REMOVED***;
-  ***REMOVED***
-***REMOVED***
+    return {'success': downloadedImages};
+  }catch(error){
+    return {'error': error};
+  }
+}
 
-function dateDiffInMinutes(date1InMilliseconds, date2InMilliseconds) ***REMOVED***
+function dateDiffInMinutes(date1InMilliseconds, date2InMilliseconds) {
   // Get the difference in milliseconds
   let diffInMilliseconds = Math.abs(date2InMilliseconds - date1InMilliseconds);
 
   // Convert milliseconds to minutes and return the result
   return diffInMilliseconds / (1000 * 60);
-***REMOVED***
+}
 
-async function checkifTokenIsLiveStill(env)***REMOVED***
+async function checkifTokenIsLiveStill(env){
   //console.log('checkifTokenIsLiveStill')
   const errMsg = 'Your token has expired';
-  return new Promise((resolve, reject) => ***REMOVED***
-    if(env.token == undefined || env.expires == undefined || env.token_time == undefined)***REMOVED***
+  return new Promise((resolve, reject) => {
+    if(env.token == undefined || env.expires == undefined || env.token_time == undefined){
       console.log(errMsg)
       reject(errMsg);
-    ***REMOVED***
+    }
     const tokenTime = env.token_time;
     const currentTime = new Date();
     const expireInMinutes = env.expires / 60;
-    if(dateDiffInMinutes(tokenTime, currentTime) > expireInMinutes)***REMOVED***
+    if(dateDiffInMinutes(tokenTime, currentTime) > expireInMinutes){
       console.log(errMsg)
       reject(errMsg);
-    ***REMOVED***
+    }
 
-    if(dateDiffInMinutes(tokenTime, currentTime) < expireInMinutes)***REMOVED***
+    if(dateDiffInMinutes(tokenTime, currentTime) < expireInMinutes){
       resolve(true);
-    ***REMOVED***
-  ***REMOVED***)
-***REMOVED***
+    }
+  })
+}
 
-async function downloadAllSelectedImages(token, links)***REMOVED***
+async function downloadAllSelectedImages(token, links){
   const allTheImages = [];
 
-  links.forEach(link => ***REMOVED***
+  links.forEach(link => {
     allTheImages.push(downloadImage(token, link));
-  ***REMOVED***)
+  })
 
   return Promise.all(allTheImages)
-   .then((results) => ***REMOVED***
+   .then((results) => {
        return results;
-   ***REMOVED***)
-   .catch((e) => ***REMOVED***
+   })
+   .catch((e) => {
        console.log("downloadAllSelectedImages Promise.all error "+e);
        return e;
-   ***REMOVED***);
+   });
 
-***REMOVED***
+}
 
-async function downloadImage(token, link)***REMOVED***
+async function downloadImage(token, link){
   let client = BoxSDK.getBasicClient(token);
-  return new Promise((resolve, reject) => ***REMOVED***
+  return new Promise((resolve, reject) => {
     client.sharedItems.get(
       link.url,
       null,
-      ***REMOVED***fields: 'type,id,extension'***REMOVED***,
-    ).then(imgs => ***REMOVED***
-      client.files.getReadStream(imgs.id, null, function(error, stream) ***REMOVED***
-      	if (error) ***REMOVED***
+      {fields: 'type,id,extension'},
+    ).then(imgs => {
+      client.files.getReadStream(imgs.id, null, function(error, stream) {
+      	if (error) {
       		console.log("downloadImage "+error.statusCode);
-          reject(`There was an issue downloading this image $***REMOVED***link.url***REMOVED***`);
+          reject(`There was an issue downloading this image ${link.url}`);
           return;
-      	***REMOVED***
-      	var output = fs.createWriteStream(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/cover$***REMOVED***link.num***REMOVED***.$***REMOVED***imgs.extension***REMOVED***`));
+      	}
+      	var output = fs.createWriteStream(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/cover${link.num}.${imgs.extension}`));
       	stream.pipe(output);
 
-        if(imgs.extension == 'tif' || imgs.extension == 'tiff')***REMOVED***
-          reject(`Image cover$***REMOVED***link.num***REMOVED*** is a tiff. Please replace with a jpg or png.`);
-        ***REMOVED***else***REMOVED***
-          resolve(`cover$***REMOVED***link.num***REMOVED***.$***REMOVED***imgs.extension***REMOVED***`);
-        ***REMOVED***
-      ***REMOVED***).catch(error => ***REMOVED***
-        console.log(`creating write stream error cover$***REMOVED***link.num***REMOVED***.$***REMOVED***imgs.extension***REMOVED***`);
+        if(imgs.extension == 'tif' || imgs.extension == 'tiff'){
+          reject(`Image cover${link.num} is a tiff. Please replace with a jpg or png.`);
+        }else{
+          resolve(`cover${link.num}.${imgs.extension}`);
+        }
+      }).catch(error => {
+        console.log(`creating write stream error cover${link.num}.${imgs.extension}`);
         console.log('getReadStream error '+error.statusCode);
         reject('There was an issue retrieving image information');
-      ***REMOVED***);
-    ***REMOVED***).catch(error => ***REMOVED***
-      console.log(`image finding issue cover$***REMOVED***link.num***REMOVED***`);
+      });
+    }).catch(error => {
+      console.log(`image finding issue cover${link.num}`);
      // console.log('getReadStream error '+error.statusCode);
-      reject(`Image cover$***REMOVED***link.num***REMOVED*** is not found`);
-    ***REMOVED***);
-  ***REMOVED***)
-***REMOVED***
+      reject(`Image cover${link.num} is not found`);
+    });
+  })
+}
 
-async function hptoCreateOriginalFolder(data, newURL, it)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    const folderAssoc = ***REMOVED***
+async function hptoCreateOriginalFolder(data, newURL, it){
+  return new Promise((resolve, reject) => {
+    const folderAssoc = {
       'A' : '',
       'B' : '2',
       'C' : '3',
@@ -507,170 +507,170 @@ async function hptoCreateOriginalFolder(data, newURL, it)***REMOVED***
       'E' : '5',
       'F' : '6',
       'G' : '7',
-    ***REMOVED***
-    let end = (it == 0) ? folderAssoc[data.iterator] : `_$***REMOVED***data.iterator***REMOVED***$***REMOVED***it***REMOVED***`;
-    fs.mkdir(newURL+end, ***REMOVED*** recursive: true ***REMOVED***, (err) => ***REMOVED***
-      if(err)***REMOVED***
-        let sendThis = ***REMOVED***'error': err***REMOVED***;
+    }
+    let end = (it == 0) ? folderAssoc[data.iterator] : `_${data.iterator}${it}`;
+    fs.mkdir(newURL+end, { recursive: true }, (err) => {
+      if(err){
+        let sendThis = {'error': err};
         console.log(sendThis);
         reject(sendThis);
         return sendThis;
-      ***REMOVED***else***REMOVED***
-       // console.log(`new folder: $***REMOVED***end***REMOVED***`);
+      }else{
+       // console.log(`new folder: ${end}`);
         resolve(end);
-      ***REMOVED***
-    ***REMOVED***)
-  ***REMOVED***)
-***REMOVED***
+      }
+    })
+  })
+}
 
-async function hptoAddIndex(data, curUrl, it)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.writeFile(curUrl+'/index.html', data.code, (err) => ***REMOVED***
-        if (err)***REMOVED***
-          let sendThis = ***REMOVED***'error': err***REMOVED***;
+async function hptoAddIndex(data, curUrl, it){
+  return new Promise((resolve, reject) => {
+    fs.writeFile(curUrl+'/index.html', data.code, (err) => {
+        if (err){
+          let sendThis = {'error': err};
           console.log(sendThis);
           reject(sendThis);
           //return sendThis;
-        ***REMOVED***else***REMOVED***
-          let sendThis = ***REMOVED***'success': 'Index page created'***REMOVED***;
+        }else{
+          let sendThis = {'success': 'Index page created'};
           //console.log(sendThis);
           resolve(sendThis);
-        ***REMOVED***
-    ***REMOVED***);
-  ***REMOVED***)
-***REMOVED***
+        }
+    });
+  })
+}
 
-async function hptoAddScript(data, curUrl, it)***REMOVED***
-return new Promise((resolve, reject) => ***REMOVED***
-  if(it > 0)***REMOVED***
-      fs.copyFile(path.resolve(__dirname,`../public/defaults/$***REMOVED***it***REMOVED***/script.js`), `$***REMOVED***curUrl***REMOVED***/script.js`, (err) => ***REMOVED***
-        if (err)***REMOVED***
-          let sendThis = ***REMOVED***'error': err***REMOVED***;
+async function hptoAddScript(data, curUrl, it){
+return new Promise((resolve, reject) => {
+  if(it > 0){
+      fs.copyFile(path.resolve(__dirname,`../public/defaults/${it}/script.js`), `${curUrl}/script.js`, (err) => {
+        if (err){
+          let sendThis = {'error': err};
           console.log(sendThis);
           reject(sendThis);
-        ***REMOVED***else***REMOVED***
-          //console.log(`$***REMOVED***it***REMOVED*** script.js was copied to destination`);
+        }else{
+          //console.log(`${it} script.js was copied to destination`);
           resolve(true);
-        ***REMOVED***
-      ***REMOVED***);
-    ***REMOVED***else***REMOVED***
-      fs.copyFile(path.resolve(__dirname,`../public/defaults/script.js`), `$***REMOVED***curUrl***REMOVED***/script.js`, (err) => ***REMOVED***
-        if (err)***REMOVED***
-          let sendThis = ***REMOVED***'error': err***REMOVED***;
+        }
+      });
+    }else{
+      fs.copyFile(path.resolve(__dirname,`../public/defaults/script.js`), `${curUrl}/script.js`, (err) => {
+        if (err){
+          let sendThis = {'error': err};
           console.log(sendThis);
           reject(sendThis);
-        ***REMOVED***else***REMOVED***
+        }else{
           //console.log('default script.js was copied to destination');
           resolve(true);
-        ***REMOVED***
-      ***REMOVED***);
-    ***REMOVED***
-  ***REMOVED***)
-***REMOVED***
+        }
+      });
+    }
+  })
+}
 
-async function hptoAddStyle(data, curUrl, it)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    if(it > 0)***REMOVED***
-      fs.copyFile(path.resolve(__dirname,`../public/defaults/$***REMOVED***it***REMOVED***/style.css`), `$***REMOVED***curUrl***REMOVED***/style.css`, (err) => ***REMOVED***
-        if (err)***REMOVED***
-          let sendThis = ***REMOVED***'error': err***REMOVED***;
+async function hptoAddStyle(data, curUrl, it){
+  return new Promise((resolve, reject) => {
+    if(it > 0){
+      fs.copyFile(path.resolve(__dirname,`../public/defaults/${it}/style.css`), `${curUrl}/style.css`, (err) => {
+        if (err){
+          let sendThis = {'error': err};
           console.log(sendThis);
           reject(sendThis);
           return sendThis;
-        ***REMOVED***else***REMOVED***
-          //console.log(`$***REMOVED***it***REMOVED*** style.css was copied to destination`);
+        }else{
+          //console.log(`${it} style.css was copied to destination`);
           resolve(true);
-        ***REMOVED***
-      ***REMOVED***);
-    ***REMOVED***else***REMOVED***
-      fs.copyFile(path.resolve(__dirname,`../public/defaults/style.css`), `$***REMOVED***curUrl***REMOVED***/style.css`, (err) => ***REMOVED***
-        if (err)***REMOVED***
-          let sendThis = ***REMOVED***'error': err***REMOVED***;
+        }
+      });
+    }else{
+      fs.copyFile(path.resolve(__dirname,`../public/defaults/style.css`), `${curUrl}/style.css`, (err) => {
+        if (err){
+          let sendThis = {'error': err};
           console.log(sendThis);
           reject(sendThis);
           return sendThis;
-        ***REMOVED***else***REMOVED***
+        }else{
           //console.log('default style.css was copied to destination');
           resolve(true);
-        ***REMOVED***
-      ***REMOVED***);
-    ***REMOVED***
-  ***REMOVED***)
-***REMOVED***
+        }
+      });
+    }
+  })
+}
 
-async function hptoAddImages(data, curUrl, it)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
+async function hptoAddImages(data, curUrl, it){
+  return new Promise((resolve, reject) => {
     ncp.limit = 25;
 
     // ncp(source, destination, callback)
-    ncp(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.imagesfolder***REMOVED***`), `$***REMOVED***curUrl***REMOVED***/$***REMOVED***file.defaults.imagesfolder***REMOVED***`,
-      function (err) ***REMOVED***
-        if (err)***REMOVED***
-          let sendThis = ***REMOVED***'error': err***REMOVED***;
+    ncp(path.join(userDataPathHere, `/public/${file.defaults.imagesfolder}`), `${curUrl}/${file.defaults.imagesfolder}`,
+      function (err) {
+        if (err){
+          let sendThis = {'error': err};
           console.log(sendThis);
           reject(sendThis);
           return sendThis;
-        ***REMOVED***else***REMOVED***
+        }else{
          // console.log('images folder copied recursively');
           resolve(true);
-        ***REMOVED***
-    ***REMOVED***);
-  ***REMOVED***)
-***REMOVED***
+        }
+    });
+  })
+}
 
-async function hptoFillFolder(data, curUrl, it)***REMOVED***
+async function hptoFillFolder(data, curUrl, it){
   return await Promise.all([hptoAddIndex(data, curUrl, it),hptoAddScript(data, curUrl, it),hptoAddStyle(data, curUrl, it),hptoAddImages(data, curUrl, it)]);
-***REMOVED***
+}
 
-async function createHTPOfolder(data, it)***REMOVED***
-  let newURL = path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.outputfiles***REMOVED***/$***REMOVED***data.name***REMOVED***`);
+async function createHTPOfolder(data, it){
+  let newURL = path.join(userDataPathHere, `/public/${file.defaults.outputfiles}/${data.name}`);
   //const chmodValue = '777';
 
   const end = await hptoCreateOriginalFolder(data, newURL, it);
   await hptoFillFolder(data,newURL+end,it);
-***REMOVED***
+}
 
-async function build_hptos(data)***REMOVED***
+async function build_hptos(data){
   const promises = [];
 
-  for (let i = 0; i <= 5; i++) ***REMOVED***
+  for (let i = 0; i <= 5; i++) {
     promises.push(createHTPOfolder(data, i));
-  ***REMOVED***
+  }
 
   const filesBuilt = await Promise.all(promises);
-***REMOVED***
+}
 
-async function output_code(data)***REMOVED***
-  try***REMOVED***
+async function output_code(data){
+  try{
     const textURL = await output_txt(data);
-    await delete_items_from_directory_rm(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.outputfiles***REMOVED***`));
+    await delete_items_from_directory_rm(path.join(userDataPathHere, `/public/${file.defaults.outputfiles}`));
     await build_hptos(data);
-    await checkForAllFiles(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.outputfiles***REMOVED***/`));
-    const dlURL = await create_zip_for_hptos(`$***REMOVED***data.name***REMOVED***$***REMOVED***data.iterator***REMOVED***`);
-    return ***REMOVED***'success': 'yes', 'dlURL': dlURL, 'textFile': textURL***REMOVED***;
-  ***REMOVED***catch(error)***REMOVED***
+    await checkForAllFiles(path.join(userDataPathHere, `/public/${file.defaults.outputfiles}/`));
+    const dlURL = await create_zip_for_hptos(`${data.name}${data.iterator}`);
+    return {'success': 'yes', 'dlURL': dlURL, 'textFile': textURL};
+  }catch(error){
     console.log(error);
-    return ***REMOVED***'error': error***REMOVED***;
-  ***REMOVED***
-***REMOVED***
+    return {'error': error};
+  }
+}
 
-async function checkForAllFiles(folderName)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
+async function checkForAllFiles(folderName){
+  return new Promise((resolve, reject) => {
     const fileList = fs.readdirSync(folderName);
     let goodTogo = '';
-    for (let i = 0; i < fileList.length; i++)***REMOVED***
-      if (fileList[i] === ".DS_Store") ***REMOVED***
+    for (let i = 0; i < fileList.length; i++){
+      if (fileList[i] === ".DS_Store") {
         let spliced = fileList.splice(i, 1);
-      ***REMOVED***
-    ***REMOVED***
+      }
+    }
    // console.log(fileList);
-    if(fileList.length == 6)***REMOVED***
-      fileList.forEach((folder) => ***REMOVED***
-        const folderList = fs.readdirSync(`$***REMOVED***folderName***REMOVED***$***REMOVED***folder***REMOVED***/`);
+    if(fileList.length == 6){
+      fileList.forEach((folder) => {
+        const folderList = fs.readdirSync(`${folderName}${folder}/`);
         //console.log(folderList);
         let missing = '';
-        folderList.forEach((item) => ***REMOVED***
-          switch(item) ***REMOVED***
+        folderList.forEach((item) => {
+          switch(item) {
             case 'images':
               break;
             case 'index.html':
@@ -681,152 +681,152 @@ async function checkForAllFiles(folderName)***REMOVED***
               break;
             default:
               missing = item;
-          ***REMOVED***
-          if(missing != '')***REMOVED***
-            const redoFiles = addfiles(missing,`$***REMOVED***folderName***REMOVED***$***REMOVED***folder***REMOVED***/`);
-          ***REMOVED***
-        ***REMOVED***)
-      ***REMOVED***)
+          }
+          if(missing != ''){
+            const redoFiles = addfiles(missing,`${folderName}${folder}/`);
+          }
+        })
+      })
       resolve(true);
-    ***REMOVED***else***REMOVED***
+    }else{
       reject('There is a folder missing');
-    ***REMOVED*** // if(fileList.length == 6)***REMOVED***
-  ***REMOVED***) // end promise
-***REMOVED***
+    } // if(fileList.length == 6){
+  }) // end promise
+}
 
-async function addFiles(fileName, toThisFolder)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
+async function addFiles(fileName, toThisFolder){
+  return new Promise((resolve, reject) => {
     ncp.limit = 25;
     // ncp(source, destination, callback)
-    if(fileName == 'images')***REMOVED***
-      ncp(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.imagesfolder***REMOVED***`), toThisFolder,
-        function (err) ***REMOVED***
-          if (err)***REMOVED***
+    if(fileName == 'images'){
+      ncp(path.join(userDataPathHere, `/public/${file.defaults.imagesfolder}`), toThisFolder,
+        function (err) {
+          if (err){
             reject(err);
-            //sendThis = ***REMOVED***'error': err***REMOVED***;
+            //sendThis = {'error': err};
             //return sendThis;
-          ***REMOVED***else***REMOVED***
+          }else{
             resolve('missing images folder copied recursively');
-          ***REMOVED***
-        ***REMOVED***
+          }
+        }
       )
-    ***REMOVED***
-  ***REMOVED***)
-***REMOVED***
+    }
+  })
+}
 
 
-async function update_images()***REMOVED***
+async function update_images(){
   //processing on the front end, just need to return success bc thts wht the
   // function needs
-  return ***REMOVED***'success': 'do the thing'***REMOVED***;
-***REMOVED***
+  return {'success': 'do the thing'};
+}
 
-async function create_zip_for_hptos(data)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
+async function create_zip_for_hptos(data){
+  return new Promise((resolve, reject) => {
     const zip = new AdmZip();
-    const outputFile = path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.savedHPTOzips***REMOVED***/$***REMOVED***data***REMOVED***.zip`);
-    zip.addLocalFolder(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.outputfiles***REMOVED***`));
+    const outputFile = path.join(userDataPathHere, `/public/${file.defaults.savedHPTOzips}/${data}.zip`);
+    zip.addLocalFolder(path.join(userDataPathHere, `/public/${file.defaults.outputfiles}`));
     zip.writeZip(outputFile);
-    resolve(`$***REMOVED***envrmt.url***REMOVED***/editable/$***REMOVED***file.defaults.savedHPTOzips***REMOVED***/$***REMOVED***data***REMOVED***.zip`);
-  ***REMOVED***)
-***REMOVED***
+    resolve(`${envrmt.url}/editable/${file.defaults.savedHPTOzips}/${data}.zip`);
+  })
+}
 
-async function create_zip(data)***REMOVED***
+async function create_zip(data){
   const zip = new AdmZip();
-  const outputFile = path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.savedzips***REMOVED***/$***REMOVED***data.name***REMOVED***.zip`);
-  zip.addLocalFolder(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***`));
+  const outputFile = path.join(userDataPathHere, `/public/${file.defaults.savedzips}/${data.name}.zip`);
+  zip.addLocalFolder(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}`));
   zip.writeZip(outputFile);
-  return ***REMOVED***'success': `zip $***REMOVED***data.name***REMOVED***.zip created`***REMOVED***;
-***REMOVED***
+  return {'success': `zip ${data.name}.zip created`};
+}
 
-async function open_zip(data)***REMOVED***
-  return await Promise.all([delete_items_from_directory(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***`)),delete_items_from_directory(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.tempfolder***REMOVED***`))])
-  .then(b => ***REMOVED***
-    return new Promise((resolve, reject) => ***REMOVED***
-      try ***REMOVED***
-        const zip = new AdmZip(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.savedzips***REMOVED***/$***REMOVED***data.name***REMOVED***.zip`));
-        const outputDir = path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.tempfolder***REMOVED***`);
+async function open_zip(data){
+  return await Promise.all([delete_items_from_directory(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}`)),delete_items_from_directory(path.join(userDataPathHere, `/public/${file.defaults.tempfolder}`))])
+  .then(b => {
+    return new Promise((resolve, reject) => {
+      try {
+        const zip = new AdmZip(path.join(userDataPathHere, `/public/${file.defaults.savedzips}/${data.name}.zip`));
+        const outputDir = path.join(userDataPathHere, `/public/${file.defaults.tempfolder}`);
         zip.extractAllTo(outputDir);
-        resolve(***REMOVED***'success': 'images extracted!'***REMOVED***);
-      ***REMOVED*** catch (e) ***REMOVED***
-        reject(***REMOVED***'error': `Something went wrong. $***REMOVED***e***REMOVED***`***REMOVED***);
-      ***REMOVED***
-    ***REMOVED***)
-   ***REMOVED***)
-  .then(c => ***REMOVED***
+        resolve({'success': 'images extracted!'});
+      } catch (e) {
+        reject({'error': `Something went wrong. ${e}`});
+      }
+    })
+   })
+  .then(c => {
     let files;
-    return new Promise((resolve, reject) => ***REMOVED***
-      try ***REMOVED***
-        files = fs.readdirSync(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.tempfolder***REMOVED***/$***REMOVED***data.name***REMOVED***`));
+    return new Promise((resolve, reject) => {
+      try {
+        files = fs.readdirSync(path.join(userDataPathHere, `/public/${file.defaults.tempfolder}/${data.name}`));
         resolve(files);
-      ***REMOVED***catch (err) ***REMOVED***
-        reject(***REMOVED***'error': err***REMOVED***);
-      ***REMOVED***
-    ***REMOVED***)
-    .then(files => ***REMOVED***
+      }catch (err) {
+        reject({'error': err});
+      }
+    })
+    .then(files => {
       let filesToReturn = [];
       return Promise.all([
-        files.forEach(file => ***REMOVED***
-         if(file.charAt(0) != '.')***REMOVED***
-           try ***REMOVED***
-             fsPromises.rename(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.tempfolder***REMOVED***/$***REMOVED***data.name***REMOVED***/$***REMOVED***file***REMOVED***`), path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***/$***REMOVED***file***REMOVED***`));
+        files.forEach(file => {
+         if(file.charAt(0) != '.'){
+           try {
+             fsPromises.rename(path.join(userDataPathHere, `/public/${file.defaults.tempfolder}/${data.name}/${file}`), path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}/${file}`));
              return file;
-           ***REMOVED*** catch (err) ***REMOVED***
-              return ***REMOVED***'error': err***REMOVED***;
-           ***REMOVED***
-         ***REMOVED***
-       ***REMOVED***)
+           } catch (err) {
+              return {'error': err};
+           }
+         }
+       })
       ])
-      .then(e => ***REMOVED***
-        return new Promise((resolve, reject) => ***REMOVED***
-          try ***REMOVED***
-            fsPromises.rmdir(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.tempfolder***REMOVED***/$***REMOVED***data.name***REMOVED***`));
-            resolve(***REMOVED***'success': 'run frontend function'***REMOVED***);
-          ***REMOVED*** catch (err) ***REMOVED***
-            reject(***REMOVED***'error': err***REMOVED***);
-          ***REMOVED***
-        ***REMOVED***)
-      ***REMOVED***)
-      .then(f => ***REMOVED***
-        return new Promise((resolve, reject) => ***REMOVED***
-          try ***REMOVED***
-            files = fs.readdirSync(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.newimagesfolder***REMOVED***`));
-            resolve(***REMOVED***'success': 'run frontend function', 'files': files***REMOVED***);
-          ***REMOVED***catch (err) ***REMOVED***
-            reject(***REMOVED***'error': err***REMOVED***);
-          ***REMOVED***
-        ***REMOVED***)
-      ***REMOVED***)
-    ***REMOVED***)
-  ***REMOVED***)
-***REMOVED***
+      .then(e => {
+        return new Promise((resolve, reject) => {
+          try {
+            fsPromises.rmdir(path.join(userDataPathHere, `/public/${file.defaults.tempfolder}/${data.name}`));
+            resolve({'success': 'run frontend function'});
+          } catch (err) {
+            reject({'error': err});
+          }
+        })
+      })
+      .then(f => {
+        return new Promise((resolve, reject) => {
+          try {
+            files = fs.readdirSync(path.join(userDataPathHere, `/public/${file.defaults.newimagesfolder}`));
+            resolve({'success': 'run frontend function', 'files': files});
+          }catch (err) {
+            reject({'error': err});
+          }
+        })
+      })
+    })
+  })
+}
 
-async function delete_zip(data)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.unlink(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.savedzips***REMOVED***/$***REMOVED***data.name***REMOVED***.zip`), err => ***REMOVED***
-      if (err)***REMOVED***
-        reject(***REMOVED***'error': err***REMOVED***);
+async function delete_zip(data){
+  return new Promise((resolve, reject) => {
+    fs.unlink(path.join(userDataPathHere, `/public/${file.defaults.savedzips}/${data.name}.zip`), err => {
+      if (err){
+        reject({'error': err});
         return;
-      ***REMOVED***
-      resolve(***REMOVED***'success': data.deleteid***REMOVED***);
-    ***REMOVED***);
-  ***REMOVED***)
-***REMOVED***
+      }
+      resolve({'success': data.deleteid});
+    });
+  })
+}
 
-async function delete_csv(data)***REMOVED***
-  return new Promise((resolve, reject) => ***REMOVED***
-    fs.unlink(path.join(userDataPathHere, `/public/$***REMOVED***file.defaults.storecsvs***REMOVED***/$***REMOVED***data.name***REMOVED***.csv`), err => ***REMOVED***
-      if (err)***REMOVED***
-        reject(***REMOVED***'error': err***REMOVED***);
+async function delete_csv(data){
+  return new Promise((resolve, reject) => {
+    fs.unlink(path.join(userDataPathHere, `/public/${file.defaults.storecsvs}/${data.name}.csv`), err => {
+      if (err){
+        reject({'error': err});
         return;
-      ***REMOVED***
-      resolve(***REMOVED***'success': data.deleteid***REMOVED***);
-    ***REMOVED***);
-  ***REMOVED***)
-***REMOVED***
+      }
+      resolve({'success': data.deleteid});
+    });
+  })
+}
 
 
-module.exports = ***REMOVED***
+module.exports = {
   add_default,
   add_sheet,
   run_sheet,
@@ -843,4 +843,4 @@ module.exports = ***REMOVED***
   delete_zip,
   delete_csv,
   gather_images
-***REMOVED***;
+};

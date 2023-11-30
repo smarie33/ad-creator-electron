@@ -4,17 +4,17 @@ FAR Style (c) MajestiC <majestic2k@gmail.com>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #000080;
-***REMOVED***
+}
 
 .hljs,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #0ff;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-attribute,
@@ -24,9 +24,9 @@ FAR Style (c) MajestiC <majestic2k@gmail.com>
 .hljs-builtin-name,
 .hljs-template-tag,
 .hljs-template-variable,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #ff0;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
@@ -35,37 +35,37 @@ FAR Style (c) MajestiC <majestic2k@gmail.com>
 .hljs-name,
 .hljs-selector-id,
 .hljs-selector-class,
-.hljs-variable ***REMOVED***
+.hljs-variable {
   color: #fff;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
 .hljs-doctag,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #888;
-***REMOVED***
+}
 
 .hljs-number,
 .hljs-regexp,
 .hljs-literal,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #0f0;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #008080;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-title,
 .hljs-section,
 .hljs-name,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}

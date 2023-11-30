@@ -6,44 +6,44 @@ Ported by Fabrício Tavares de Oliveira
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #fff;
-***REMOVED***
+}
 
 .hljs,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #000;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-meta,
 .hljs-symbol,
 .hljs-template-tag,
 .hljs-template-variable,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #756bb1;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #636363;
-***REMOVED***
+}
 
 .hljs-number,
 .hljs-regexp,
 .hljs-literal,
 .hljs-bullet,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #31a354;
-***REMOVED***
+}
 
 .hljs-deletion,
-.hljs-variable ***REMOVED***
+.hljs-variable {
   color: #88f;
-***REMOVED***
+}
 
 
 
@@ -58,14 +58,14 @@ Ported by Fabrício Tavares de Oliveira
 .hljs-name,
 .hljs-selector-id,
 .hljs-selector-class,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   color: #3182bd;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #e6550d;
-***REMOVED***
+}

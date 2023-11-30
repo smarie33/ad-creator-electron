@@ -4,98 +4,98 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   color: #333;
   background: #fff;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #777;
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #333;
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-number,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #777;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-doctag,
-.hljs-formula ***REMOVED***
+.hljs-formula {
   color: #333;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQIW2O8e/fufwYGBgZBQUEQxcCIIfDu3Tuwivfv30NUoAsAALHpFMMLqZlPAAAAAElFTkSuQmCC) repeat;
-***REMOVED***
+}
 
 .hljs-title,
 .hljs-section,
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
   color: #000;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-subst ***REMOVED***
+.hljs-subst {
   font-weight: normal;
-***REMOVED***
+}
 
 .hljs-class .hljs-title,
 .hljs-type,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #333;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-tag ***REMOVED***
+.hljs-tag {
   color: #333;
-***REMOVED***
+}
 
-.hljs-regexp ***REMOVED***
+.hljs-regexp {
     color: #333;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAN37979r6yszIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDexSef15DBCwAAAABJRU5ErkJggg==) repeat;
-***REMOVED***
+}
 
 .hljs-symbol,
 .hljs-bullet,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #000;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAO7d+/+z4gsBhJwdXVlhAvCBECKwIIwAbhKZBUwBQA6hBpm5efZsgAAAABJRU5ErkJggg==) repeat;
-***REMOVED***
+}
 
 .hljs-built_in,
-.hljs-builtin-name ***REMOVED***
+.hljs-builtin-name {
   color: #000;
   text-decoration: underline;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #999;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #fff;
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAE0lEQVQIW2MMDQ39zzhz5kwIAQAyxweWgUHd1AAAAABJRU5ErkJggg==) repeat;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #000;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALUlEQVQYV2N89+7dfwYk8P79ewZBQUFkIQZGOiu6e/cuiptQHAPl0NtNxAQBAM97Oejj3Dg7AAAAAElFTkSuQmCC) repeat;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

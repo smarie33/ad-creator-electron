@@ -4,42 +4,42 @@ ISBL Editor style dark color scheme (c) Dmitriy Tarasov <dimatar@gmail.com>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #404040;
   color: #f0f0f0;
-***REMOVED***
+}
 
 /* Base color: saturation 0; */
 
 .hljs,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #f0f0f0;
-***REMOVED***
+}
 
-.hljs-comment ***REMOVED***
+.hljs-comment {
   color: #b5b5b5;
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-attribute,
 .hljs-selector-tag,
 .hljs-meta-keyword,
 .hljs-doctag,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #f0f0f0;
   font-weight: bold;
-***REMOVED***
+}
 
 
 /* User color: hue: 0 */
 
-.hljs-string ***REMOVED***
+.hljs-string {
   color: #97bf0d;
-***REMOVED***
+}
 
 .hljs-type,
 .hljs-number,
@@ -47,19 +47,19 @@ ISBL Editor style dark color scheme (c) Dmitriy Tarasov <dimatar@gmail.com>
 .hljs-selector-class,
 .hljs-quote,
 .hljs-template-tag,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #f0f0f0;
-***REMOVED***
+}
 
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #df471e;
-***REMOVED***
+}
 
-.hljs-title>.hljs-built_in ***REMOVED***
+.hljs-title>.hljs-built_in {
   color: #81bce9;
   font-weight: normal;
-***REMOVED***
+}
 
 .hljs-regexp,
 .hljs-symbol,
@@ -67,46 +67,46 @@ ISBL Editor style dark color scheme (c) Dmitriy Tarasov <dimatar@gmail.com>
 .hljs-template-variable,
 .hljs-link,
 .hljs-selector-attr,
-.hljs-selector-pseudo ***REMOVED***
+.hljs-selector-pseudo {
   color: #e2c696;
-***REMOVED***
+}
 
 /* Language color: hue: 90; */
 
 .hljs-built_in,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #97bf0d;
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-bullet,
 .hljs-code,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #397300;
-***REMOVED***
+}
 
-.hljs-class  ***REMOVED***
+.hljs-class  {
   color: #ce9d4d;
   font-weight: bold;
-***REMOVED***
+}
 
 /* Meta color: hue: 200 */
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #1f7199;
-***REMOVED***
+}
 
-.hljs-meta-string ***REMOVED***
+.hljs-meta-string {
   color: #4d99bf;
-***REMOVED***
+}
 
 
 /* Misc effects */
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

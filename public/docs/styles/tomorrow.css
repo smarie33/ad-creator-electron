@@ -2,9 +2,9 @@
 
 /* Tomorrow Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #8e908c;
-***REMOVED***
+}
 
 /* Tomorrow Red */
 .hljs-variable,
@@ -14,9 +14,9 @@
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-regexp,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #c82829;
-***REMOVED***
+}
 
 /* Tomorrow Orange */
 .hljs-number,
@@ -26,47 +26,47 @@
 .hljs-type,
 .hljs-params,
 .hljs-meta,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #f5871f;
-***REMOVED***
+}
 
 /* Tomorrow Yellow */
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #eab700;
-***REMOVED***
+}
 
 /* Tomorrow Green */
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #718c00;
-***REMOVED***
+}
 
 /* Tomorrow Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #4271ae;
-***REMOVED***
+}
 
 /* Tomorrow Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #8959a8;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: white;
   color: #4d4d4c;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

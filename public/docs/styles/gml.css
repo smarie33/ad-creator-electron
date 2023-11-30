@@ -4,42 +4,42 @@ GML Theme - Meseta <meseta@gmail.com>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #222222;
   color: #C0C0C0;
-***REMOVED***
+}
 
-.hljs-keyword ***REMOVED***
+.hljs-keyword {
   color: #FFB871;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-built_in ***REMOVED***
+.hljs-built_in {
   color: #FFB871;
-***REMOVED***
+}
 
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #FF8080;
-***REMOVED***
+}
 
-.hljs-symbol ***REMOVED***
+.hljs-symbol {
   color: #58E55A;
-***REMOVED***
+}
 
-.hljs-comment ***REMOVED***
+.hljs-comment {
   color: #5B995B;
-***REMOVED***
+}
 
-.hljs-string ***REMOVED***
+.hljs-string {
   color: #FFFF00;
-***REMOVED***
+}
 
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #FF8080;
-***REMOVED***
+}
 
 .hljs-attribute,
 .hljs-selector-tag,
@@ -65,14 +65,14 @@ GML Theme - Meseta <meseta@gmail.com>
 .hljs-function,
 .hljs-meta-keyword,
 .hljs-meta,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #C0C0C0;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

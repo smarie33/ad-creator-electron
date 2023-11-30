@@ -1,8 +1,8 @@
-***REMOVED***
-  "defaults": ***REMOVED***
+{
+  "defaults": {
     "start_type": "sheet",
     "default_path": "/toDownload",
-    "sheet": "18PFA1wVGSNOXvQF9G-qj5yPB09mNRcs7bQbxnuqLaqE",
+    "sheet": "xxx",
     "tab": "TOD Tracker",
     "range": "!A1:L203",
     "outputfiles": "toDownload",
@@ -15,27 +15,27 @@
     "textfolder": "text",
     "title": "HPTO Planning Doc 2021",
     "scopes": "https://www.googleapis.com/auth/spreadsheets.readonly"
-  ***REMOVED***,
+  },
   "googlesheets": [
-    ***REMOVED***
-      "id": "1973iE4rMNRJtWbwUu4Jf8C2LN28-gSQsRUqlNwmof5U",
+    {
+      "id": "xxx",
       "added": "2020-03-06"
-    ***REMOVED***,
-    ***REMOVED***
-      "id": "18PFA1wVGSNOXvQF9G-qj5yPB09mNRcs7bQbxnuqLaqE",
+    },
+    {
+      "id": "xxx",
       "added": "2020-10-30"
-    ***REMOVED***,
-    ***REMOVED***
-      "id": "nijomlpjkkojlomk",
+    },
+    {
+      "id": "xxx",
       "added": "2021-09-15"
-    ***REMOVED***,
-    ***REMOVED***
-      "id": "umyhrhwregfqawesf",
+    },
+    {
+      "id": "xxx",
       "added": "2021-09-15"
-    ***REMOVED***,
-    ***REMOVED***
-      "id": "1B5OlTE-tYj0GGxVEfYmwUCqQFslXLwI_ArWHmmkCUyc",
+    },
+    {
+      "id": "xxx",
       "added": "2021-09-15"
-    ***REMOVED***
+    }
   ]
-***REMOVED***
+}

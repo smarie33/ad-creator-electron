@@ -4,64 +4,64 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #23241f;
-***REMOVED***
+}
 
 .hljs,
 .hljs-tag,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #f8f8f2;
-***REMOVED***
+}
 
 .hljs-strong,
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   color: #a8a8a2;
-***REMOVED***
+}
 
 .hljs-bullet,
 .hljs-quote,
 .hljs-number,
 .hljs-regexp,
 .hljs-literal,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #ae81ff;
-***REMOVED***
+}
 
 .hljs-code,
 .hljs-title,
 .hljs-section,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #a6e22e;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-name,
-.hljs-attr ***REMOVED***
+.hljs-attr {
   color: #f92672;
-***REMOVED***
+}
 
 .hljs-symbol,
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #66d9ef;
-***REMOVED***
+}
 
 .hljs-params,
-.hljs-class .hljs-title ***REMOVED***
+.hljs-class .hljs-title {
   color: #f8f8f2;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-type,
@@ -72,12 +72,12 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 .hljs-selector-pseudo,
 .hljs-addition,
 .hljs-variable,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #e6db74;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-deletion,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #75715e;
-***REMOVED***
+}

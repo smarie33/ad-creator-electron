@@ -4,9 +4,9 @@
 
 /* Atelier-Seaside Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #687d68;
-***REMOVED***
+}
 
 /* Atelier-Seaside Red */
 .hljs-variable,
@@ -18,9 +18,9 @@
 .hljs-link,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #e6193c;
-***REMOVED***
+}
 
 /* Atelier-Seaside Orange */
 .hljs-number,
@@ -29,41 +29,41 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #87711d;
-***REMOVED***
+}
 
 /* Atelier-Seaside Green */
 .hljs-string,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #29a329;
-***REMOVED***
+}
 
 /* Atelier-Seaside Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #3d62f5;
-***REMOVED***
+}
 
 /* Atelier-Seaside Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #ad2bee;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #f4fbf4;
   color: #5e6e5e;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

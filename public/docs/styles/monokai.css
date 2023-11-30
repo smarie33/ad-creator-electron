@@ -2,37 +2,37 @@
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #272822;
   color: #ddd;
-***REMOVED***
+}
 
 .hljs-tag,
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-literal,
 .hljs-strong,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #f92672;
-***REMOVED***
+}
 
-.hljs-code ***REMOVED***
+.hljs-code {
   color: #66d9ef;
-***REMOVED***
+}
 
-.hljs-class .hljs-title ***REMOVED***
+.hljs-class .hljs-title {
   color: white;
-***REMOVED***
+}
 
 .hljs-attribute,
 .hljs-symbol,
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #bf79db;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-bullet,
@@ -48,16 +48,16 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-addition,
 .hljs-variable,
 .hljs-template-tag,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #a6e22e;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #75715e;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
@@ -66,6 +66,6 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-title,
 .hljs-section,
 .hljs-type,
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
   font-weight: bold;
-***REMOVED***
+}

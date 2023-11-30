@@ -14,29 +14,29 @@ http://zenorocha.mit-license.org
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #282a36;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-literal,
 .hljs-section,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #8be9fd;
-***REMOVED***
+}
 
-.hljs-function .hljs-keyword ***REMOVED***
+.hljs-function .hljs-keyword {
   color: #ff79c6;
-***REMOVED***
+}
 
 .hljs,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #f8f8f2;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-title,
@@ -48,16 +48,16 @@ http://zenorocha.mit-license.org
 .hljs-addition,
 .hljs-variable,
 .hljs-template-tag,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #f1fa8c;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #6272a4;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
@@ -67,10 +67,10 @@ http://zenorocha.mit-license.org
 .hljs-doctag,
 .hljs-type,
 .hljs-name,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}

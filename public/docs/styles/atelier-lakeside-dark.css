@@ -4,9 +4,9 @@
 
 /* Atelier-Lakeside Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #7195a8;
-***REMOVED***
+}
 
 /* Atelier-Lakeside Red */
 .hljs-variable,
@@ -18,9 +18,9 @@
 .hljs-link,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #d22d72;
-***REMOVED***
+}
 
 /* Atelier-Lakeside Orange */
 .hljs-number,
@@ -29,41 +29,41 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #935c25;
-***REMOVED***
+}
 
 /* Atelier-Lakeside Green */
 .hljs-string,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #568c3b;
-***REMOVED***
+}
 
 /* Atelier-Lakeside Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #257fad;
-***REMOVED***
+}
 
 /* Atelier-Lakeside Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #6b6bb8;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #161b1d;
   color: #7ea2b4;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

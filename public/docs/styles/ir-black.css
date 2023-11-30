@@ -2,72 +2,72 @@
   IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #000;
   color: #f8f8f8;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #7c7c7c;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-tag,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #96cbfe;
-***REMOVED***
+}
 
 .hljs-attribute,
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
   color: #ffffb6;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-selector-attr,
 .hljs-selector-pseudo,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #a8ff60;
-***REMOVED***
+}
 
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #daefa3;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #e9c062;
-***REMOVED***
+}
 
 .hljs-title,
 .hljs-section,
 .hljs-type,
-.hljs-doctag ***REMOVED***
+.hljs-doctag {
   color: #ffffb6;
-***REMOVED***
+}
 
 .hljs-symbol,
 .hljs-bullet,
 .hljs-variable,
 .hljs-template-variable,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #c6c5fe;
-***REMOVED***
+}
 
 .hljs-number,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color:#ff73fd;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

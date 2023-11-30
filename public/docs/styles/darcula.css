@@ -5,53 +5,53 @@ Darcula color scheme from the JetBrains family of IDEs
 */
 
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #2b2b2b;
   color: #bababa;
-***REMOVED***
+}
 
 .hljs-strong,
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   color: #a8a8a2;
-***REMOVED***
+}
 
 .hljs-bullet,
 .hljs-quote,
 .hljs-link,
 .hljs-number,
 .hljs-regexp,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #6896ba;
-***REMOVED***
+}
 
 .hljs-code,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #a6e22e;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-section,
 .hljs-attribute,
 .hljs-name,
-.hljs-variable ***REMOVED***
+.hljs-variable {
   color: #cb7832;
-***REMOVED***
+}
 
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #b9b9b9;
-***REMOVED***
+}
 
-.hljs-string ***REMOVED***
+.hljs-string {
   color: #6a8759;
-***REMOVED***
+}
 
 .hljs-subst,
 .hljs-type,
@@ -63,12 +63,12 @@ Darcula color scheme from the JetBrains family of IDEs
 .hljs-selector-pseudo,
 .hljs-template-tag,
 .hljs-template-variable,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #e0c46c;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-deletion,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #7f7f7f;
-***REMOVED***
+}

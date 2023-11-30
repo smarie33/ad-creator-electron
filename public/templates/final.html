@@ -10,17 +10,17 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXSJFM3B1T"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag()***REMOVED***dataLayer.push(arguments);***REMOVED***
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-EXSJFM3B1T');
 
-      const ClickEventPlaylist = function(link)***REMOVED***
-        gtag('event', 'playlist', ***REMOVED***
+      const ClickEventPlaylist = function(link){
+        gtag('event', 'playlist', {
           'playlist_name' : link.getAttribute('data-playlist'),
-          event_callback : function()***REMOVED***document.location = link.getAttribute('href')***REMOVED***
-        ***REMOVED***);
-      ***REMOVED***
+          event_callback : function(){document.location = link.getAttribute('href')}
+        });
+      }
 
     </script>
 

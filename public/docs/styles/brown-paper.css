@@ -4,24 +4,24 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background:#b7a68e url(./brown-papersq.png);
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color:#005599;
   font-weight:bold;
-***REMOVED***
+}
 
 .hljs,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #363c69;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-title,
@@ -36,16 +36,16 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 .hljs-template-tag,
 .hljs-template-variable,
 .hljs-link,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #2c009f;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
 .hljs-meta,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #802022;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
@@ -55,10 +55,10 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 .hljs-section,
 .hljs-type,
 .hljs-name,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}

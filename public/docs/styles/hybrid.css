@@ -5,50 +5,50 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 */
 
 /*background color*/
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #1d1f21;
-***REMOVED***
+}
 
 /*selection color*/
 .hljs::selection,
-.hljs span::selection ***REMOVED***
+.hljs span::selection {
   background: #373b41;
-***REMOVED***
+}
 
 .hljs::-moz-selection,
-.hljs span::-moz-selection ***REMOVED***
+.hljs span::-moz-selection {
   background: #373b41;
-***REMOVED***
+}
 
 /*foreground color*/
-.hljs ***REMOVED***
+.hljs {
   color: #c5c8c6;
-***REMOVED***
+}
 
 /*color: fg_yellow*/
 .hljs-title,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #f0c674;
-***REMOVED***
+}
 
 /*color: fg_comment*/
 .hljs-comment,
 .hljs-meta,
-.hljs-meta .hljs-keyword ***REMOVED***
+.hljs-meta .hljs-keyword {
   color: #707880;
-***REMOVED***
+}
 
 /*color: fg_red*/
 .hljs-number,
 .hljs-symbol,
 .hljs-literal,
 .hljs-deletion,
-.hljs-link ***REMOVED***
+.hljs-link {
  color: #cc6666
-***REMOVED***
+}
 
 /*color: fg_green*/
 .hljs-string,
@@ -56,32 +56,32 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 .hljs-addition,
 .hljs-regexp,
 .hljs-selector-attr,
-.hljs-selector-pseudo ***REMOVED***
+.hljs-selector-pseudo {
   color: #b5bd68;
-***REMOVED***
+}
 
 /*color: fg_purple*/
 .hljs-attribute,
 .hljs-code,
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
  color: #b294bb;
-***REMOVED***
+}
 
 /*color: fg_blue*/
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-bullet,
-.hljs-tag ***REMOVED***
+.hljs-tag {
  color: #81a2be;
-***REMOVED***
+}
 
 /*color: fg_aqua*/
 .hljs-subst,
 .hljs-variable,
 .hljs-template-tag,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #8abeb7;
-***REMOVED***
+}
 
 /*color: fg_orange*/
 .hljs-type,
@@ -89,14 +89,14 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 .hljs-builtin-name,
 .hljs-quote,
 .hljs-section,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #de935f;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

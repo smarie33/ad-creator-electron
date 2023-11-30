@@ -6,87 +6,87 @@
          : github.com/initbar
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   color: #eaeaea;
   background: #000;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #eaeaea;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-builtin-name,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #eaeaea;
-***REMOVED***
+}
 
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #da0000;
-***REMOVED***
+}
 
 .hljs-literal,
 .hljs-number,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #ff0000;
   font-weight: bolder;
-***REMOVED***
+}
 
-.hljs-comment ***REMOVED***
+.hljs-comment {
   color: #969896;
-***REMOVED***
+}
 
 .hljs-selector-id,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #00ffff;
-***REMOVED***
+}
 
 .hljs-template-variable,
 .hljs-variable,
-.hljs-title ***REMOVED***
+.hljs-title {
   color: #00ffff;
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-selector-class,
 .hljs-keyword,
-.hljs-symbol ***REMOVED***
+.hljs-symbol {
   color: #fff000;
-***REMOVED***
+}
 
 .hljs-string,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #00ff00;
-***REMOVED***
+}
 
 .hljs-tag,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #000fff;
-***REMOVED***
+}
 
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #000fff;
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-attribute,
 .hljs-built_in,
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #ff00ff;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #fff;
   font-weight: bolder;
-***REMOVED***
+}

@@ -4,9 +4,9 @@
 
 /* Atelier-Savanna Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #78877d;
-***REMOVED***
+}
 
 /* Atelier-Savanna Red */
 .hljs-variable,
@@ -18,9 +18,9 @@
 .hljs-link,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #b16139;
-***REMOVED***
+}
 
 /* Atelier-Savanna Orange */
 .hljs-number,
@@ -29,56 +29,56 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #9f713c;
-***REMOVED***
+}
 
 /* Atelier-Savanna Green */
 .hljs-string,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #489963;
-***REMOVED***
+}
 
 /* Atelier-Savanna Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #478c90;
-***REMOVED***
+}
 
 /* Atelier-Savanna Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #55859b;
-***REMOVED***
+}
 
 .hljs-deletion,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #171c19;
   display: inline-block;
   width: 100%;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: #b16139;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: #489963;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #171c19;
   color: #87928a;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

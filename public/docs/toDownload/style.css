@@ -1,16 +1,16 @@
-* ***REMOVED***
+* {
  margin: 0px;
  padding: 0px;
-***REMOVED***
+}
 
-body ***REMOVED***
+body {
   width: 800px;
   height: 235px;
   background-color:none;
-***REMOVED***
+}
 
 /* Container **/
-.container ***REMOVED***
+.container {
   position: relative;
   font-size: 0;
   padding: 0;
@@ -18,122 +18,122 @@ body ***REMOVED***
   background-repeat: no-repeat;
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
 
-.slide ***REMOVED***
+.slide {
   position: absolute;
   width: 800px;
   display: none;
-***REMOVED***
+}
 
-.slide.empty-link a***REMOVED***
+.slide.empty-link a{
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
-.slide.single-imgs .album-thumbnail***REMOVED***
+.slide.single-imgs .album-thumbnail{
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
-.slide.single-imgs .album-thumbnail:last-of-type***REMOVED***
+.slide.single-imgs .album-thumbnail:last-of-type{
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
-.slide.single-imgs .album-container***REMOVED***
+.slide.single-imgs .album-container{
   margin: 0;
-***REMOVED***
+}
 
-.slide.single-imgs .album-set***REMOVED***
+.slide.single-imgs .album-set{
   margin-top: 0;
-***REMOVED***
+}
 
 .slide .album-thumbnail:first-of-type,
-.slide .album-thumbnail:last-of-type***REMOVED***
+.slide .album-thumbnail:last-of-type{
   height: 150px;
   width: 150px;
-***REMOVED***
+}
 
-.slide.three-up .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.slide.three-up .album-container:nth-of-type(3) .album-thumbnail{
   height: 150px;
   width: 150px;
-***REMOVED***
+}
 
 .slide.three-up .album-container:first-of-type .album-artist,
-.slide.three-up .album-container:last-of-type .album-artist***REMOVED***
+.slide.three-up .album-container:last-of-type .album-artist{
   padding: 10px 0;
-***REMOVED***
+}
 
 .slide .album-container:nth-of-type(2) .album-thumbnail,
-.slide .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.slide .album-container:nth-of-type(3) .album-thumbnail{
   height: 180px;
   width: 180px;
-***REMOVED***
+}
 
 .slide.one-line-text-under .album-container,
 .slide.one-line-lrg-images .album-container:first-of-type,
-.slide.one-line-lrg-images .album-container:last-of-type,***REMOVED***
+.slide.one-line-lrg-images .album-container:last-of-type,{
   height: 150px;
-***REMOVED***
+}
 
 .slide.no-lines-larger-imgs .album-thumbnail:first-of-type,
-.slide.no-lines-larger-imgs .album-thumbnail:last-of-type***REMOVED***
+.slide.no-lines-larger-imgs .album-thumbnail:last-of-type{
   height: 170px;
   width: 170px;
-***REMOVED***
+}
 
 .slide.no-lines-larger-imgs .album-container:nth-of-type(2) .album-thumbnail,
-.slide.no-lines-larger-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.slide.no-lines-larger-imgs .album-container:nth-of-type(3) .album-thumbnail{
   height: 190px;
   width: 190px;
-***REMOVED***
+}
 
 .slide.slightly-larger-center-imgs .album-container:nth-of-type(2),
-.slide.slightly-larger-center-imgs .album-container:nth-of-type(3)***REMOVED***
+.slide.slightly-larger-center-imgs .album-container:nth-of-type(3){
     height: 175px;
     margin: -30px 10px 10px 10px;
-***REMOVED***
+}
 
 .slide.slightly-larger-center-imgs .album-container:nth-of-type(2) .album-thumbnail,
-.slide.slightly-larger-center-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.slide.slightly-larger-center-imgs .album-container:nth-of-type(3) .album-thumbnail{
   height: 175px;
   width: 175px;
-***REMOVED***
+}
 
 .slide.one-line-text-under .album-container .album-thumbnail,
 .slide.one-line-lrg-images .album-container:first-of-type .album-thumbnail,
-.slide.one-line-lrg-images .album-container:last-of-type .album-thumbnail***REMOVED***
+.slide.one-line-lrg-images .album-container:last-of-type .album-thumbnail{
   height: 150px;
   width: 150px;
-***REMOVED***
+}
 
-.slide.one-line-lrg-images .album-container***REMOVED***
+.slide.one-line-lrg-images .album-container{
   height: 180px;
   margin: 0 10px;
-***REMOVED***
+}
 
 
-.slide.one-line-lrg-images .album-container .album-thumbnail***REMOVED***
+.slide.one-line-lrg-images .album-container .album-thumbnail{
   height: 180px;
   width: 180px;
-***REMOVED***
+}
 
-.content ***REMOVED***
+.content {
 
-***REMOVED***
+}
 
-.bg-link ***REMOVED***
+.bg-link {
   position: absolute;
   top:0;
   left:0;
   bottom:0;
   right:0;
-***REMOVED***
+}
 
 /* Headline */
-.headline ***REMOVED***
+.headline {
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -143,51 +143,51 @@ body ***REMOVED***
   letter-spacing: .7px;
   font-family: Helvetica;
   pointer-events: none;
-***REMOVED***
+}
 
 /** Headline Hashtag **/
-.headline-hashtag ***REMOVED***
+.headline-hashtag {
   font-size: 17px;
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: initial;
-***REMOVED***
+}
 
 /** Album Set **/
-.album-set ***REMOVED***
+.album-set {
   align-items: center;
   justify-content: center;
   width: 100%;
   margin-top: 1px;
   display: flex;
-***REMOVED***
+}
 
 
 /** Album Container **/
-.album-container ***REMOVED***
+.album-container {
   position: relative;
   text-align: center;
   margin: 10px;
-***REMOVED***
+}
 
 
-.album-container:hover .listen-now ***REMOVED***
+.album-container:hover .listen-now {
   opacity: 1;
   background: url('images/overlay.png');
   width: 160px;
   height: 160px;
-***REMOVED***
+}
 
 
-.listen-now ***REMOVED***
+.listen-now {
   opacity: 0;
   position: absolute;
   background-color: black;
-***REMOVED***
+}
 
 
 /** Featuring Text **/
-.featuring-text ***REMOVED***
+.featuring-text {
   padding-top: 7px;
   color: white;
   font-size: 11px;
@@ -196,10 +196,10 @@ body ***REMOVED***
   line-height: 1;
   letter-spacing: .5px;
   text-align: center;
-***REMOVED***
+}
 
 /** Album Artist **/
-.album-artist ***REMOVED***
+.album-artist {
   color: white;
   font-size: 11px;
   font-family: Helvetica;
@@ -207,8 +207,8 @@ body ***REMOVED***
   text-align: center;
   letter-spacing: .6px;
 
-***REMOVED***
-.album-artist2 ***REMOVED***
+}
+.album-artist2 {
   color: white;
   font-size: 11px;
   font-family: Helvetica;
@@ -217,140 +217,140 @@ body ***REMOVED***
   letter-spacing: .6px;
   width: 160px;
 
-***REMOVED***
+}
 
-.slide.animated-imgs***REMOVED***
+.slide.animated-imgs{
   height: 100%;
-***REMOVED***
+}
 
-.slide.animated-imgs .content***REMOVED***
+.slide.animated-imgs .content{
   position: relative;
   height: 100%;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-set***REMOVED***
+.slide.animated-imgs .album-set{
   height: 100%;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container***REMOVED***
+.slide.animated-imgs .album-container{
   position: relative;
   height: 100%;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container:nth-of-type(1), .slide.animated-imgs .album-container:nth-of-type(4)***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(1), .slide.animated-imgs .album-container:nth-of-type(4){
   width: 150px;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container:nth-of-type(2), .slide.animated-imgs .album-container:nth-of-type(3)***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(2), .slide.animated-imgs .album-container:nth-of-type(3){
   width: 180px;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container img***REMOVED***
+.slide.animated-imgs .album-container img{
   left: 0;
   position: absolute;
   transform-origin: center center;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container img***REMOVED***
+.slide.animated-imgs .album-container img{
   left: 0;
   position: absolute;
   transform-origin: center center;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container:nth-of-type(1) img, .slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(1) img, .slide.animated-imgs .album-container:nth-of-type(4) img{
   top: 30px;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container:nth-of-type(2) img, .slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(2) img, .slide.animated-imgs .album-container:nth-of-type(3) img{
   top: 10px;
-***REMOVED***
+}
 
-.slide.animated-imgs .featuring-text***REMOVED***
+.slide.animated-imgs .featuring-text{
   position: absolute;
   bottom: 20px;
   width: 100%;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-artist***REMOVED***
+.slide.animated-imgs .album-artist{
   position: absolute;
     bottom: 5px;
     width: 100%;
-***REMOVED***
+}
 
-.slide.animated-imgs .album-container a***REMOVED***
+.slide.animated-imgs .album-container a{
   width: 100%;
   height: 100%;
   left:0;
   position: absolute;
   z-index: 10;
-***REMOVED***
+}
 
-@keyframes breath-1st ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-1st {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-@keyframes breath-2nd ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-2nd {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-@keyframes breath-3rd ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-3rd {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-@keyframes breath-4th ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-4th {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-.slide.animated-imgs .album-container:nth-of-type(1) img***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(1) img{
   position: absolute;
   left: 0;
   transform-origin: center center;
   animation: breath-1st 8s ease-in-out 0s infinite;
-***REMOVED***
-.slide.animated-imgs .album-container:nth-of-type(2) img***REMOVED***
+}
+.slide.animated-imgs .album-container:nth-of-type(2) img{
   animation: breath-2nd 8s ease-in-out 2s infinite;
-***REMOVED***
-.slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+}
+.slide.animated-imgs .album-container:nth-of-type(3) img{
   animation: breath-3rd 8s ease-in-out 4s infinite;
-***REMOVED***
-.slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+}
+.slide.animated-imgs .album-container:nth-of-type(4) img{
   animation: breath-4th 8s ease-in-out 6s infinite;
-***REMOVED***
+}
 
-.play-btn .album-container:nth-of-type(1), .play-btn .album-container:nth-of-type(4)***REMOVED***
+.play-btn .album-container:nth-of-type(1), .play-btn .album-container:nth-of-type(4){
   width: 150px;
   height: 150px;
-***REMOVED***
+}
 
-.play-btn .album-container:nth-of-type(2), .play-btn .album-container:nth-of-type(3)***REMOVED***
+.play-btn .album-container:nth-of-type(2), .play-btn .album-container:nth-of-type(3){
   width: 180px;
   height: 180px;
-***REMOVED***
+}
 
-.play-btn .album-container .album-thumbnail***REMOVED***
+.play-btn .album-container .album-thumbnail{
   background: center/100% no-repeat;
   transition: all 0.5s ease;
   height: 100%;
-***REMOVED***
+}
 
-.play-btn .album-container:nth-of-type(1):hover .album-thumbnail, .play-btn .album-container:nth-of-type(4):hover .album-thumbnail***REMOVED***
+.play-btn .album-container:nth-of-type(1):hover .album-thumbnail, .play-btn .album-container:nth-of-type(4):hover .album-thumbnail{
   background-size: 120% !important;
-***REMOVED***
+}
 
 
-.play-btn .album-container:nth-of-type(2):hover .album-thumbnail, .play-btn .album-container:nth-of-type(3):hover .album-thumbnail***REMOVED***
+.play-btn .album-container:nth-of-type(2):hover .album-thumbnail, .play-btn .album-container:nth-of-type(3):hover .album-thumbnail{
   background-size: 120% !important;
-***REMOVED***
+}
 
-.play-btn .symbol***REMOVED***
+.play-btn .symbol{
   width: 100%;
   height: 100%;
   position: absolute;
@@ -359,54 +359,54 @@ body ***REMOVED***
   background-size: 40%;
   opacity: 0;
   transition: all 0.5s ease;
-***REMOVED***
+}
 
-.play-btn .album-container:hover .symbol***REMOVED***
+.play-btn .album-container:hover .symbol{
   opacity: 1;
-***REMOVED***
+}
 
-@keyframes glow-1st ***REMOVED***
-  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
-  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-***REMOVED***
+@keyframes glow-1st {
+  0 {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+  12.5% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)}
+  25% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+}
 
-@keyframes glow-2nd ***REMOVED***
-  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
-  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-***REMOVED***
+@keyframes glow-2nd {
+  0 {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+  12.5% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)}
+  25% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+}
 
-@keyframes glow-3rd ***REMOVED***
-  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
-  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-***REMOVED***
+@keyframes glow-3rd {
+  0 {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+  12.5% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)}
+  25% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+}
 
-@keyframes glow-4th ***REMOVED***
-  0 ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-  12.5% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)***REMOVED***
-  25% ***REMOVED***box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)***REMOVED***
-***REMOVED***
+@keyframes glow-4th {
+  0 {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+  12.5% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 1)}
+  25% {box-shadow: 0px 0px 15px rgb(255, 255, 255, 0)}
+}
 
-.slide.glow .album-container:nth-of-type(1) img***REMOVED***
+.slide.glow .album-container:nth-of-type(1) img{
   box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
   animation: glow-1st 8s ease-in-out 0s infinite;
-***REMOVED***
-.slide.glow .album-container:nth-of-type(2) img***REMOVED***
+}
+.slide.glow .album-container:nth-of-type(2) img{
   box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
   animation: glow-2nd 8s ease-in-out 2s infinite;
-***REMOVED***
-.slide.glow .album-container:nth-of-type(3) img***REMOVED***
+}
+.slide.glow .album-container:nth-of-type(3) img{
   box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
   animation: glow-3rd 8s ease-in-out 4s infinite;
-***REMOVED***
-.slide.glow .album-container:nth-of-type(4) img***REMOVED***
+}
+.slide.glow .album-container:nth-of-type(4) img{
   box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
   animation: glow-4th 8s ease-in-out 6s infinite;
-***REMOVED***
+}
 
-.slide .same-size.album-thumbnail:first-of-type, .slide.same-size .album-thumbnail:last-of-type ***REMOVED***
+.slide .same-size.album-thumbnail:first-of-type, .slide.same-size .album-thumbnail:last-of-type {
     height: 180px;
     width: 180px;
-***REMOVED***
+}

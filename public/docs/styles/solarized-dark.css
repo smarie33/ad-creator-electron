@@ -4,25 +4,25 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #002b36;
   color: #839496;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #586e75;
-***REMOVED***
+}
 
 /* Solarized Green */
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #859900;
-***REMOVED***
+}
 
 /* Solarized Cyan */
 .hljs-number,
@@ -30,18 +30,18 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-meta .hljs-meta-string,
 .hljs-literal,
 .hljs-doctag,
-.hljs-regexp ***REMOVED***
+.hljs-regexp {
   color: #2aa198;
-***REMOVED***
+}
 
 /* Solarized Blue */
 .hljs-title,
 .hljs-section,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #268bd2;
-***REMOVED***
+}
 
 /* Solarized Yellow */
 .hljs-attribute,
@@ -49,9 +49,9 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-variable,
 .hljs-template-variable,
 .hljs-class .hljs-title,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #b58900;
-***REMOVED***
+}
 
 /* Solarized Orange */
 .hljs-symbol,
@@ -61,24 +61,24 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-meta .hljs-keyword,
 .hljs-selector-attr,
 .hljs-selector-pseudo,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #cb4b16;
-***REMOVED***
+}
 
 /* Solarized Red */
 .hljs-built_in,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #dc322f;
-***REMOVED***
+}
 
-.hljs-formula ***REMOVED***
+.hljs-formula {
   background: #073642;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

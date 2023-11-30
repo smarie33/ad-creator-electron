@@ -244,51 +244,51 @@
     <script src="script.js"></script>
     <script>
 
-      (function(i,s,o,g,r,a,m)***REMOVED***i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()***REMOVED***
-        (i[r].q=i[r].q||[]).push(arguments)***REMOVED***,i[r].l=1*new Date();a=s.createElement(o),
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      ***REMOVED***)(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-75422371-3', ***REMOVED***cookieFlags: 'secure;samesite=none'***REMOVED***);
+      ga('create', 'UA-75422371-3', {cookieFlags: 'secure;samesite=none'});
       ga('send', 'pageview');
 
       var category = 'HPTO'
       var linkContainer = '.album-container'
 
-      window.ga('send', 'event', ***REMOVED***
+      window.ga('send', 'event', {
         eventCategory: category,
         eventAction: 'Impression',
         eventLabel: 'HPTO'
-      ***REMOVED***);
+      });
 
-      var trackOutboundLink = function() ***REMOVED***
+      var trackOutboundLink = function() {
         var uri = this.href;
         var playlist = this.getAttribute('data-playlist');
-        ga('send', 'event', 'category', 'click', playlist, ***REMOVED***
+        ga('send', 'event', 'category', 'click', playlist, {
           'transport': 'beacon',
-          'hitCallback': function()***REMOVED***document.location = uri;***REMOVED***
-        ***REMOVED***);
+          'hitCallback': function(){document.location = uri;}
+        });
         return false;
-      ***REMOVED***
+      }
 
-      var trackBgClicks = function() ***REMOVED***
+      var trackBgClicks = function() {
         var uri = this.href;
-        ga('send', 'event', 'category', 'click', 'filtr brand page', ***REMOVED***
+        ga('send', 'event', 'category', 'click', 'filtr brand page', {
           'transport': 'beacon',
-          'hitCallback': function()***REMOVED***document.location = uri;***REMOVED***
-        ***REMOVED***);
+          'hitCallback': function(){document.location = uri;}
+        });
         return false;
-      ***REMOVED***
+      }
 
       var bgClicks = document.querySelectorAll('.bg-link');
-      for (var i = 0; i < bgClicks.length; i++) ***REMOVED***
+      for (var i = 0; i < bgClicks.length; i++) {
         bgClicks[i].addEventListener('click', trackBgClicks);
-      ***REMOVED***
+      }
 
       var trackedLinks = document.querySelectorAll(linkContainer + ' a');
-      for (var i=0; i<trackedLinks.length;i++) ***REMOVED***
+      for (var i=0; i<trackedLinks.length;i++) {
         trackedLinks[i].addEventListener('click',trackOutboundLink);
-      ***REMOVED***
+      }
 
     </script>
 

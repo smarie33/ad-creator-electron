@@ -6,84 +6,84 @@ Version: 1.0
 Date: 2013-04-02
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #eee;
   color: black;
-***REMOVED***
+}
 
 .hljs-link,
 .hljs-emphasis,
 .hljs-attribute,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #070;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-strong,
 .hljs-string,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #d14;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-quote,
-.hljs-comment ***REMOVED***
+.hljs-comment {
   color: #998;
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-section,
-.hljs-title ***REMOVED***
+.hljs-title {
   color: #900;
-***REMOVED***
+}
 
 .hljs-class .hljs-title,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #458;
-***REMOVED***
+}
 
 .hljs-variable,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #336699;
-***REMOVED***
+}
 
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #997700;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #3344bb;
-***REMOVED***
+}
 
 .hljs-code,
 .hljs-number,
 .hljs-literal,
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #099;
-***REMOVED***
+}
 
-.hljs-regexp ***REMOVED***
+.hljs-regexp {
   background-color: #fff0ff;
   color: #880088;
-***REMOVED***
+}
 
-.hljs-symbol ***REMOVED***
+.hljs-symbol {
   color: #990073;
-***REMOVED***
+}
 
 .hljs-tag,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #007700;
-***REMOVED***
+}

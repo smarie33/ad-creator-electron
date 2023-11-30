@@ -1,103 +1,103 @@
-* ***REMOVED***
+* {
  margin: 0px;
  padding: 0px;
-***REMOVED***
+}
 
-body ***REMOVED***
+body {
   background-color:#fff;
   font-family: sans-serif;
   font-size: 16px;
   transition: all .5s ease-out;
-***REMOVED***
+}
 
-.container***REMOVED***
+.container{
   max-width: 1200px;
   margin: auto;
   padding-bottom: 20px;
-***REMOVED***
+}
 
-.container.defaults***REMOVED***
+.container.defaults{
   display: flex;
-***REMOVED***
+}
 
-.container.defaults section img***REMOVED***
+.container.defaults section img{
   width: 50px;
   cursor: pointer;
   transition: all .5s ease-out;
   transform: scale(1) rotate(0deg);
   margin: 0 auto; 
-***REMOVED***
+}
 
-.container.defaults section img:hover***REMOVED***
+.container.defaults section img:hover{
   transform: scale(1.5) rotate(180deg);
-***REMOVED***
+}
 
-.container.defaults section.settings***REMOVED***
+.container.defaults section.settings{
   border: none;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   position: relative;
-***REMOVED***
+}
 
-.container.defaults section.settings a***REMOVED***
+.container.defaults section.settings a{
   display: block;
   color: green;
   font-weight: bolder;
   text-decoration: none;
   padding-top: 10px;
   text-align: center;
-***REMOVED***
-.container.defaults section.settings a:hover***REMOVED***
+}
+.container.defaults section.settings a:hover{
   color: red;
-***REMOVED***
+}
 
-.container.defaults section.settings span***REMOVED***
+.container.defaults section.settings span{
   display: block;
   color: green;
   font-weight: bolder;
-***REMOVED***
+}
 
-.container.defaults section.sheet_info***REMOVED***
+.container.defaults section.sheet_info{
 flex-grow: 1;
-***REMOVED***
+}
 
-.container.dayparts ***REMOVED***
+.container.dayparts {
     max-width: 885px;
     margin: auto;
     padding-bottom: 20px;
-***REMOVED***
+}
 
-.container.dayparts h3***REMOVED***
+.container.dayparts h3{
   font-size: 18px;
-***REMOVED***
+}
 
-section***REMOVED***
+section{
 /*   border: 1px solid black; */
   margin: 10px 0;
   padding: 20px;
   background-color: rgb(0 0 0 / 5%);
-***REMOVED***
+}
 
-h1***REMOVED***
+h1{
   text-align: center;
   padding-top: 30px;
-***REMOVED***
+}
 
-h3***REMOVED***
+h3{
   text-transform: uppercase;
-***REMOVED***
+}
 
-.show***REMOVED***
+.show{
   display: block
-***REMOVED***
+}
 
-.options_toggle***REMOVED***
+.options_toggle{
   display: flex;
   justify-content: flex-end;
-***REMOVED***
+}
 
-button***REMOVED***
+button{
   font-size: 10px;
   font-family: inherit;
   display: block;
@@ -108,9 +108,9 @@ button***REMOVED***
   cursor: pointer;
   margin-left: 10px;
   outline: none;
-***REMOVED***
+}
 
-button.blue, a.blue***REMOVED***
+button.blue, a.blue{
   font-size: 100%;
   background-color: black;
   color: white;
@@ -123,23 +123,23 @@ button.blue, a.blue***REMOVED***
   margin-top: 10px;
   margin-left: auto;
   position: relative;
-***REMOVED***
+}
 
-button.blue.go***REMOVED***
+button.blue.go{
   background-color: green;
-***REMOVED***
+}
 
-button.blue.large, a.blue.large***REMOVED***
+button.blue.large, a.blue.large{
   font-size: 14px;
   padding: 10px;
   margin: 0;
-***REMOVED***
+}
 
-button.blue:hover, a.blue:hover***REMOVED***
+button.blue:hover, a.blue:hover{
   background-color: white;
   color: black;
-***REMOVED***
-button.green***REMOVED***
+}
+button.green{
   background-color: green;
   font-size: 100%;
   color: white;
@@ -151,79 +151,79 @@ button.green***REMOVED***
   border: 1px solid green;
   margin-top: 10px;
   margin-left: auto;
-***REMOVED***
-button.green:hover***REMOVED***
+}
+button.green:hover{
   background-color: white;
   color: green;
-***REMOVED***
-button.red***REMOVED***
+}
+button.red{
   background-color: red;
   color:white;
-***REMOVED***
+}
 
-button.red:hover***REMOVED***
+button.red:hover{
   background-color: white;
   color:red;
-***REMOVED***
+}
 
-button[name="add_default"],button[name="run_sheet"]***REMOVED***
+button[name="add_default"],button[name="run_sheet"]{
   width: 100%;
-***REMOVED***
+}
 
-.flex***REMOVED***
+.flex{
   display: flex;
-***REMOVED***
+}
 
-.choose_tab***REMOVED***
+.choose_tab{
   padding-left: 10px;
-***REMOVED***
-select***REMOVED***
+}
+select{
 
-***REMOVED***
-.choose_spreedsheet .flex div, .edit_sheets div***REMOVED***
+}
+.choose_spreedsheet .flex div, .edit_sheets div{
   flex-basis: 50%;
-***REMOVED***
+}
 
-.delete_spreedsheet select***REMOVED***
+.delete_spreedsheet select{
   margin-left: 20px;
   width: 90%;
-***REMOVED***
+}
 
-.edit_sheets input***REMOVED***
+.edit_sheets input{
   min-width: 50%;
-***REMOVED***
+}
 
-.email***REMOVED***
+.email{
   color: green;
-***REMOVED***
+}
 
-.emailcode***REMOVED***
+.emailcode{
   max-width: 1158px;
-***REMOVED***
+}
 
-.emailcode .instructions, .output .top***REMOVED***
+.emailcode .instructions, .output .top{
   display: flex;
   justify-content: space-between;
-***REMOVED***
+}
 
-.output_items***REMOVED***
+.output_items{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-***REMOVED***
+}
 
-.emailcode span, .output .instructions span***REMOVED***
+.emailcode span, .output .instructions span{
   font-size: 12px;
   display: block;
-***REMOVED***
+}
 
-.output .content .copy-paste***REMOVED***
+.output .content .copy-paste{
   width: 100%;
   display: flex;
   justify-content: flex-end;
-***REMOVED***
+}
 
-#main_notifications***REMOVED***
+#main_notifications{
   max-width: 800px;
   margin: 25px auto;
   text-align: center;
@@ -232,383 +232,383 @@ select***REMOVED***
   font-weight: bold;
   padding: 10px;
   display: flex;
-***REMOVED***
+}
 
-.cells .titles, .dcells .titles***REMOVED***
+.cells .titles, .dcells .titles{
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-***REMOVED***
-.cells .headline,.dcells .headline***REMOVED***
+}
+.cells .headline,.dcells .headline{
   padding: 5px;
   font-weight: bold;
-***REMOVED***
-.cells .daypart,.dcells .daypart***REMOVED***
+}
+.cells .daypart,.dcells .daypart{
   display: flex;
   justify-content: space-between;
-***REMOVED***
-.cell_1***REMOVED***
+}
+.cell_1{
   width: 180px;
-***REMOVED***
-.cell_2***REMOVED***
+}
+.cell_2{
   width: 120px;
-***REMOVED***
-.cell_3***REMOVED***
+}
+.cell_3{
   width: 180px;
-***REMOVED***
-.cell_4***REMOVED***
+}
+.cell_4{
   width: 290px;
   overflow: scroll;
-***REMOVED***
-.cell_5***REMOVED***
+}
+.cell_5{
   width: 290px;
   overflow: scroll;
-***REMOVED***
+}
 
-.dedicated .titles div, .dedicated .cell_1, .dedicated .cell_2 ***REMOVED***
+.dedicated .titles div, .dedicated .cell_1, .dedicated .cell_2 {
     width: 100px;
-***REMOVED***
+}
 
-.dedicated .titles div:nth-of-type(3), .dedicated .cell_3 ***REMOVED***
+.dedicated .titles div:nth-of-type(3), .dedicated .cell_3 {
     width: 220px;
-***REMOVED***
+}
 
-.dedicated .cell_4, .dedicated .titles div:last-of-type ***REMOVED***
+.dedicated .cell_4, .dedicated .titles div:last-of-type {
     width: 450px;
     overflow: hidden;
-***REMOVED***
+}
 
-.dedicated .titles div, .dedicated .cell_1, .dedicated .cell_2***REMOVED***
+.dedicated .titles div, .dedicated .cell_1, .dedicated .cell_2{
   width: 100px;
-***REMOVED***
-.dedicated .titles div:nth-of-type(3), .dedicated .cell_3***REMOVED***
+}
+.dedicated .titles div:nth-of-type(3), .dedicated .cell_3{
   width: 220px;
-***REMOVED***
-.dedicated .cell_4,.dedicated .titles div:last-of-type***REMOVED***
+}
+.dedicated .cell_4,.dedicated .titles div:last-of-type{
   width: 450px;
   overflow: hidden;
-***REMOVED***
+}
 
-.dedicated .top***REMOVED***
+.dedicated .top{
   display: flex;
   justify-content: space-between;
-***REMOVED***
+}
 
-.dedicated .instructions***REMOVED***
+.dedicated .instructions{
   font-size: 12px;
-***REMOVED***
+}
 
-.daypart***REMOVED***
+.daypart{
   border-bottom: 1px solid white;
-***REMOVED***
-.daypart div***REMOVED***
+}
+.daypart div{
   padding: 5px;
-***REMOVED***
-.dayparts .daypart:last-of-type***REMOVED***
+}
+.dayparts .daypart:last-of-type{
   border-bottom: none;
-***REMOVED***
-.dayparts***REMOVED***
+}
+.dayparts{
   margin: 5px 0;
   font-size: 12px;
   background: none;
-***REMOVED***
-.dayparts.gray***REMOVED***
+}
+.dayparts.gray{
   background-color:#D9D9D9;
-***REMOVED***
-.dayparts.yellow***REMOVED***
+}
+.dayparts.yellow{
   background-color:#FFF3BE;
-***REMOVED***
-.dayparts.green***REMOVED***
+}
+.dayparts.green{
   background-color:#B1DEA9;
-***REMOVED***
-.dayparts.blue***REMOVED***
+}
+.dayparts.blue{
   background-color:#B0CDF1;
-***REMOVED***
-.dayparts.purple***REMOVED***
+}
+.dayparts.purple{
   background-color:#D0B0F1;
-***REMOVED***
+}
 
-.dedicated .dcells .daypart***REMOVED***
+.dedicated .dcells .daypart{
   cursor: pointer;
   background-color: #B8D6DA;
-***REMOVED***
+}
 
-.dedicated .dcells .daypart:hover***REMOVED***
+.dedicated .dcells .daypart:hover{
   background-color: #B2BABB;
-***REMOVED***
+}
 
-.dedicated .dcells .daypart.clicked***REMOVED***
+.dedicated .dcells .daypart.clicked{
   background-color: #B8DABB;
-***REMOVED***
+}
 
-#main_notifications.warning***REMOVED***
+#main_notifications.warning{
   background-color: #FFC300;
-***REMOVED***
+}
 
-#main_notifications.success***REMOVED***
+#main_notifications.success{
   background-color: #00C703;
-***REMOVED***
+}
 
-#main_notifications.error***REMOVED***
+#main_notifications.error{
   background-color: #C70039;
-***REMOVED***
+}
 
-#main_notifications .words***REMOVED***
+#main_notifications .words{
   flex-grow: 2;
-***REMOVED***
+}
 
-#main_notifications .clear***REMOVED***
+#main_notifications .clear{
   cursor: pointer;
-***REMOVED***
+}
 
-.hide***REMOVED***
+.hide{
   display: none !important;
-***REMOVED***
+}
 
-.container.cells span***REMOVED***
+.container.cells span{
   font-size: 12px;
   margin-bottom: 10px;
   display: block;
-***REMOVED***
+}
 
-.container.dayparts .dayparts select***REMOVED***
+.container.dayparts .dayparts select{
   margin: 10px 0 10px 0;
-***REMOVED***
+}
 
-.container.images***REMOVED***
+.container.images{
   display: flex;
   padding-bottom: 20px;
-***REMOVED***
+}
 
-.container.images h3***REMOVED***
+.container.images h3{
   flex-basis: 100%;
-***REMOVED***
+}
 
-.container.images div***REMOVED***
+.container.images div{
 flex-basis: 40%;
-***REMOVED***
+}
 
-.container.images input***REMOVED***
+.container.images input{
   margin: 10px 0;
-***REMOVED***
+}
 
-.container.images section***REMOVED***
+.container.images section{
   flex-basis: 33%;
   height: 300px;
   margin: auto 5px;
-***REMOVED***
+}
 
-.container.images section:first-of-type***REMOVED***
+.container.images section:first-of-type{
   margin: auto 5px auto 0;
-***REMOVED***
-.container.images section:last-of-type***REMOVED***
+}
+.container.images section:last-of-type{
   margin: auto 0 auto 5px;
-***REMOVED***
-.current_imgs***REMOVED***
+}
+.current_imgs{
   display: flex;
   flex-grow: 1;
   max-width: 1160px;
   margin: 0 !important;
   display: block;
-***REMOVED***
+}
 
-.current_imgs div > span***REMOVED***
+.current_imgs div > span{
   font-size: 12px;
   margin-bottom: 10px;
   display: block;
-***REMOVED***
+}
 
-.current_imgs .images, .select_zip .zips***REMOVED***
+.current_imgs .images, .select_zip .zips{
   overflow-y: scroll;
   height: 98%
-***REMOVED***
+}
 
-.current_imgs img***REMOVED***
+.current_imgs img{
   height: 150px;
-***REMOVED***
+}
 
-.current_imgs h3***REMOVED***
+.current_imgs h3{
 /*   background-color: white; */
-***REMOVED***
+}
 
-.current_imgs ul, .select_zip .zips***REMOVED***
+.current_imgs ul, .select_zip .zips{
   list-style: none;
-***REMOVED***
+}
 
-.current_imgs li***REMOVED***
+.current_imgs li{
   padding-bottom: 10px;
-***REMOVED***
+}
 
-.current_imgs .buttons***REMOVED***
+.current_imgs .buttons{
   display: flex;
   justify-content: space-between;
-***REMOVED***
+}
 
-.current_imgs .do_zip***REMOVED***
+.current_imgs .do_zip{
   display: flex;
   justify-content: center;
-***REMOVED***
+}
 
-.current_imgs .do_zip input***REMOVED***
+.current_imgs .do_zip input{
   margin-left: 5px;
-***REMOVED***
+}
 
-button.blue.large:disabled, a.blue.disabled***REMOVED***
+button.blue.large:disabled, a.blue.disabled{
   background: #dddddd;
-***REMOVED***
+}
 
 /* DAYPART CODE */
 /* Container **/
-.container.dayparts .daypart-preview ***REMOVED***
+.container.dayparts .daypart-preview {
   position: relative;
-***REMOVED***
+}
 
-.container.dayparts .top***REMOVED***
+.container.dayparts .top{
   display: flex;
   justify-content: space-between;
-***REMOVED***
+}
 
-.container.dayparts span***REMOVED***
+.container.dayparts span{
   margin: 10px 0;
   display: block;
   padding-right: 5px;
   font-weight: bold;
-***REMOVED***
+}
 
-.container.dayparts .daypart-preview***REMOVED***
+.container.dayparts .daypart-preview{
   margin-bottom: 40px;
-***REMOVED***
+}
 
-.container.dayparts .daypart-preview:last-of-type***REMOVED***
+.container.dayparts .daypart-preview:last-of-type{
   margin-bottom: 0;
-***REMOVED***
+}
 
-.container.dayparts .daypart-preview .slide ***REMOVED***
+.container.dayparts .daypart-preview .slide {
   position: relative;
   font-size: 0;
   padding: 0;
   background-color: black;
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
-.container.dayparts .slide.empty-link a***REMOVED***
+.container.dayparts .slide.empty-link a{
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
-.container.dayparts .slide.single-imgs .album-thumbnail***REMOVED***
+.container.dayparts .slide.single-imgs .album-thumbnail{
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
-.container.dayparts .slide.single-imgs .album-thumbnail:last-of-type***REMOVED***
+.container.dayparts .slide.single-imgs .album-thumbnail:last-of-type{
   width: 800px;
   height: 235px;
-***REMOVED***
+}
 
-.container.dayparts .slide.single-imgs .album-container***REMOVED***
+.container.dayparts .slide.single-imgs .album-container{
   margin: 0;
-***REMOVED***
+}
 
-.container.dayparts .slide.single-imgs .album-set***REMOVED***
+.container.dayparts .slide.single-imgs .album-set{
   margin-top: 0;
-***REMOVED***
+}
 
 .container.dayparts .slide .album-thumbnail:first-of-type,
-.container.dayparts .slide .album-thumbnail:last-of-type***REMOVED***
+.container.dayparts .slide .album-thumbnail:last-of-type{
   height: 150px;
   width: 150px;
-***REMOVED***
+}
 .container.dayparts .slide.no-lines-larger-imgs .album-container:first-of-type .album-thumbnail,
-.container.dayparts .slide.no-lines-larger-imgs .album-container:last-of-type .album-thumbnail***REMOVED***
+.container.dayparts .slide.no-lines-larger-imgs .album-container:last-of-type .album-thumbnail{
   height: 150px !important;
   width: 150px !important;
-***REMOVED***
+}
 
-.container.dayparts .slide.three-up .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.container.dayparts .slide.three-up .album-container:nth-of-type(3) .album-thumbnail{
   height: 150px;
   width: 150px;
-***REMOVED***
+}
 
 .container.dayparts .slide.three-up .album-container:first-of-type .album-artist,
-.container.dayparts .slide.three-up .album-container:last-of-type .album-artist***REMOVED***
+.container.dayparts .slide.three-up .album-container:last-of-type .album-artist{
   padding: 10px 0;
-***REMOVED***
+}
 
 .container.dayparts .slide .album-container:nth-of-type(2) .album-thumbnail,
-.container.dayparts .slide .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.container.dayparts .slide .album-container:nth-of-type(3) .album-thumbnail{
   height: 180px;
   width: 180px;
-***REMOVED***
+}
 
 .container.dayparts .slide.one-line-text-under .album-container,
 .container.dayparts .slide.one-line-lrg-images .album-container:first-of-type,
-.container.dayparts .slide.one-line-lrg-images .album-container:last-of-type,***REMOVED***
+.container.dayparts .slide.one-line-lrg-images .album-container:last-of-type,{
   height: 150px;
-***REMOVED***
+}
 
 .container.dayparts .slide.no-lines-larger-imgs .album-thumbnail:first-of-type,
-.container.dayparts .slide.no-lines-larger-imgs .album-thumbnail:last-of-type***REMOVED***
+.container.dayparts .slide.no-lines-larger-imgs .album-thumbnail:last-of-type{
   height: 170px;
   width: 170px;
-***REMOVED***
+}
 
 .container.dayparts .slide.no-lines-larger-imgs .album-container:nth-of-type(2) .album-thumbnail,
-.container.dayparts .slide.no-lines-larger-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.container.dayparts .slide.no-lines-larger-imgs .album-container:nth-of-type(3) .album-thumbnail{
   height: 190px;
   width: 190px;
-***REMOVED***
+}
 
 .container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(2),
-.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(3)***REMOVED***
+.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(3){
     height: 175px;
     margin: -30px 10px 10px 10px;
-***REMOVED***
+}
 
 .container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(2) .album-thumbnail,
-.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(3) .album-thumbnail***REMOVED***
+.container.dayparts .slide.slightly-larger-center-imgs .album-container:nth-of-type(3) .album-thumbnail{
   height: 175px;
   width: 175px;
-***REMOVED***
+}
 
 .container.dayparts .slide.one-line-text-under .album-container .album-thumbnail,
 .container.dayparts .slide.one-line-lrg-images .album-container:first-of-type .album-thumbnail,
-.container.dayparts .slide.one-line-lrg-images .album-container:last-of-type .album-thumbnail***REMOVED***
+.container.dayparts .slide.one-line-lrg-images .album-container:last-of-type .album-thumbnail{
   height: 150px;
   width: 150px;
-***REMOVED***
+}
 
-.container.dayparts .slide.one-line-lrg-images .album-container***REMOVED***
+.container.dayparts .slide.one-line-lrg-images .album-container{
   height: 180px;
   margin: 0 10px;
-***REMOVED***
+}
 
 
-.container.dayparts .slide.one-line-lrg-images .album-container .album-thumbnail***REMOVED***
+.container.dayparts .slide.one-line-lrg-images .album-container .album-thumbnail{
   height: 180px;
   width: 180px;
-***REMOVED***
+}
 
-.container.dayparts .slide.one-line-lrg-images .headline***REMOVED***
+.container.dayparts .slide.one-line-lrg-images .headline{
   padding-top: 0;
-***REMOVED***
+}
 
 .container.dayparts .slide.one-line-lrg-images .album-container:nth-of-type(1) .album-thumbnail,
-.container.dayparts .slide.one-line-lrg-images .album-container:nth-of-type(4) .album-thumbnail ***REMOVED***
+.container.dayparts .slide.one-line-lrg-images .album-container:nth-of-type(4) .album-thumbnail {
   margin-top: 10px;
-***REMOVED***
+}
 
-.container.dayparts .bg-link ***REMOVED***
+.container.dayparts .bg-link {
   position: absolute;
   top:0;
   left:0;
   bottom:0;
   right:0;
-***REMOVED***
+}
 
 /* Headline */
-.container.dayparts .headline ***REMOVED***
+.container.dayparts .headline {
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -618,55 +618,55 @@ button.blue.large:disabled, a.blue.disabled***REMOVED***
   letter-spacing: .7px;
   font-family: Helvetica;
   pointer-events: none;
-***REMOVED***
+}
 
-.container.dayparts .hover-text.no-headline .headline***REMOVED***
+.container.dayparts .hover-text.no-headline .headline{
   font-size: 9px;
-***REMOVED***
+}
 
 /** Headline Hashtag **/
-.container.dayparts .headline-hashtag ***REMOVED***
+.container.dayparts .headline-hashtag {
   font-size: 17px;
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: initial;
-***REMOVED***
+}
 
 /** Album Set **/
-.container.dayparts .album-set ***REMOVED***
+.container.dayparts .album-set {
   align-items: center;
   justify-content: center;
   width: 100%;
   margin-top: 1px;
   display: flex;
-***REMOVED***
+}
 
 
 /** Album Container **/
-.container.dayparts .album-container ***REMOVED***
+.container.dayparts .album-container {
   position: relative;
   text-align: center;
   margin: 10px;
-***REMOVED***
+}
 
 
-.container.dayparts .album-container:hover .listen-now ***REMOVED***
+.container.dayparts .album-container:hover .listen-now {
   opacity: 1;
   background: url('images/overlay.png');
   width: 160px;
   height: 160px;
-***REMOVED***
+}
 
 
-.container.dayparts .listen-now ***REMOVED***
+.container.dayparts .listen-now {
   opacity: 0;
   position: absolute;
   background-color: black;
-***REMOVED***
+}
 
 
 /** Featuring Text **/
-.container.dayparts .featuring-text ***REMOVED***
+.container.dayparts .featuring-text {
   padding-top: 7px;
   color: white;
   font-size: 11px;
@@ -675,10 +675,10 @@ button.blue.large:disabled, a.blue.disabled***REMOVED***
   line-height: 1;
   letter-spacing: .5px;
   text-align: center;
-***REMOVED***
+}
 
 /** Album Artist **/
-.container.dayparts .album-artist ***REMOVED***
+.container.dayparts .album-artist {
   color: white;
   font-size: 11px;
   font-family: Helvetica;
@@ -686,8 +686,8 @@ button.blue.large:disabled, a.blue.disabled***REMOVED***
   text-align: center;
   letter-spacing: .6px;
 
-***REMOVED***
-.container.dayparts .album-artist2 ***REMOVED***
+}
+.container.dayparts .album-artist2 {
   color: white;
   font-size: 11px;
   font-family: Helvetica;
@@ -696,176 +696,176 @@ button.blue.large:disabled, a.blue.disabled***REMOVED***
   letter-spacing: .6px;
   width: 160px;
 
-***REMOVED***
+}
 
-/* .container.dayparts .slide.animated-imgs***REMOVED***
+/* .container.dayparts .slide.animated-imgs{
   height: 100%;
-***REMOVED*** */
+} */
 
-.container.dayparts .slide.animated-imgs .content***REMOVED***
+.container.dayparts .slide.animated-imgs .content{
   position: relative;
   height: 100%;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-set***REMOVED***
+.container.dayparts .slide.animated-imgs .album-set{
   height: 100%;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-container***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container{
   position: relative;
   height: 100%;
-***REMOVED***
+}
 
-.container.dayparts .album-container:nth-of-type(1), .container.dayparts .album-container:nth-of-type(4)***REMOVED***
+.container.dayparts .album-container:nth-of-type(1), .container.dayparts .album-container:nth-of-type(4){
   padding-top: 8px;
   width: 150px;
-***REMOVED***
+}
 
-.container.dayparts .single-imgs .album-container:nth-of-type(1)***REMOVED***
+.container.dayparts .single-imgs .album-container:nth-of-type(1){
   width: 100%;
   padding-top: 0;
-***REMOVED***
+}
 
 
-.container.dayparts .slide.animated-imgs .album-container:nth-of-type(1), .container.dayparts .slide.animated-imgs .album-container:nth-of-type(4)***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(1), .container.dayparts .slide.animated-imgs .album-container:nth-of-type(4){
   width: 150px;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-container:nth-of-type(2), .container.dayparts .slide.animated-imgs .album-container:nth-of-type(3)***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(2), .container.dayparts .slide.animated-imgs .album-container:nth-of-type(3){
   width: 180px;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-container img***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container img{
   left: 0;
   position: absolute;
   transform-origin: center center;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-container img***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container img{
   left: 0;
   position: absolute;
   transform-origin: center center;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-container:nth-of-type(1) img, .container.dayparts .slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(1) img, .container.dayparts .slide.animated-imgs .album-container:nth-of-type(4) img{
   top: 30px;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-container:nth-of-type(2) img, .container.dayparts .slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container:nth-of-type(2) img, .container.dayparts .slide.animated-imgs .album-container:nth-of-type(3) img{
   top: 10px;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .featuring-text***REMOVED***
+.container.dayparts .slide.animated-imgs .featuring-text{
   position: absolute;
   bottom: 20px;
   width: 100%;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-artist***REMOVED***
+.container.dayparts .slide.animated-imgs .album-artist{
   position: absolute;
     bottom: 5px;
     width: 100%;
-***REMOVED***
+}
 
-.container.dayparts .slide.animated-imgs .album-container a***REMOVED***
+.container.dayparts .slide.animated-imgs .album-container a{
   width: 100%;
   height: 100%;
   left:0;
   position: absolute;
   z-index: 10;
-***REMOVED***
+}
 
-@keyframes breath-1st ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-1st {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-@keyframes breath-2nd ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-2nd {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-@keyframes breath-3rd ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-3rd {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-@keyframes breath-4th ***REMOVED***
-  0 ***REMOVED***transform: scale(1)***REMOVED***
-  12.5% ***REMOVED***transform: scale(1.1)***REMOVED***
-  25% ***REMOVED***transform: scale(1)***REMOVED***
-***REMOVED***
+@keyframes breath-4th {
+  0 {transform: scale(1)}
+  12.5% {transform: scale(1.1)}
+  25% {transform: scale(1)}
+}
 
-.slide.animated-imgs .album-container:nth-of-type(1) img***REMOVED***
+.slide.animated-imgs .album-container:nth-of-type(1) img{
   position: absolute;
   left: 0;
   transform-origin: center center;
   animation: breath-1st 8s ease-in-out 0s infinite;
-***REMOVED***
-.slide.animated-imgs .album-container:nth-of-type(2) img***REMOVED***
+}
+.slide.animated-imgs .album-container:nth-of-type(2) img{
   animation: breath-2nd 8s ease-in-out 2s infinite;
-***REMOVED***
-.slide.animated-imgs .album-container:nth-of-type(3) img***REMOVED***
+}
+.slide.animated-imgs .album-container:nth-of-type(3) img{
   animation: breath-3rd 8s ease-in-out 4s infinite;
-***REMOVED***
-.slide.animated-imgs .album-container:nth-of-type(4) img***REMOVED***
+}
+.slide.animated-imgs .album-container:nth-of-type(4) img{
   animation: breath-4th 8s ease-in-out 6s infinite;
-***REMOVED***
+}
 
-.slide.slider***REMOVED***
+.slide.slider{
   overflow: hidden;
-***REMOVED***
+}
 
-.container.dayparts .slide.slider .album-thumbnail:first-of-type, .container.dayparts .slide.slider .album-thumbnail:last-of-type ***REMOVED***
+.container.dayparts .slide.slider .album-thumbnail:first-of-type, .container.dayparts .slide.slider .album-thumbnail:last-of-type {
     height: 180px;
     width: 180px;
-***REMOVED***
+}
 
-.container.dayparts .slide.slider .album-container:nth-of-type(1), .container.dayparts .slide.slider .album-container:nth-of-type(4)***REMOVED***
+.container.dayparts .slide.slider .album-container:nth-of-type(1), .container.dayparts .slide.slider .album-container:nth-of-type(4){
   padding-top: 0;
   width: 180px;
-***REMOVED***
+}
 
-.slide.slider .album-container ***REMOVED***
+.slide.slider .album-container {
   margin: 10px 5px;
-***REMOVED***
+}
 
-.slide.slider***REMOVED***
+.slide.slider{
   position: relative;
-***REMOVED***
+}
 
-.slider .content***REMOVED***
+.slider .content{
   position: absolute;
   left: 15px;
   transition: left 0.8s ease-in-out;
-***REMOVED***
+}
 
-.final-date***REMOVED***
+.final-date{
   float:right;
-***REMOVED***
+}
 
-.zipBtns***REMOVED***
+.zipBtns{
   padding: 5px 0;
-***REMOVED***
+}
 
-.zipBtns button***REMOVED***
+.zipBtns button{
   margin-left: 0;
   font-size: 12px;
-***REMOVED***
+}
 
-.zipBtns button[name="open_zip"]:hover***REMOVED***
+.zipBtns button[name="open_zip"]:hover{
   background-color: green;
   color:white;
-***REMOVED***
+}
 
-.zipBtns button[name="delete-zip"]***REMOVED***
+.zipBtns button[name="delete-zip"]{
   padding: 5px 10px;
-***REMOVED***
+}
 
-.popup***REMOVED***
+.popup{
   width: 100%;
   height: 100vh;
   background-color: rgba(0,0,0,0.5);
@@ -874,9 +874,9 @@ button.blue.large:disabled, a.blue.disabled***REMOVED***
   display: flex;
   align-content: center;
   justify-content: center;
-***REMOVED***
+}
 
-.popup .info***REMOVED***
+.popup .info{
   width: 1000px;
   height: 700px;
   position: absolute;
@@ -885,27 +885,27 @@ button.blue.large:disabled, a.blue.disabled***REMOVED***
   overflow: hidden;
   background-color: white;
   border: 5px solid black;
-***REMOVED***
+}
 
-.popup .close***REMOVED***
+.popup .close{
   width: calc(100% - 10px);
   background-color: white;
   text-align: right;
   padding: 5px;
   cursor: pointer;
-***REMOVED***
+}
 
-.popup .close img, #msg .close img***REMOVED***
+.popup .close img, #msg .close img{
   width: 30px;
   height: auto;
   margin: 20px;
-***REMOVED***
+}
 
-#msg .close img***REMOVED***
+#msg .close img{
   margin: 0;
-***REMOVED***
+}
 
-.popup .words***REMOVED***
+.popup .words{
   width: calc(100% - 100px);
   height: 550px;
   overflow-y: scroll;
@@ -914,92 +914,92 @@ button.blue.large:disabled, a.blue.disabled***REMOVED***
   background-color: white;
   margin: 0 auto;
   border: 1px solid black;
-***REMOVED***
+}
 
-.popup input***REMOVED***
+.popup input{
   border-radius: 0;
   padding: 10px;
   border: 1px solid black;
   width: 98%;
-***REMOVED***
+}
 
 
-.popup input[type="submit"]***REMOVED***
+.popup input[type="submit"]{
   width: 100.5%;
-***REMOVED***
+}
 
-#popup-settings .radioBtns***REMOVED***
+#popup-settings .radioBtns{
   display: flex;
-***REMOVED***
-#popup-settings .radioBtns input***REMOVED***
+}
+#popup-settings .radioBtns input{
   width: 15%;
-***REMOVED***
+}
 
-#popup-settings .close***REMOVED***
+#popup-settings .close{
   display: flex;
   justify-content: space-between;
-***REMOVED***
+}
 
-#popup-settings .close span***REMOVED***
+#popup-settings .close span{
   font-weight: bold;
   padding: 20px;
   font-size: 24px;
-***REMOVED***
+}
 
 
-.settings-form***REMOVED***
+.settings-form{
   padding-bottom: 20px;
-***REMOVED***
+}
 
-.options .title***REMOVED***
+.options .title{
   font-weight: bold;
   font-size: 18px;
   padding: 30px 0 20px 0;
-***REMOVED***
+}
 
-pre***REMOVED***
+pre{
   padding: 10px 0;
-***REMOVED***
-code***REMOVED***
+}
+code{
   white-space: break-spaces;
-***REMOVED***
+}
 
-.main.loader***REMOVED***
+.main.loader{
   display: flex;
   margin: auto;
   padding: 20px 0;
-***REMOVED***
+}
 
-#how-to***REMOVED***
+#how-to{
   max-width: 900px;
   padding: 50px;
   margin: auto;
-***REMOVED***
+}
 
-#how-to ol***REMOVED***
+#how-to ol{
   margin: 30px 0 0 15px;
-***REMOVED***
+}
 
-#how-to ul***REMOVED***
+#how-to ul{
   margin: 5px 0 0 15px;
-***REMOVED***
+}
 
-#how-to ol ul***REMOVED***
+#how-to ol ul{
   margin-left: 30px;
-***REMOVED***
+}
 
-#how-to ul ol***REMOVED***
+#how-to ul ol{
   margin-top: 5px;
-***REMOVED***
+}
 
-#how-to li***REMOVED***
+#how-to li{
   padding:5px 0;
-***REMOVED***
+}
 
-#how-to code***REMOVED***
+#how-to code{
   font-size: 12px;
-***REMOVED***
-#msg***REMOVED***
+}
+#msg{
   width: 70%;
   padding: 10px 10px 20px 10px;
   position: fixed;
@@ -1010,85 +1010,85 @@ code***REMOVED***
   top: 150px;
   margin-left: calc(70%/5);
   box-shadow: 0px 0px 80px rgb(0, 0, 0, .5);
-***REMOVED***
-#msg .close***REMOVED***
+}
+#msg .close{
   text-align: right;
   font-size: 20px;
   font-weight: bolder;
   cursor: pointer;
-***REMOVED***
-#msg.error***REMOVED***
+}
+#msg.error{
   background-color: #C70039;
   border: 5px solid #900C3F;
   color: #ffffff;
-***REMOVED***
-#msg.error .close***REMOVED***
+}
+#msg.error .close{
   color: #ffffff;
-***REMOVED***
+}
 
-#msg.success***REMOVED***
+#msg.success{
   background-color: #03C700;
   border: 5px solid #0C9010;
   color: #000000;
-***REMOVED***
-#msg.success .close***REMOVED***
+}
+#msg.success .close{
   color: #000000;
-***REMOVED***
+}
 
-#msg.message***REMOVED***
+#msg.message{
   background-color: #FFC300;
   border: 5px solid #FFAA00;
   color: #000000;
-***REMOVED***
-#msg.message .close***REMOVED***
+}
+#msg.message .close{
   color: #000000;
-***REMOVED***
-input[type="submit"]***REMOVED***
+}
+input[type="submit"]{
   cursor: pointer;
-***REMOVED***
+}
 
-.container.images .crop***REMOVED***
+.container.images .crop{
   flex-basis: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
   margin-top: 20px;
-***REMOVED***
+}
 
-.crop .holder***REMOVED***
+.crop .holder{
   display: flex;
-***REMOVED***
+}
 
-.crop .holder img***REMOVED***
+.crop .holder img{
   /* margin: 5px; */
   height: 150px;
   width: auto;
   cursor: pointer;
-***REMOVED***
+}
 
-#popup-crop.popup .info ***REMOVED***
+#popup-crop.popup .info {
   top: 15px;
   width: 800px;
   height: 750px;
-***REMOVED***
+}
 
-#popup-crop .image-holder***REMOVED***
+#popup-crop .image-holder{
   display: block;
   width: 800px;
   height: 800px;
   background-color: white;
   overflow: hidden;
-***REMOVED***
+}
 
-/* #popup-crop img***REMOVED***
+/* #popup-crop img{
   text-align: center;
   margin: auto;
   z-index: 10;
   position: absolute;
   height: 250px;
   width: auto;
-***REMOVED*** */
+} */
 
-#popup-crop .window***REMOVED***
+#popup-crop .window{
   width: 250px;
   height: 250px;
   box-shadow: 0 0 0 99999px rgb(0 255 0 / 50%);
@@ -1098,75 +1098,75 @@ input[type="submit"]***REMOVED***
   margin: auto;
   top: calc((830px - 250px) / 2);
   left: calc((800px - 250px) / 2);
-***REMOVED***
+}
 
-#popup-crop img.portrait***REMOVED***
+#popup-crop img.portrait{
   height: auto;
   width: 250px;
-***REMOVED***
+}
 
-#popup-crop img.landscape***REMOVED***
+#popup-crop img.landscape{
   height: 250px;
   width: auto;
-***REMOVED***
+}
 
-#popup-crop .crop_image***REMOVED***
+#popup-crop .crop_image{
   position: absolute;
   bottom: 150px;
   left: calc((800px / 2) - 50px);
   z-index: 200;
-***REMOVED***
+}
 
-.zips-holder, .csvs-holder***REMOVED***
+.zips-holder, .csvs-holder{
   overflow-y: scroll;
   height: 470px;
-***REMOVED***
+}
 
-.zip-holder, .csv-holder***REMOVED***
+.zip-holder, .csv-holder{
   display: flex;
   justify-content: center;
   padding: 5px 0;
-***REMOVED***
+}
 
-.zip-holder .zip, .csvs-holder .csv***REMOVED***
+.zip-holder .zip, .csvs-holder .csv{
   border: 1px solid black;
   padding: 5px;
   background-color: green;
   cursor: pointer;
   color: white;
-***REMOVED***
+}
 
-.zip-holder .zip-delete, .csvs-holder .csv-delete***REMOVED***
+.zip-holder .zip-delete, .csvs-holder .csv-delete{
   border: 1px solid black;
   padding: 5px;
   background-color: red;
   cursor: pointer;
   color: white;
-***REMOVED***
+}
 
-.csv-upload***REMOVED***
+.csv-upload{
   padding-top: 20px;
-***REMOVED***
+}
 
-.csv-func-holder***REMOVED***
+.csv-func-holder{
   display: flex;
   justify-content: space-evenly;
-***REMOVED***
+}
 
-.container.dedicated h3***REMOVED***
+.container.dedicated h3{
   float:left
-***REMOVED***
+}
 
-.container.dedicated a***REMOVED***
+.container.dedicated a{
   margin-left:20px;
-***REMOVED***
+}
 
-.container.dedicated a + div***REMOVED***
+.container.dedicated a + div{
   clear: both;
   padding-top: 20px;
-***REMOVED***
+}
 
-.tooltip .tooltiptext***REMOVED***
+.tooltip .tooltiptext{
   visibility: hidden;
   width: 140px;
   background-color: black;
@@ -1183,13 +1183,13 @@ input[type="submit"]***REMOVED***
   margin-left: calc(-150px/2);
   margin-bottom: 10px;
   border: 1px solid white;
-***REMOVED***
+}
 
-.tooltip:hover .tooltiptext ***REMOVED***
+.tooltip:hover .tooltiptext {
   visibility: visible;
-***REMOVED***
+}
 
-.tooltip .tooltiptext::after ***REMOVED***
+.tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the bottom of the tooltip */
@@ -1198,19 +1198,19 @@ input[type="submit"]***REMOVED***
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
-***REMOVED***
+}
 
-.imgs-loading***REMOVED***
+.imgs-loading{
   padding: 20px 50px;
-***REMOVED***
+}
 
-.img-holder***REMOVED***
+.img-holder{
   position: relative;
   margin: 5px;
   height: 150px;
-***REMOVED***
+}
 
-.number***REMOVED***
+.number{
   position: absolute;
   z-index: 5;
   bottom: 0;
@@ -1220,16 +1220,16 @@ input[type="submit"]***REMOVED***
   width: 100%;
   text-align: center;
   opacity: .6;
-***REMOVED***
+}
 
-.img-holder img***REMOVED***
+.img-holder img{
   position: relative;
   width: 100%;
   text-align: center;
   z-index: 0;
-***REMOVED***
+}
 
-.slide.hover-text .album-container .overlay***REMOVED***
+.slide.hover-text .album-container .overlay{
   box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
   opacity: 0;
   transition: all 0.8s ease-in-out;
@@ -1242,66 +1242,66 @@ input[type="submit"]***REMOVED***
   flex-direction: column;
   background-color: rgb(0, 0, 0, .8);
   cursor: pointer;
-***REMOVED***
+}
 
-.slide.hover-text .album-container:hover .overlay***REMOVED***
+.slide.hover-text .album-container:hover .overlay{
   opacity: 1;
-***REMOVED***
+}
 
-.slide.hover-text .album-container img***REMOVED***
+.slide.hover-text .album-container img{
   box-shadow: 0px 0px 15px rgb(255, 255, 255, 0);
   transition: all 0.8s ease-in-out;
-***REMOVED***
+}
 
-.slide.hover-text .album-container:hover img***REMOVED***
+.slide.hover-text .album-container:hover img{
   box-shadow: 0px 0px 15px rgb(255, 255, 255, 1);
-***REMOVED***
+}
 
-.container.dayparts .slide.hover-text .album-thumbnail:first-of-type, .container.dayparts .slide.hover-text .album-thumbnail:last-of-type ***REMOVED***
+.container.dayparts .slide.hover-text .album-thumbnail:first-of-type, .container.dayparts .slide.hover-text .album-thumbnail:last-of-type {
   height: 180px;
   width: 180px;
-***REMOVED***
+}
 
-.container.dayparts .slide.hover-text .album-container:nth-of-type(1), .container.dayparts .slide.hover-text .album-container:nth-of-type(4) ***REMOVED***
+.container.dayparts .slide.hover-text .album-container:nth-of-type(1), .container.dayparts .slide.hover-text .album-container:nth-of-type(4) {
   padding-top: 0;
   width: 180px;
-***REMOVED***
+}
 
 
-.slide.hover-text .album-container .overlay***REMOVED***
+.slide.hover-text .album-container .overlay{
   opacity: 0;
   transition: all 0.8s ease-in-out;
-***REMOVED***
+}
 
-.slide.hover-text .album-container:hover .overlay***REMOVED***
+.slide.hover-text .album-container:hover .overlay{
   opacity: 1;
-***REMOVED***
+}
 
-.slide.one-image-text .album-container .album-info***REMOVED***
+.slide.one-image-text .album-container .album-info{
   display: flex;
   flex-direction: row;
-***REMOVED***
+}
 
-.slide.one-image-text .album-thumbnail, .slide.one-image-text .img***REMOVED***
+.slide.one-image-text .album-thumbnail, .slide.one-image-text .img{
   height: 215px;
   width: 215px;
-***REMOVED***
+}
 
-.slide.one-image-text .featuring-text, .slide.one-image-text .featuring-text2***REMOVED***
+.slide.one-image-text .featuring-text, .slide.one-image-text .featuring-text2{
   font-size: 17px;
   text-align: left;
   font-weight: bold;
-***REMOVED***
+}
 
-.slide.one-image-text .album-artist, .slide.one-image-text .album-artist2***REMOVED***
+.slide.one-image-text .album-artist, .slide.one-image-text .album-artist2{
   text-align: left;
-***REMOVED***
+}
 
-.slide.one-image-text .img***REMOVED***
+.slide.one-image-text .img{
   cursor: pointer;
-***REMOVED***
+}
 
-.slide.one-image-text .img .listen-now***REMOVED***
+.slide.one-image-text .img .listen-now{
   display: flex;
   text-align: center;
   justify-content: center;
@@ -1317,9 +1317,9 @@ input[type="submit"]***REMOVED***
   color: white;
   font-size: 17px;
   top: 40%;
-***REMOVED***
+}
 
-.slide.one-image-text .img .overlay***REMOVED***
+.slide.one-image-text .img .overlay{
   opacity: 0;
   transition: all 0.8s ease-in-out;
   position: absolute;
@@ -1327,29 +1327,29 @@ input[type="submit"]***REMOVED***
   width: 215px;
   z-index: 5;
   background-color: black;
-***REMOVED***
-.slide.one-image-text .img:hover .listen-now***REMOVED***
+}
+.slide.one-image-text .img:hover .listen-now{
   opacity: 1;
-***REMOVED***
-.slide.one-image-text .img:hover .overlay***REMOVED***
+}
+.slide.one-image-text .img:hover .overlay{
   opacity: .7;
-***REMOVED***
+}
 
-.slide.one-image-text .album-container .info***REMOVED***
+.slide.one-image-text .album-container .info{
   flex-basis: 60%;
   padding-left: 20px;
-***REMOVED***
+}
 
-.container.dayparts .tv .album-container:nth-of-type(1), .container.dayparts .tv .album-container:nth-of-type(4)***REMOVED***
+.container.dayparts .tv .album-container:nth-of-type(1), .container.dayparts .tv .album-container:nth-of-type(4){
   padding-top: 0;
   width: 180px;
-***REMOVED***
+}
 
-.slide.tv .album-container***REMOVED***
+.slide.tv .album-container{
   position: relative;
-***REMOVED***
+}
 
-.slide.tv .album-container a***REMOVED***
+.slide.tv .album-container a{
   background: #000000 url('site-images/filter-logo.png') no-repeat center;
   background-size: 50%;
   opacity: 0;
@@ -1359,136 +1359,136 @@ input[type="submit"]***REMOVED***
   display: block;
   position: absolute;
   z-index: 100;
-***REMOVED***
+}
 
-.slide.tv .album-container:hover a***REMOVED***
+.slide.tv .album-container:hover a{
   opacity: .7;
-***REMOVED***
+}
 
-.slide.tv .album-thumbnail:first-of-type, .slide.tv .album-thumbnail:last-of-type***REMOVED***
+.slide.tv .album-thumbnail:first-of-type, .slide.tv .album-thumbnail:last-of-type{
   height: 180px;
   width: 180px;
-***REMOVED***
+}
 
-.slide.tv .album-container***REMOVED***
+.slide.tv .album-container{
   position: relative;
-***REMOVED***
+}
 
-.slide.tv .coverWclipping***REMOVED***
+.slide.tv .coverWclipping{
   position: relative;
   z-index: 0;
-***REMOVED***
+}
 
-.slide.tv .all-snow-1***REMOVED***
+.slide.tv .all-snow-1{
   position: absolute;
   z-index: 5;
   animation: noSnow 0s linear 1s 1 normal forwards;
-***REMOVED***
+}
 
-.slide.tv .all-snow-2***REMOVED***
+.slide.tv .all-snow-2{
   position: absolute;
   z-index: 5;
   animation: noSnow 0s linear 1.3s 1 normal forwards;
-***REMOVED***
+}
 
-.slide.tv .all-snow-3***REMOVED***
+.slide.tv .all-snow-3{
   position: absolute;
   z-index: 5;
   animation: noSnow 0s linear 1.6s 1 normal forwards;
-***REMOVED***
+}
 
-.slide.tv .all-snow-4***REMOVED***
+.slide.tv .all-snow-4{
   position: absolute;
   z-index: 5;
   animation: noSnow 0s linear 1.9s 1 normal forwards;
-***REMOVED***
+}
 
-@keyframes noSnow***REMOVED***
-  0% ***REMOVED***
+@keyframes noSnow{
+  0% {
     opacity: 1;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
     opacity: 0;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
-.slide.tv .image-holder***REMOVED***
+.slide.tv .image-holder{
   width: 180px;
   height: 180px;
   clip-path: url(#maskBackground);
   position: absolute;
-***REMOVED***
+}
 
-.slide.tv .image-holder .play-word-holder***REMOVED***
+.slide.tv .image-holder .play-word-holder{
   position: absolute;
   top: 20px;
   left: 20px;
   z-index: 20;
   width: 100%;
   height: 100%;
-***REMOVED***
+}
 
-.slide.tv .image-holder #play-word-holder-1***REMOVED***
+.slide.tv .image-holder #play-word-holder-1{
   animation-name: imageJump;
   animation-duration: .5s;
   animation-timing-function: linear;
   animation-delay: 7s;
   animation-iteration-count: 1;
   animation-direction: normal;
-***REMOVED***
+}
 
-.slide.tv .image-holder #play-word-holder-2***REMOVED***
+.slide.tv .image-holder #play-word-holder-2{
   animation-name: jumpAroundTop, panUpImage;
   animation-duration: .2s, .3s;
   animation-timing-function: linear, linear;
   animation-delay: 14s, 14.5s;
   animation-iteration-count: 1, 1;
   animation-direction: normal, normal;
-***REMOVED***
+}
 
-.slide.tv .image-holder #play-word-holder-3***REMOVED***
+.slide.tv .image-holder #play-word-holder-3{
   animation-name: flicker;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-delay: 8s;
   animation-iteration-count: 1, 1;
   animation-direction: normal, normal;
-***REMOVED***
+}
 
-.slide.tv .image-holder #play-word-holder-4***REMOVED***
+.slide.tv .image-holder #play-word-holder-4{
   animation-name: jumpAroundTop, panUpImage;
   animation-duration: .2s, .3s;
   animation-timing-function: linear, linear;
   animation-delay: 3s, 3.5s;
   animation-iteration-count: 1, 1;
   animation-direction: normal, normal;
-***REMOVED***
+}
 
-.slide.tv .image-holder .play-word***REMOVED***
+.slide.tv .image-holder .play-word{
   position: absolute;
   left: 0;
   z-index: 20;
   width: 30%;
-***REMOVED***
+}
 
-.slide.tv .image-holder .play-word-blue***REMOVED***
+.slide.tv .image-holder .play-word-blue{
   position: absolute;
   left: -2px;
   z-index: 10;
   opacity: .2;
   width: 30%;
-***REMOVED***
+}
 
-.slide.tv .image-holder .play-word-red***REMOVED***
+.slide.tv .image-holder .play-word-red{
   position: absolute;
   left: 2px;
   z-index: 0;
   opacity: .2;
   width: 30%;
-***REMOVED***
+}
 
 
-.slide.tv .image-holder .maskedImageOverlay***REMOVED***
+.slide.tv .image-holder .maskedImageOverlay{
   position: absolute;
   top: -2px;
   left: 2px;
@@ -1500,9 +1500,9 @@ input[type="submit"]***REMOVED***
   z-index: 10;
   display: block;
   filter: hue-rotate(144deg);
-***REMOVED***
+}
 
-.slide.tv .image-holder .maskedImageTop-1***REMOVED***
+.slide.tv .image-holder .maskedImageTop-1{
   animation-name: imageJump;
   animation-duration: .5s;
   animation-timing-function: linear;
@@ -1511,9 +1511,9 @@ input[type="submit"]***REMOVED***
   animation-direction: normal;
   position: relative;
   z-index: 0;
-***REMOVED***
+}
 
-.slide.tv .image-holder .maskedImageTop-2***REMOVED***
+.slide.tv .image-holder .maskedImageTop-2{
   animation-name: jumpAroundTop, panUpImage;
   animation-duration: .2s, .3s;
   animation-timing-function: linear, linear;
@@ -1522,9 +1522,9 @@ input[type="submit"]***REMOVED***
   animation-direction: normal, normal;
   position: relative;
   z-index: 0;
-***REMOVED***
+}
 
-.slide.tv .image-holder .maskedImageOverlay.two***REMOVED***
+.slide.tv .image-holder .maskedImageOverlay.two{
   animation-name: jumpAroundTop, panUpImage;
   animation-duration: .2s, .3s;
   animation-timing-function: linear, linear;
@@ -1533,9 +1533,9 @@ input[type="submit"]***REMOVED***
   animation-direction: normal, normal;
   position: absolute;
   z-index: 5;
-***REMOVED***
+}
 
-.slide.tv .image-holder .maskedImageTop-3***REMOVED***
+.slide.tv .image-holder .maskedImageTop-3{
   animation-name: flicker;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -1544,9 +1544,9 @@ input[type="submit"]***REMOVED***
   animation-direction: normal, normal;
   position: relative;
   z-index: 0;
-***REMOVED***
+}
 
-.slide.tv .image-holder .maskedImageTop-4***REMOVED***
+.slide.tv .image-holder .maskedImageTop-4{
   animation-name: jumpAroundTop, panUpImage;
   animation-duration: .2s, .3s;
   animation-timing-function: linear, linear;
@@ -1555,145 +1555,145 @@ input[type="submit"]***REMOVED***
   animation-direction: normal, normal;
   position: relative;
   z-index: 0;
-***REMOVED***
+}
 
-@keyframes jumpAroundTop***REMOVED***
-  0% ***REMOVED***
+@keyframes jumpAroundTop{
+  0% {
     margin-top: 0px;
-  ***REMOVED***
-  50% ***REMOVED***
+  }
+  50% {
     margin-top: -30px;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
     margin-top: 0px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
-@keyframes panUpImage***REMOVED***
-  0% ***REMOVED***
+@keyframes panUpImage{
+  0% {
     margin-top: 0;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
     margin-top: -180px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
 
-@keyframes flicker***REMOVED***
-  0% ***REMOVED***
+@keyframes flicker{
+  0% {
   opacity: 0.4;
-  ***REMOVED***
-  5% ***REMOVED***
+  }
+  5% {
   opacity: 0.5;
-  ***REMOVED***
-  10% ***REMOVED***
+  }
+  10% {
   opacity: 0.6;
-  ***REMOVED***
-  15% ***REMOVED***
+  }
+  15% {
   opacity: 0.85;
-  ***REMOVED***
-  25% ***REMOVED***
+  }
+  25% {
   opacity: 0.5;
-  ***REMOVED***
-  30% ***REMOVED***
+  }
+  30% {
   opacity: 1;
-  ***REMOVED***
-  35% ***REMOVED***
+  }
+  35% {
   opacity: 0.1;
-  ***REMOVED***
-  40% ***REMOVED***
+  }
+  40% {
   opacity: 0.25;
-  ***REMOVED***
-  45% ***REMOVED***
+  }
+  45% {
   opacity: 0.5;
-  ***REMOVED***
-  60% ***REMOVED***
+  }
+  60% {
   opacity: 1;
-  ***REMOVED***
-  70% ***REMOVED***
+  }
+  70% {
   opacity: 0.85;
-  ***REMOVED***
-  80% ***REMOVED***
+  }
+  80% {
   opacity: 0.4;
-  ***REMOVED***
-  90% ***REMOVED***
+  }
+  90% {
   opacity: 0.5;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
   opacity: 1;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
-@keyframes imageJump***REMOVED***
-  10%***REMOVED***
+@keyframes imageJump{
+  10%{
     transform: translateX(10px);
     filter: blur(3px);
-  ***REMOVED***
-  20%***REMOVED***
+  }
+  20%{
     transform: translateX(4px);
     filter: blur(0);
-  ***REMOVED***
-  30%***REMOVED***
+  }
+  30%{
     transform: translateX(-5px) skew(0deg);
     filter: blur(3px);
-  ***REMOVED***
-  40%***REMOVED***
+  }
+  40%{
     transform: translateX(7px);
     filter: blur(0);
-  ***REMOVED***
-  50%***REMOVED***
+  }
+  50%{
     transform: translateX(3px);
-  ***REMOVED***
-  60%***REMOVED***
+  }
+  60%{
     transform: translateX(2px);
     filter: blur(5px);
-  ***REMOVED***
-  70%***REMOVED***
+  }
+  70%{
     transform: translateX(-2px);
     filter: blur(0);
-  ***REMOVED***
-  80%***REMOVED***
+  }
+  80%{
     transform: translateX(3px);
     filter: blur(2px);
-  ***REMOVED***
-  90%***REMOVED***
+  }
+  90%{
     transform: translateX(-3px);
-  ***REMOVED***
-  100%***REMOVED***
+  }
+  100%{
     transform: translateX(3px);
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
-.slide.tv .highlight***REMOVED***
+.slide.tv .highlight{
   opacity: .5;
   position: absolute;
   z-index: 10;
-***REMOVED***
+}
 
-.snow***REMOVED***
+.snow{
   position: absolute;
   top: 0;
   left: 0;
   z-index: 0;
-***REMOVED***
+}
 
-.slide.tv .snow-holder-window***REMOVED***
+.slide.tv .snow-holder-window{
   width: 180px;
   height: 180px;
   clip-path: url(#maskBackgroundForSnow);
   z-index: 5;
   position: absolute;
-***REMOVED***
+}
 
-.slide.tv .snow-holder-window-slice***REMOVED***
+.slide.tv .snow-holder-window-slice{
   width: 180px;
   height: 180px;
   clip-path: url(#maskBackgroundForSnow);
   z-index: 5;
   position: absolute;
-***REMOVED***
+}
 
-.slide.tv .snow-holder-window-slice .snow-holder-area-1***REMOVED***
+.slide.tv .snow-holder-window-slice .snow-holder-area-1{
   height: 15px;
   overflow: hidden;
   width: 100%;
@@ -1706,9 +1706,9 @@ input[type="submit"]***REMOVED***
   animation-delay: 1s, 1.5s, 1.8s;
   animation-iteration-count: 1, 1, 1;
   animation-direction: normal, normal, normal; */
-***REMOVED***
+}
 
-.slide.tv .snow-holder-window-slice .snow-holder-area-2***REMOVED***
+.slide.tv .snow-holder-window-slice .snow-holder-area-2{
   height: 15px;
   overflow: hidden;
   width: 100%;
@@ -1720,9 +1720,9 @@ input[type="submit"]***REMOVED***
   animation-delay: 14s, 14.5s, 14.8s;
   animation-iteration-count: 1, 1, 1;
   animation-direction: normal, normal, normal;
-***REMOVED***
+}
 
-.slide.tv .snow-holder-window-slice .snow-holder-area-3***REMOVED***
+.slide.tv .snow-holder-window-slice .snow-holder-area-3{
   height: 15px;
   overflow: hidden;
   width: 100%;
@@ -1735,9 +1735,9 @@ input[type="submit"]***REMOVED***
   animation-delay: 8s, 8.5s, 8.8s;
   animation-iteration-count: normal, normal, normal;
   animation-direction: forwards, forwards, forwards; */
-***REMOVED***
+}
 
-.slide.tv .snow-holder-window-slice .snow-holder-area-4***REMOVED***
+.slide.tv .snow-holder-window-slice .snow-holder-area-4{
   height: 15px;
   overflow: hidden;
   width: 100%;
@@ -1749,10 +1749,10 @@ input[type="submit"]***REMOVED***
   animation-delay: 3s, 3.5s, 3.8s;
   animation-iteration-count: 1, 1, 1;
   animation-direction: normal, normal, normal;
-***REMOVED***
+}
 
 
-.slide.tv .snow-holder-window-slice .snow-holder***REMOVED***
+.slide.tv .snow-holder-window-slice .snow-holder{
   width: 200px;
   height: 180px;
   margin-top: -40px;
@@ -1760,51 +1760,51 @@ input[type="submit"]***REMOVED***
   background: repeating-linear-gradient(#111, #111 50%, white 50%, white);
   background-size: 5px 5px;
   filter: url(#noise);
-***REMOVED***
+}
 
-@keyframes jumpSnow***REMOVED***
-  0% ***REMOVED***
+@keyframes jumpSnow{
+  0% {
     margin-top: 180px;
-  ***REMOVED***
-  50% ***REMOVED***
+  }
+  50% {
     margin-top: 150px;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
     margin-top: 180px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
-@keyframes panUpSnow***REMOVED***
-  0% ***REMOVED***
+@keyframes panUpSnow{
+  0% {
     margin-top: 180px;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
     margin-top: -15px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
-@keyframes dessolveBottomSnow***REMOVED***
-  0% ***REMOVED***
+@keyframes dessolveBottomSnow{
+  0% {
     margin-top: 175px;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
     margin-top: 180px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
-@keyframes panUp***REMOVED***
-  0% ***REMOVED***
+@keyframes panUp{
+  0% {
     y: 0;
-  ***REMOVED***
-  100% ***REMOVED***
+  }
+  100% {
     y: -100px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
 
  
  
-.slide.tv .snow-holder***REMOVED***
+.slide.tv .snow-holder{
   width: 180px;
   height: 180px;
   margin-top: -20px;
@@ -1813,4 +1813,4 @@ input[type="submit"]***REMOVED***
   background-size: 5px 5px;
   filter: url(#noise);
   position: relative;
-***REMOVED***
+}

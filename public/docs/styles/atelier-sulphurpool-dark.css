@@ -4,9 +4,9 @@
 
 /* Atelier-Sulphurpool Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #898ea4;
-***REMOVED***
+}
 
 /* Atelier-Sulphurpool Red */
 .hljs-variable,
@@ -18,9 +18,9 @@
 .hljs-link,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #c94922;
-***REMOVED***
+}
 
 /* Atelier-Sulphurpool Orange */
 .hljs-number,
@@ -29,41 +29,41 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #c76b29;
-***REMOVED***
+}
 
 /* Atelier-Sulphurpool Green */
 .hljs-string,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #ac9739;
-***REMOVED***
+}
 
 /* Atelier-Sulphurpool Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #3d8fd1;
-***REMOVED***
+}
 
 /* Atelier-Sulphurpool Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #6679cc;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #202746;
   color: #979db4;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

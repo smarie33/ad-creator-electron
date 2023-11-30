@@ -4,18 +4,18 @@
   Original theme - https://github.com/chriskempson/tomorrow-theme
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #222;
   color: #fff;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #777;
-***REMOVED***
+}
 
 .hljs-variable,
 .hljs-template-variable,
@@ -30,9 +30,9 @@
 .hljs-symbol,
 .hljs-bullet,
 .hljs-link,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #ab875d;
-***REMOVED***
+}
 
 .hljs-section,
 .hljs-title,
@@ -40,21 +40,21 @@
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-type,
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #9b869b;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #8f9c6c;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

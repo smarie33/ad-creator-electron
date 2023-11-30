@@ -5,62 +5,62 @@ Qt Creator dark color scheme
 */
 
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #000000;
-***REMOVED***
+}
 
 .hljs,
 .hljs-subst,
 .hljs-tag,
-.hljs-title ***REMOVED***
+.hljs-title {
   color: #aaaaaa;
-***REMOVED***
+}
 
 .hljs-strong,
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   color: #a8a8a2;
-***REMOVED***
+}
 
 .hljs-bullet,
 .hljs-quote,
 .hljs-number,
 .hljs-regexp,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #ff55ff;
-***REMOVED***
+}
 
 .hljs-code
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #aaaaff;
-***REMOVED***
+}
 
 .hljs-emphasis,
 .hljs-stronge,
-.hljs-type ***REMOVED***
+.hljs-type {
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-function,
 .hljs-section,
 .hljs-symbol,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #ffff55;
-***REMOVED***
+}
 
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #ff5555;
-***REMOVED***
+}
 
 .hljs-variable,
 .hljs-params,
-.hljs-class .hljs-title ***REMOVED***
+.hljs-class .hljs-title {
   color: #8888ff;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-selector-id,
@@ -72,12 +72,12 @@ Qt Creator dark color scheme
 .hljs-template-tag,
 .hljs-template-variable,
 .hljs-addition,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #ff55ff;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-meta,
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   color: #55ffff;
-***REMOVED***
+}

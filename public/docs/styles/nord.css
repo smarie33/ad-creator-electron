@@ -10,300 +10,300 @@
  *   https://github.com/arcticicestudio/nord
  */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #2E3440;
-***REMOVED***
+}
 
 .hljs,
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #D8DEE9;
-***REMOVED***
+}
 
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #81A1C1;
-***REMOVED***
+}
 
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
   color: #8FBCBB;
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-selector-attr ***REMOVED***
+.hljs-selector-attr {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-selector-pseudo ***REMOVED***
+.hljs-selector-pseudo {
   color: #88C0D0;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: rgba(163, 190, 140, 0.5);
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: rgba(191, 97, 106, 0.5);
-***REMOVED***
+}
 
 .hljs-built_in,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-class ***REMOVED***
+.hljs-class {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-function ***REMOVED***
+.hljs-function {
   color: #88C0D0;
-***REMOVED***
+}
 
-.hljs-function > .hljs-title ***REMOVED***
+.hljs-function > .hljs-title {
   color: #88C0D0;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-literal,
-.hljs-symbol ***REMOVED***
+.hljs-symbol {
   color: #81A1C1;
-***REMOVED***
+}
 
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #B48EAD;
-***REMOVED***
+}
 
-.hljs-regexp ***REMOVED***
+.hljs-regexp {
   color: #EBCB8B;
-***REMOVED***
+}
 
-.hljs-string ***REMOVED***
+.hljs-string {
   color: #A3BE8C;
-***REMOVED***
+}
 
-.hljs-title ***REMOVED***
+.hljs-title {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #D8DEE9;
-***REMOVED***
+}
 
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #81A1C1;
-***REMOVED***
+}
 
-.hljs-code ***REMOVED***
+.hljs-code {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-formula ***REMOVED***
+.hljs-formula {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
-.hljs-link:hover ***REMOVED***
+.hljs-link:hover {
   text-decoration: underline;
-***REMOVED***
+}
 
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #4C566A;
-***REMOVED***
+}
 
-.hljs-comment ***REMOVED***
+.hljs-comment {
   color: #4C566A;
-***REMOVED***
+}
 
-.hljs-doctag ***REMOVED***
+.hljs-doctag {
   color: #8FBCBB;
-***REMOVED***
+}
 
 .hljs-meta,
-.hljs-meta-keyword ***REMOVED***
+.hljs-meta-keyword {
   color: #5E81AC;
-***REMOVED***
+}
 
-.hljs-meta-string ***REMOVED***
+.hljs-meta-string {
   color: #A3BE8C;
-***REMOVED***
+}
 
-.hljs-attr ***REMOVED***
+.hljs-attr {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #D8DEE9;
-***REMOVED***
+}
 
-.hljs-builtin-name ***REMOVED***
+.hljs-builtin-name {
   color: #81A1C1;
-***REMOVED***
+}
 
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #81A1C1;
-***REMOVED***
+}
 
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #88C0D0;
-***REMOVED***
+}
 
-.hljs-tag ***REMOVED***
+.hljs-tag {
   color: #81A1C1;
-***REMOVED***
+}
 
-.hljs-variable ***REMOVED***
+.hljs-variable {
   color: #D8DEE9;
-***REMOVED***
+}
 
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #D8DEE9;
-***REMOVED***
+}
 
-.hljs-template-tag ***REMOVED***
+.hljs-template-tag {
   color: #5E81AC;
-***REMOVED***
+}
 
-.abnf .hljs-attribute ***REMOVED***
+.abnf .hljs-attribute {
   color: #88C0D0;
-***REMOVED***
+}
 
-.abnf .hljs-symbol ***REMOVED***
+.abnf .hljs-symbol {
   color: #EBCB8B;
-***REMOVED***
+}
 
-.apache .hljs-attribute ***REMOVED***
+.apache .hljs-attribute {
   color: #88C0D0;
-***REMOVED***
+}
 
-.apache .hljs-section ***REMOVED***
+.apache .hljs-section {
   color: #81A1C1;
-***REMOVED***
+}
 
-.arduino .hljs-built_in ***REMOVED***
+.arduino .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.aspectj .hljs-meta ***REMOVED***
+.aspectj .hljs-meta {
   color: #D08770;
-***REMOVED***
+}
 
-.aspectj > .hljs-title ***REMOVED***
+.aspectj > .hljs-title {
   color: #88C0D0;
-***REMOVED***
+}
 
-.bnf .hljs-attribute ***REMOVED***
+.bnf .hljs-attribute {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.clojure .hljs-name ***REMOVED***
+.clojure .hljs-name {
   color: #88C0D0;
-***REMOVED***
+}
 
-.clojure .hljs-symbol ***REMOVED***
+.clojure .hljs-symbol {
   color: #EBCB8B;
-***REMOVED***
+}
 
-.coq .hljs-built_in ***REMOVED***
+.coq .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.cpp .hljs-meta-string ***REMOVED***
+.cpp .hljs-meta-string {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.css .hljs-built_in ***REMOVED***
+.css .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.css .hljs-keyword ***REMOVED***
+.css .hljs-keyword {
   color: #D08770;
-***REMOVED***
+}
 
-.diff .hljs-meta ***REMOVED***
+.diff .hljs-meta {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.ebnf .hljs-attribute ***REMOVED***
+.ebnf .hljs-attribute {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.glsl .hljs-built_in ***REMOVED***
+.glsl .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.groovy .hljs-meta:not(:first-child) ***REMOVED***
+.groovy .hljs-meta:not(:first-child) {
   color: #D08770;
-***REMOVED***
+}
 
-.haxe .hljs-meta ***REMOVED***
+.haxe .hljs-meta {
   color: #D08770;
-***REMOVED***
+}
 
-.java .hljs-meta ***REMOVED***
+.java .hljs-meta {
   color: #D08770;
-***REMOVED***
+}
 
-.ldif .hljs-attribute ***REMOVED***
+.ldif .hljs-attribute {
   color: #8FBCBB;
-***REMOVED***
+}
 
-.lisp .hljs-name ***REMOVED***
+.lisp .hljs-name {
   color: #88C0D0;
-***REMOVED***
+}
 
-.lua .hljs-built_in ***REMOVED***
+.lua .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.moonscript .hljs-built_in ***REMOVED***
+.moonscript .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.nginx .hljs-attribute ***REMOVED***
+.nginx .hljs-attribute {
   color: #88C0D0;
-***REMOVED***
+}
 
-.nginx .hljs-section ***REMOVED***
+.nginx .hljs-section {
   color: #5E81AC;
-***REMOVED***
+}
 
-.pf .hljs-built_in ***REMOVED***
+.pf .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.processing .hljs-built_in ***REMOVED***
+.processing .hljs-built_in {
   color: #88C0D0;
-***REMOVED***
+}
 
-.scss .hljs-keyword ***REMOVED***
+.scss .hljs-keyword {
   color: #81A1C1;
-***REMOVED***
+}
 
-.stylus .hljs-keyword ***REMOVED***
+.stylus .hljs-keyword {
   color: #81A1C1;
-***REMOVED***
+}
 
-.swift .hljs-meta ***REMOVED***
+.swift .hljs-meta {
   color: #D08770;
-***REMOVED***
+}
 
-.vim .hljs-built_in ***REMOVED***
+.vim .hljs-built_in {
   color: #88C0D0;
   font-style: italic;
-***REMOVED***
+}
 
-.yaml .hljs-meta ***REMOVED***
+.yaml .hljs-meta {
   color: #D08770;
-***REMOVED***
+}

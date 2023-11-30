@@ -4,9 +4,9 @@
 
 /* Atelier-Cave Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #655f6d;
-***REMOVED***
+}
 
 /* Atelier-Cave Red */
 .hljs-variable,
@@ -19,9 +19,9 @@
 .hljs-name,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #be4678;
-***REMOVED***
+}
 
 /* Atelier-Cave Orange */
 .hljs-number,
@@ -30,56 +30,56 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #aa573c;
-***REMOVED***
+}
 
 /* Atelier-Cave Green */
 .hljs-string,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #2a9292;
-***REMOVED***
+}
 
 /* Atelier-Cave Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #576ddb;
-***REMOVED***
+}
 
 /* Atelier-Cave Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #955ae7;
-***REMOVED***
+}
 
 .hljs-deletion,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #19171c;
   display: inline-block;
   width: 100%;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: #be4678;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: #2a9292;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #efecf4;
   color: #585260;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

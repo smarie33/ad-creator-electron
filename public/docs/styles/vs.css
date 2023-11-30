@@ -3,27 +3,27 @@
 Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
 
 */
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: white;
   color: black;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-quote,
-.hljs-variable ***REMOVED***
+.hljs-variable {
   color: #008000;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-built_in,
 .hljs-name,
-.hljs-tag ***REMOVED***
+.hljs-tag {
   color: #00f;
-***REMOVED***
+}
 
 .hljs-string,
 .hljs-title,
@@ -33,36 +33,36 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
 .hljs-template-tag,
 .hljs-template-variable,
 .hljs-type,
-.hljs-addition ***REMOVED***
+.hljs-addition {
   color: #a31515;
-***REMOVED***
+}
 
 .hljs-deletion,
 .hljs-selector-attr,
 .hljs-selector-pseudo,
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #2b91af;
-***REMOVED***
+}
 
-.hljs-doctag ***REMOVED***
+.hljs-doctag {
   color: #808080;
-***REMOVED***
+}
 
-.hljs-attr ***REMOVED***
+.hljs-attr {
   color: #f00;
-***REMOVED***
+}
 
 .hljs-symbol,
 .hljs-bullet,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #00b0e8;
-***REMOVED***
+}
 
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

@@ -16,39 +16,39 @@
  *
  */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #333;
   color: white;
-***REMOVED***
+}
 
 .hljs-name,
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
 
 .hljs-code,
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-tag ***REMOVED***
+.hljs-tag {
   color: #62c8f3;
-***REMOVED***
+}
 
 .hljs-variable,
 .hljs-template-variable,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #ade5fc;
-***REMOVED***
+}
 
 .hljs-string,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #a2fca2;
-***REMOVED***
+}
 
 .hljs-type,
 .hljs-title,
@@ -56,53 +56,53 @@
 .hljs-attribute,
 .hljs-quote,
 .hljs-built_in,
-.hljs-builtin-name ***REMOVED***
+.hljs-builtin-name {
   color: #ffa;
-***REMOVED***
+}
 
 .hljs-number,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #d36363;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-literal ***REMOVED***
+.hljs-literal {
   color: #fcc28c;
-***REMOVED***
+}
 
 .hljs-comment,
 .hljs-deletion,
-.hljs-code ***REMOVED***
+.hljs-code {
   color: #888;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #c6b4f0;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #fc9b9b;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: #fc9b9b;
   color: #333;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: #a2fca2;
   color: #333;
-***REMOVED***
+}
 
-.hljs a ***REMOVED***
+.hljs a {
   color: inherit;
-***REMOVED***
+}
 
 .hljs a:focus,
-.hljs a:hover ***REMOVED***
+.hljs a:hover {
   color: inherit;
   text-decoration: underline;
-***REMOVED***
+}

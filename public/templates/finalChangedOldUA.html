@@ -8,38 +8,38 @@
       window.dataLayer = window.dataLayer || [];
     </script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i)***REMOVED***w[l]=w[l]||[];w[l].push(***REMOVED***'gtm.start':
-    new Date().getTime(),event:'gtm.js'***REMOVED***);var f=d.getElementsByTagName(s)[0],
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    ***REMOVED***)(window,document,'script','dataLayer','GTM-K7DQHJ');</script>
+    })(window,document,'script','dataLayer','GTM-K7DQHJ');</script>
     <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75422371-3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag()***REMOVED***dataLayer.push(arguments);***REMOVED***
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-75422371-3');
 
-      const ViewPageImpression = function()***REMOVED***
-        gtag('event', 'HPTO Fourpart', ***REMOVED***
+      const ViewPageImpression = function(){
+        gtag('event', 'HPTO Fourpart', {
           'event_category' : 'Impression',
           'event_label' : '[date] HPTO',
           'transport_type' : 'beacon',
-        ***REMOVED***)
-      ***REMOVED***
+        })
+      }
 
       ViewPageImpression();
 
-      const ClickEventPlaylist = function(link)***REMOVED***
-        gtag('event', 'HPTO Fourpart', ***REMOVED***
+      const ClickEventPlaylist = function(link){
+        gtag('event', 'HPTO Fourpart', {
           'event_category' : 'Click',
           'event_label' : link.getAttribute('data-playlist'),
           'transport_type' : 'beacon',
-          'event_callback' : function()***REMOVED***document.location = link.getAttribute('href')***REMOVED***
-        ***REMOVED***)
-      ***REMOVED***
+          'event_callback' : function(){document.location = link.getAttribute('href')}
+        })
+      }
 
     </script>
   </head>

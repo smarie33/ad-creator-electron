@@ -4,99 +4,99 @@ Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #000;
   color: #f8f8f8;
-***REMOVED***
+}
 
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #aeaeae;
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-keyword,
 .hljs-selector-tag,
-.hljs-type ***REMOVED***
+.hljs-type {
   color: #e28964;
-***REMOVED***
+}
 
-.hljs-string ***REMOVED***
+.hljs-string {
   color: #65b042;
-***REMOVED***
+}
 
-.hljs-subst ***REMOVED***
+.hljs-subst {
   color: #daefa3;
-***REMOVED***
+}
 
 .hljs-regexp,
-.hljs-link ***REMOVED***
+.hljs-link {
   color: #e9c062;
-***REMOVED***
+}
 
 .hljs-title,
 .hljs-section,
 .hljs-tag,
-.hljs-name ***REMOVED***
+.hljs-name {
   color: #89bdff;
-***REMOVED***
+}
 
 .hljs-class .hljs-title,
-.hljs-doctag ***REMOVED***
+.hljs-doctag {
   text-decoration: underline;
-***REMOVED***
+}
 
 .hljs-symbol,
 .hljs-bullet,
-.hljs-number ***REMOVED***
+.hljs-number {
   color: #3387cc;
-***REMOVED***
+}
 
 .hljs-params,
 .hljs-variable,
-.hljs-template-variable ***REMOVED***
+.hljs-template-variable {
   color: #3e87e3;
-***REMOVED***
+}
 
-.hljs-attribute ***REMOVED***
+.hljs-attribute {
   color: #cda869;
-***REMOVED***
+}
 
-.hljs-meta ***REMOVED***
+.hljs-meta {
   color: #8996a8;
-***REMOVED***
+}
 
-.hljs-formula ***REMOVED***
+.hljs-formula {
   background-color: #0e2231;
   color: #f8f8f8;
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-addition ***REMOVED***
+.hljs-addition {
   background-color: #253b22;
   color: #f8f8f8;
-***REMOVED***
+}
 
-.hljs-deletion ***REMOVED***
+.hljs-deletion {
   background-color: #420e09;
   color: #f8f8f8;
-***REMOVED***
+}
 
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #9b703f;
-***REMOVED***
+}
 
-.hljs-selector-id ***REMOVED***
+.hljs-selector-id {
   color: #8b98ab;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}

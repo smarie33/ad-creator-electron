@@ -9,9 +9,9 @@ Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/Je
 /* Death Star Comment */
 .hljs-comment,
 .hljs-quote 
-***REMOVED***
+{
   color: #B6B18B;
-***REMOVED***
+}
 
 /* Darth Vader */
 .hljs-variable,
@@ -22,9 +22,9 @@ Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/Je
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion 
-***REMOVED***
+{
   color: #EB3C54;
-***REMOVED***
+}
 
 /* Threepio */
 .hljs-number,
@@ -35,55 +35,55 @@ Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/Je
 .hljs-params,
 .hljs-meta,
 .hljs-link 
-***REMOVED***
+{
   color: #E7CE56;
-***REMOVED***
+}
 
 /* Luke Skywalker */
 .hljs-attribute 
-***REMOVED***
+{
   color: #EE7C2B;
-***REMOVED***
+}
 
 /* Obi Wan Kenobi */
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition 
-***REMOVED***
+{
   color: #4FB4D7;
-***REMOVED***
+}
 
 /* Yoda */
 .hljs-title,
 .hljs-section 
-***REMOVED***
+{
   color: #78BB65;
-***REMOVED***
+}
 
 /* Mace Windu */
 .hljs-keyword,
 .hljs-selector-tag 
-***REMOVED***
+{
   color: #B45EA4;
-***REMOVED***
+}
 
 /* Millenium Falcon */
 .hljs 
-***REMOVED***
+{
   display: block;
   overflow-x: auto;
   background: #1C1D21;
   color: #c0c5ce;
   padding: 0.5em;
-***REMOVED***
+}
 
 .hljs-emphasis 
-***REMOVED***
+{
   font-style: italic;
-***REMOVED***
+}
 
 .hljs-strong 
-***REMOVED***
+{
   font-weight: bold;
-***REMOVED***
+}

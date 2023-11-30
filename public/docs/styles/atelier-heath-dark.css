@@ -4,9 +4,9 @@
 
 /* Atelier-Heath Comment */
 .hljs-comment,
-.hljs-quote ***REMOVED***
+.hljs-quote {
   color: #9e8f9e;
-***REMOVED***
+}
 
 /* Atelier-Heath Red */
 .hljs-variable,
@@ -18,9 +18,9 @@
 .hljs-link,
 .hljs-name,
 .hljs-selector-id,
-.hljs-selector-class ***REMOVED***
+.hljs-selector-class {
   color: #ca402b;
-***REMOVED***
+}
 
 /* Atelier-Heath Orange */
 .hljs-number,
@@ -29,41 +29,41 @@
 .hljs-builtin-name,
 .hljs-literal,
 .hljs-type,
-.hljs-params ***REMOVED***
+.hljs-params {
   color: #a65926;
-***REMOVED***
+}
 
 /* Atelier-Heath Green */
 .hljs-string,
 .hljs-symbol,
-.hljs-bullet ***REMOVED***
+.hljs-bullet {
   color: #918b3b;
-***REMOVED***
+}
 
 /* Atelier-Heath Blue */
 .hljs-title,
-.hljs-section ***REMOVED***
+.hljs-section {
   color: #516aec;
-***REMOVED***
+}
 
 /* Atelier-Heath Purple */
 .hljs-keyword,
-.hljs-selector-tag ***REMOVED***
+.hljs-selector-tag {
   color: #7b59c0;
-***REMOVED***
+}
 
-.hljs ***REMOVED***
+.hljs {
   display: block;
   overflow-x: auto;
   background: #1b181b;
   color: #ab9bab;
   padding: 0.5em;
-***REMOVED***
+}
 
-.hljs-emphasis ***REMOVED***
+.hljs-emphasis {
   font-style: italic;
-***REMOVED***
+}
 
-.hljs-strong ***REMOVED***
+.hljs-strong {
   font-weight: bold;
-***REMOVED***
+}
